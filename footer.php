@@ -4,9 +4,10 @@
 *	Documento: Footer para las páginas
 */
 ?>
+<!--
 	<footer class="container-fluid">
 		<div class="row bgGray">
-			<!-- Red La Salle y direccion -->
+
 			<div class="col-sm-12 col-md-4 footer-col">
 				<div class="container-fluid">
 					<div class="row">
@@ -27,9 +28,10 @@
 					</div>
 				</div>
 			</div>
+		-->
 			<!-- Siguenos -->
+		<!--
 			<div class="col-sm-12 col-md-4 footer-col bloque-social">
-				<!-- <div class="container-fluid"> -->
 					<div class="row redesSociales">
 						<div class="col-5 col-md-12 footer-col">
 							<figure class="siguenos">
@@ -84,10 +86,12 @@
 								</div>
 							</div>
 						</div>
-					<!-- </div> -->
+
 				</div>
 			</div>
+		-->
 			<!-- Otros links -->
+		<!--
 			<div class="col-sm-12 col-md-4 footer-col">
 				<div class="container-fluid">
 					<div class="row">
@@ -95,16 +99,12 @@
 							<figure class="logos"><img src="images/footer/Footer_Logo_Profesionales.png" alt="Profesionales Con Valor" class="img-fluid" align="right"></figure>
 						</div>
 					
-					<!-- <div class="row"> -->
 						<div class="col-4 col-sm-12">
 							<figure class="logos"><a href="http://ialu.org/english/" target="_blank"><img src="images/footer/Footer_Logo_IALU.png" alt="La Salle Universities" class="img-fluid" align="right"></a></figure>
 						</div>
-					<!-- </div> -->
-					<!-- <div class="row"> -->
 						<div class="col-4 col-sm-12">
 							<figure class="logos"><a href="http://redlasalle.mx/" target="_blank"><img src="images/footer/Footer_Logo_RedLaSalle.png" alt="La Salle red de universidades" class="img-fluid" align="right"></a></figure>
 						</div>
-					<!-- </div> -->
 					</div>
 				</div>
 			</div>
@@ -136,6 +136,7 @@
 				</div>
 		</div>
 	</footer>
+	-->
 
 	<!-- Google -->
 	<!--
@@ -149,7 +150,7 @@
 		ga('send', 'pageview');
 
 	</script>
--->
+	-->
 	<!--js-->
 	<script type="text/javascript" charset="utf-8"  src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" charset="utf-8"  src="js/bootstrap.min.js"></script>
