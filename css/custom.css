@@ -1,5 +1,5 @@
 
-*FONTS*/
+/*FONTS*/
 
 /*Sans*/
 @font-face {
@@ -8,8 +8,8 @@
   src: url("fonts/eot/IndivisaTextSans-Black.eot"),
        url("fonts/woff2/IndivisaTextSans-Black.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSans-Black.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSans-Black.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Sans-Black-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSans-Black.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Sans-Black-Web.svg") format('svg');*/
   font-weight: 700;
 }
 @font-face {
@@ -18,42 +18,12 @@
   src: url("fonts/eot/IndivisaTextSans-BlackItalic.eot"),
        url("fonts/woff2/IndivisaTextSans-BlackItalic.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSans-BlackItalic.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSans-BlackItalic.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Sans-Black_Italic-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSans-BlackItalic.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Sans-Black_Italic-Web.svg") format('svg');*/
   font-weight: 700;
   font-style: italic;
 }
 
-@font-face {
-  font-family: "IndivisaTextSans";
-  src: url("fonts/otf/IndivisaTextSans-Bold.otf");
-  src: url("fonts/eot/IndivisaTextSans-Bold.eot"),
-       url("fonts/woff2/IndivisaTextSans-Bold.woff2") format('woff2'),
-       url("fonts/woff/IndivisaTextSans-Bold.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSans-Bold.ttf") format('truetype');
-       /*url("fonts/svg/Indivisa_Text_Sans-Black_Italic-Web.svg") format('svg')*/
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "IndivisaTextSans";
-  src: url("fonts/otf/IndivisaTextSans-BoldItalic.otf");
-  src: url("fonts/eot/IndivisaTextSans-BoldItalic.eot"),
-       url("fonts/woff2/IndivisaTextSans-BoldItalic.woff2") format('woff2'),
-       url("fonts/woff/IndivisaTextSans-BoldItalic.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSans-BoldItalic.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Sans-Bold_Italic-Web.svg") format('svg');
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "IndivisaTextSans-SC";
-  src: url("fonts/IndivisaTextSans-BoldSc.otf");
-  font-variant: small-caps;
-  font-weight: 600;
-  font-style: normal;
-}
 
 @font-face {
   font-family: "IndivisaTextSans";
@@ -61,8 +31,8 @@
   src: url("fonts/eot/IndivisaTextSans-Light.eot"),
        url("fonts/woff2/IndivisaTextSans-Light.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSans-Light.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSans-Light.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Sans-Light-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSans-Light.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Sans-Light-Web.svg") format('svg');*/
   font-weight: 300;
 }
 
@@ -72,16 +42,12 @@
   src: url("fonts/eot/IndivisaTextSans-LightItalic.eot"),
        url("fonts/woff2/IndivisaTextSans-LightItalic.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSans-LightItalic.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSans-LightItalic.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Sans-Light_Italic-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSans-LightItalic.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Sans-Light_Italic-Web.svg") format('svg');*/
   font-weight: 300;
   font-style: italic;
 }
-@font-face {
-  font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-LightSc.otf");
-  font-variant: small-caps;
-}
+
 @font-face {
   font-family: "IndivisaTextSans";
   src: url("fonts/otf/IndivisaTextSans-Regular.otf");
@@ -100,17 +66,12 @@
   src: url("fonts/eot/IndivisaTextSans-RegularItalic.eot"),
        url("fonts/woff2/IndivisaTextSans-RegularItalic.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSans-RegularItalic.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSans-RegularItalic.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Sans-Regular_Italic-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSans-RegularItalic.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Sans-Regular_Italic-Web.svg") format('svg');*/
   font-weight: 400;
   font-style: italic;
 }
-@font-face {
-  font-family: "IndivisaTextSans-SC";
-  src: url("fonts/IndivisaTextSans-RegularSc.otf");
-  font-weight: 400;
-  font-variant: small-caps;
-}
+
 
 /*Serif*/
 @font-face {
@@ -119,8 +80,8 @@
   src: url("fonts/eot/IndivisaTextSerif-Black.eot"),
        url("fonts/woff2/IndivisaTextSerif-Black.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSerif-Black.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSerif-Black.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Serif-Black-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSerif-Black.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Serif-Black-Web.svg") format('svg');*/
   font-weight: 700;
 }
 @font-face {
@@ -129,24 +90,20 @@
   src: url("fonts/eot/IndivisaTextSerif-BlackItalic.eot"),
        url("fonts/woff2/IndivisaTextSerif-BlackItalic.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSerif-BlackItalic.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSerif-BlackItalic.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Serif-Black_Italic-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSerif-BlackItalic.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Serif-Black_Italic-Web.svg") format('svg');*/
   font-weight: 700;
   font-style: italic;
 }
-@font-face {
-  font-family: "IndivisaTextSerif-SC";
-  src: url("fonts/IndivisaTextSerif-BlackSc.otf");
-  font-variant: small-caps;
-}
+
 @font-face {
   font-family: "IndivisaTextSerif";
   src: url("fonts/otf/IndivisaTextSerif-Bold.otf");
   src: url("fonts/eot/IndivisaTextSerif-Bold.eot"),
        url("fonts/woff2/IndivisaTextSerif-Bold.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSerif-Bold.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSerif-Bold.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Serif-Bold-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSerif-Bold.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Serif-Bold-Web.svg") format('svg');*/
   font-weight: 600;
 }
 @font-face {
@@ -161,11 +118,7 @@
   font-weight: 600;
   font-style: italic;
 }
-@font-face {
-  font-family: "IndivisaTextSerif-SC";
-  src: url("fonts/IndivisaTextSerif-BoldSc.otf");
-  font-variant: small-caps;
-}
+
 @font-face {
   font-family: "IndivisaTextSerif";
   src: url("fonts/otf/IndivisaTextSerif-Light.otf");
@@ -182,24 +135,20 @@
   src: url("fonts/eot/IndivisaTextSerif-LightItalic.eot"),
        url("fonts/woff2/IndivisaTextSerif-LightItalic.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSerif-LightItalic.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSerif-LightItalic.ttf") format('truetype'),
-       url("fonts/svg/Indivisa_Text_Serif-Light_Italic-Web.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSerif-LightItalic.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Serif-Light_Italic-Web.svg") format('svg');*/
   font-weight: 300;
   font-style: italic;
 }
-@font-face {
-  font-family: "IndivisaTextSerif-SC";
-  src: url("fonts/IndivisaTextSerif-LightSc.otf");
-  font-variant: small-caps;
-}
+
 @font-face {
   font-family: "IndivisaTextSerif";
   src: url("fonts/otf/IndivisaTextSerif-Regular.otf");
   src: url("fonts/eot/IndivisaTextSerif-Regular.eot"),
        url("fonts/woff2/IndivisaTextSerif-Regular.woff2") format('woff2'),
        url("fonts/woff/IndivisaTextSerif-Regular.woff") format('woff'),
-       url("fonts/ttf/IndivisaTextSerif-Regular.ttf") format('truetype'),
-       url("fonts/svg/IndivisaTextSerif-Regular.svg") format('svg');
+       url("fonts/ttf/IndivisaTextSerif-Regular.ttf") format('truetype');
+       /*url("fonts/svg/IndivisaTextSerif-Regular.svg") format('svg');*/
   font-weight: 400;
 }
 @font-face {
@@ -213,35 +162,33 @@
   font-weight: 400;
   font-style: italic;
 }
-@font-face {
-  font-family: "IndivisaTextSerif-SC";
-  src: url("fonts/IndivisaTextSerif-RegularSc.otf");
-  font-variant: small-caps;
-}
+
 /*General*/
 html,
 body {
   height: 100%;
   width: 100%;
   font-family: IndivisaTextSans, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 18px;
+  line-height: 18px;
 }
 
-h1,h2,h3,p
-{
 
-	color: #000;
-}
 h1{
-	font-size: 	36px;
-
+	font-size: 	185px;
+	color: #fff;
+	text-align: center;
+	line-height: 136px;
+}
+h2,p.frase,p.fecha,p.indivisaManent{
+	color: #001E61;
 }
 h2
 {
-	font-weight: bold;
-	font-size: 30px;
+	font-size: 	145px;
+	text-align: center;
 }
 h3{
 	font-size: 25px;
@@ -267,9 +214,66 @@ h3{
 /*Fin header*/
 
 /*Contenido*/
+h1{
+	font-family: "IndivisaTextSerif";
+	font-weight: 700;
+	font-style: normal;
+}
+p.indivisaManent{
+	font-family: "IndivisaTextSerif";
+	font-weight: 600;
+	font-style: italic;
+}
+h2,p.titulo,p.fecha,p.indivisaManent{
+	font-family: "IndivisaTextSans";
+	font-weight: 700;
+}
 
+.bgTextura{
+  background-image: url('../images/background.png');
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size:  contain;
+  -o-background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bgAzul{
+	background-color: #001E61;
+	height: 40vh;
+}
+p.titulo{
+	margin:0;
+}
+p.titulo,p.contenido,p.fecha,p.frase,p.indivisaManent{
+	text-align: center;
+}
+p.titulo,p.contenido{
+	color:#2E50A3; 
+}
+p.titulo{
+	font-size: 22px;
+	line-height: 18px;
+}
 
-
+p.contenido{
+	font-size: 18px;
+	line-height: 18px;
+}
+p.titulo span.cifra{
+	font-size: 24px;
+}
+p.fecha span.lineaVertical{
+	border-left: solid red 5px;
+	margin-right: 15px;
+}
+div.contenidoFecha{
+	margin-top: 50px;
+}
+p.fecha{
+	font-size: 20px;
+}
 
 
 /*Fin Contenido*/
@@ -426,8 +430,29 @@ div.redesSociales p
 
 
 
-@media (max-width: 360px) {
-  footer {
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+   	h1 {
+	    font-size: 70px;
+	    line-height: 40px;
+	}
+	.bgAzul {
+	    height: 25vh;
+	}
+	.bgTextura{
+	  background-image: url('../images/background.png');
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size:  cover;
+	  -o-background-size: cover;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-attachment: initial;
+	}
+	h2 {
+	    font-size: 60px;
+	}
+	footer {
 		align-self: center;
 		background: transparent;
 	}
@@ -444,20 +469,37 @@ div.redesSociales p
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
-	
-}
-@media (max-width: 768px) {
-	/* #siguenos_ {
-		background-size: 200%;
-	} */
-}
-@media (min-width: 768px) {
-  
 }
 
-@media (min-width: 970px) {
- 
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 	h1 {
+	    font-size: 70px;
+	    line-height: 40px;
+	}
+	.bgAzul {
+	    height: 30vh;
+	}
+	.bgTextura{
+	  background-image: url('../images/background.png');
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size:  cover;
+	  -o-background-size: cover;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-attachment: initial;
+	}
+	h2 {
+	    font-size: 60px;
+	}
 }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+}
+
 @media (min-width: 1200px) {
 	.redesSociales {
 		padding-left: 7%;
