@@ -4,6 +4,10 @@
 *	Documento: Footer para las páginas
 */
 ?>
+
+<footer class="container-fluid backGroundAzul" style="padding: 50px;">
+	
+</footer>
 <!--
 	<footer class="container-fluid">
 		<div class="row bgGray">
@@ -145,10 +149,51 @@
 
 	  gtag('config', 'UA-120536974-1');
 	</script>
-
+	
 	<!--js-->
 	<script type="text/javascript" charset="utf-8"  src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" charset="utf-8"  src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" charset="utf-8"  src="js/home.min.js"></script>
+	<script>
+		$(document).ready(function()
+		{
+		    //Resetea el video al cerrar el Modal
+		    $("button.close").click(function()
+		    {
+		        //Obtiene la URL del video
+		        var url = $('.videos').attr('src');
+		        //Asigna vacio a la URL para pausar
+		        $('.videos').attr('src', '');
+		        // Regresa la URL del video
+				$('.videos').attr('src', url);
+		    });
+		    //LazyLoad video youtube
+		    ( function() {
+				var youtube = document.querySelectorAll( ".youtube" );
+				for (var i = 0; i < youtube.length; i++) 
+				{
+					var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+					var image = new Image();
+							image.src = source;
+							image.addEventListener( "load", function() {
+								youtube[ i ].appendChild( image );
+							}( i ) );
+						
+							youtube[i].addEventListener( "click", function() {
+
+								var iframe = document.createElement( "iframe" );
+
+									iframe.setAttribute( "frameborder", "0" );
+									iframe.setAttribute( "class", "videos" );
+									iframe.setAttribute( "allowfullscreen", "" );
+									iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&amp;showinfo=0" );
+
+										this.innerHTML = "";
+										this.appendChild( iframe );
+							} );	
+				};
+			})();
+		});
+	</script>
 </body>
 </html>

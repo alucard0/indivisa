@@ -24,6 +24,28 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-Bold.otf");
+  src: url("fonts/eot/IndivisaTextSans-Bold.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-Bold.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-Bold.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-Bold.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-Bold.svg") format('svg');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-BoldItalic.otf");
+  src: url("fonts/eot/IndivisaTextSans-BoldItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-BoldItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-BoldItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-BoldItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-BoldItalic.svg") format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+
 
 @font-face {
   font-family: "IndivisaTextSans";
@@ -163,6 +185,141 @@
   font-style: italic;
 }
 
+/*Display Sans*/
+@font-face {
+  font-family: "IndivisaDisplaySans";
+  src: url("fonts/otf/IndivisaDisplaySans-Heavy.otf");
+  src: url("fonts/eot/IndivisaDisplaySans-Heavy.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySans-Heavy.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySans-Heavy.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySans-Heavy.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySans-Heavy.svg") format('svg');
+  font-weight: 900;
+  
+}
+@font-face {
+  font-family: "IndivisaDisplaySans";
+  src: url("fonts/otf/IndivisaDisplaySans-HeavyItalic.otf");
+  src: url("fonts/eot/IndivisaDisplaySans-HeavyItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySans-HeavyItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySans-HeavyItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySans-HeavyItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySans-HeavyItalic.svg") format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaDisplaySans";
+  src: url("fonts/otf/IndivisaDisplaySans-Regular.otf");
+  src: url("fonts/eot/IndivisaDisplaySans-Regular.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySans-Regular.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySans-Regular.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySans-Regular.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySans-Regular.svg") format('svg');
+  font-weight: 500;
+  
+}
+@font-face {
+  font-family: "IndivisaDisplaySans";
+  src: url("fonts/otf/IndivisaDisplaySans-RegularItalic.otf");
+  src: url("fonts/eot/IndivisaDisplaySans-RegularItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySans-RegularItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySans-RegularItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySans-RegularItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySans-RegularItalic.svg") format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaDisplaySans";
+  src: url("fonts/otf/IndivisaDisplaySans-Thin.otf");
+  src: url("fonts/eot/IndivisaDisplaySans-Thin.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySans-Thin.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySans-Thin.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySans-Thin.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySans-Thin.svg") format('svg');
+  font-weight: 100;
+  
+}
+@font-face {
+  font-family: "IndivisaDisplaySans";
+  src: url("fonts/otf/IndivisaDisplaySans-ThinItalic.otf");
+  src: url("fonts/eot/IndivisaDisplaySans-ThinItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySans-ThinItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySans-ThinItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySans-ThinItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySans-ThinItalic.svg") format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/*Display Serif*/
+@font-face {
+  font-family: "IndivisaDisplaySerif";
+  src: url("fonts/otf/IndivisaDisplaySerif-Heavy.otf");
+  src: url("fonts/eot/IndivisaDisplaySerif-Heavy.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySerif-Heavy.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySerif-Heavy.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySerif-Heavy.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySerif-Heavy.svg") format('svg');
+  font-weight: 900;
+  
+}
+@font-face {
+  font-family: "IndivisaDisplaySerif";
+  src: url("fonts/otf/IndivisaDisplaySerif-HeavyItalic.otf");
+  src: url("fonts/eot/IndivisaDisplaySerif-HeavyItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySerif-HeavyItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySerif-HeavyItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySerif-HeavyItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySerif-HeavyItalic.svg") format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaDisplaySerif";
+  src: url("fonts/otf/IndivisaDisplaySerif-Regular.otf");
+  src: url("fonts/eot/IndivisaDisplaySerif-Regular.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySerif-Regular.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySerif-Regular.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySerif-Regular.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySerif-Regular.svg") format('svg');
+  font-weight: 500;
+  
+}
+@font-face {
+  font-family: "IndivisaDisplaySerif";
+  src: url("fonts/otf/IndivisaDisplaySerif-RegularItalic.otf");
+  src: url("fonts/eot/IndivisaDisplaySerif-RegularItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySerif-RegularItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySerif-RegularItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySerif-RegularItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySerif-RegularItalic.svg") format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaDisplaySerif";
+  src: url("fonts/otf/IndivisaDisplaySerif-Thin.otf");
+  src: url("fonts/eot/IndivisaDisplaySerif-Thin.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySerif-Thin.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySerif-Thin.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySerif-Thin.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySerif-Thin.svg") format('svg');
+  font-weight: 100;
+  
+}
+@font-face {
+  font-family: "IndivisaDisplaySerif";
+  src: url("fonts/otf/IndivisaDisplaySerif-ThinItalic.otf");
+  src: url("fonts/eot/IndivisaDisplaySerif-ThinItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaDisplaySerif-ThinItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaDisplaySerif-ThinItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaDisplaySerif-ThinItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaDisplaySerif-ThinItalic.svg") format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
 /*General*/
 html,
 body {
@@ -176,19 +333,15 @@ body {
 }
 
 
-h1{
-	font-size: 	185px;
-	color: #fff;
-	text-align: center;
-	line-height: 136px;
-}
+
 h2,p.frase,p.fecha,p.indivisaManent{
 	color: #001E61;
 }
 h2
 {
-	font-size: 	145px;
-	text-align: center;
+	font-size: 	120px;
+	text-align: left;
+  color: #fff;
 }
 h3{
 	font-size: 25px;
@@ -196,41 +349,323 @@ h3{
 
 }
 
-.chevron {
-    margin-right: 15px;
-    background: url(../images/contenido/chevron_rojo.png) no-repeat top left;
-    display: inline-block;
-    height: 15px;
-    width: 26px;
+/*Text Sans*/
+p.variantes,
+section#sistemaTipografico p.varianteSubtitulo1,
+section#sistemaTipografico p.varianteSubtitulo2,
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black,
+section#descargas p.contenido span{
+  font-family: "IndivisaTextSans";
+  font-weight: 700;
+  font-style: normal;
+}
+section#sistemaTipografico div.text p.familiaTitulo.sans,
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black-italic{
+  font-family: "IndivisaTextSans";
+  font-weight: 700;
+  font-style: italic;
+}
+.fraseIntro2,p.tituloTipografiaTodos span,
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold{
+  font-family: "IndivisaTextSans";
+  font-weight: 600;
+}
+.fraseIntro2,p.tituloTipografiaTodos span,
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold-italic{
+  font-family: "IndivisaTextSans";
+  font-weight: 600;
+  font-style: italic;
+}
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular{
+  font-family: "IndivisaTextSans";
+  font-weight: 400;
+}
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular-italic,
+section#descargas p.subtitulo{
+  font-family: "IndivisaTextSans";
+  font-weight: 400;
+  font-style: italic;
+}
+section#sistemaTipografico div.text p.familiaVarianteTitulo,
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light,
+section#descargas p.titulo{
+  font-family: "IndivisaTextSans";
+  font-weight: 300;
+}
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light-italic{
+  font-family: "IndivisaTextSans";
+  font-weight: 300;
+  font-style: italic;
+}
+/*Text Serif*/
+h1,h2,section#sistemaTipografico p.subtitulo,
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black{
+  font-family: "IndivisaTextSerif";
+  font-weight: 700;
+  font-style: normal;
+}
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black-italic{
+  font-family: "IndivisaTextSerif";
+  font-weight: 700;
+  font-style: italic;
+}
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold{
+  font-family: "IndivisaTextSerif";
+  font-weight: 600;
+}
+p.indivisaManent,.fraseIntro,
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold-italic{
+  font-family: "IndivisaTextSerif";
+  font-weight: 600;
+  font-style: italic;
 }
 
+
+h2,section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular{
+  font-family: "IndivisaTextSerif";
+  font-weight: 400;
+  font-style: normal;
+}
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular-italic,
+section#descargas p.tituloInfo,
+section#descargas p.contenido300{
+  font-family: "IndivisaTextSerif";
+  font-weight: 400;
+  font-style: italic;
+}
+
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light{
+  font-family: "IndivisaTextSerif";
+  font-weight: 300;
+}
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light-italic{
+  font-family: "IndivisaTextSerif";
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*Display Sans*/
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.heavy{
+  font-family: "IndivisaDisplaySans";
+  font-weight: 900;
+}
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.heavy-italic{
+  font-family: "IndivisaDisplaySans";
+  font-weight: 900;
+  font-style: italic;
+}
+section#sistemaTipografico p.titulo,
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.regular{
+  font-family: "IndivisaDisplaySans";
+  font-weight: 500;
+}
+section#sistemaTipografico div.display p.familiaTitulo.sans,
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.regular-italic{
+  font-family: "IndivisaDisplaySans";
+  font-weight: 500;
+  font-style: italic;
+}
+section#printweb p.titulo,section#sistemaTipografico p.varianteNumero,
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.thin{
+  font-family: "IndivisaDisplaySans";
+  font-weight: 100;
+}
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.thin-italic{
+  font-family: "IndivisaDisplaySans";
+  font-weight: 100;
+  font-style: italic;
+}
+/*Display Serif*/
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy{
+  font-family: "IndivisaDisplaySerif";
+  font-weight: 900;
+}
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy-italic{
+  font-family: "IndivisaDisplaySerif";
+  font-weight: 900;
+  font-style: italic;
+}
+
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.regular{
+  font-family: "IndivisaDisplaySerif";
+  font-weight: 500;
+}
+
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.regular-italic{
+  font-family: "IndivisaDisplaySerif";
+  font-weight: 500;
+  font-style: italic;
+}
+
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin{
+  font-family: "IndivisaDisplaySerif";
+  font-weight: 100;
+}
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin-italic{
+  font-family: "IndivisaDisplaySerif";
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lineaAzulVertical{
+  border-right: 1px solid rgba(45, 79, 161, 0.40);
+}
+.backgroundAzulyBlanco{
+  background: rgba(45,80,161,1);
+  background: -moz-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(45,80,161,1)), color-stop(50%, rgba(45,80,161,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d50a1', endColorstr='#ffffff', GradientType=0 );
+
+}
+
+.backGroundAzul{
+  background: #2D4FA1;
+}
+.backgroundGris{
+  background: #EAEAEA;
+}
+.textoAmarillo{
+  color: #FFD200;
+}
+.textoAzul{
+  color: #2D4FA1;
+}
+.textoGris{
+  color: #58595B;
+}
+.textoBlanco{
+  color: #fff;
+}
+hr.lineaAmarilla{
+  border: 0;
+  border-top: 10px solid #FFD200;
+  width: 15%;
+}
+hr.v1{
+  margin: 1rem 0 1rem auto;
+}
+hr.v2{
+  margin: 1rem auto 1rem 3rem;
+  border-top: 20px solid #FFD200;
+  width: 10%;
+}
+
+/*Estilos para lazy load youtube*/
+.youtube {
+  background-color: #000;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.youtube img {
+  width: 100%;
+  /*height: 100%;*/
+  top: -16.82%;
+  left: 0;
+  opacity: 0.7;
+}
+.youtube .play-button {
+  width: 90px;
+  height: 60px;
+  background-color: #FFD200;
+  box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+  z-index: 1;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+.youtube .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26.0px;
+  border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+  cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+  position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+/* Fin Estilos para lazy load youtube*/
+.videoFull{
+  padding: 0;
+}
 /*Fin General*/
 
 /*Header*/
 .logo{
   margin-top: 10px;
 }
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link {
+    color: #fff;
+}
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
+  content: "";
+  display: block;
+  width: 25%;
+  border-bottom: 5px solid #FFD200;
+  margin: 10px auto 0 auto;
+}
 
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover {
+  color: #FFD200;
+}
+.navbar-light .navbar-toggler, .navbar-light .navbar-toggler:focus{
+  border-color: transparent;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 210, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  
+}
 /*Fin header*/
 
 /*Contenido*/
+
 h1{
-	font-family: "IndivisaTextSerif";
-	font-weight: 700;
-	font-style: normal;
+  font-size:  185px;
+  color: #fff;
+  text-align: center;
 }
-p.indivisaManent{
-	font-family: "IndivisaTextSerif";
-	font-weight: 600;
-	font-style: italic;
-}
-h2,p.titulo,p.fecha,p.indivisaManent{
-	font-family: "IndivisaTextSans";
-	font-weight: 700;
+h2.fontPalabra{
+  margin-top: -50px;
 }
 
+.fraseIntro span, .fraseIntro2 span{
+  margin-left: 28px;
+}
+.fraseIntro{
+  margin: 15% 0;
+}
+.fraseIntro2:first-child{
+  margin-bottom: 8px;
+
+}
+.fraseIntro2:nth-child(2){
+  text-align: right;
+  
+}
 .bgTextura{
-  background-image: url('../images/background.png');
+  background-image: url('../images/contenido/background.png');
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size:  contain;
@@ -239,190 +674,203 @@ h2,p.titulo,p.fecha,p.indivisaManent{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.bgAzul{
-	background-color: #001E61;
-	height: 40vh;
-}
-p.titulo{
-	margin:0;
-}
-p.titulo,p.contenido,p.fecha,p.frase,p.indivisaManent{
-	text-align: center;
-}
-p.titulo,p.contenido{
-	color:#2E50A3; 
-}
-p.titulo{
-	font-size: 22px;
-	line-height: 18px;
-}
-p.contenido{
-	font-size: 18px;
-	line-height: 18px;
-}
-p.titulo span.cifra{
-	font-size: 24px;
-}
-p.fecha span.lineaVertical{
-	border-left: solid red 5px;
-	margin-right: 15px;
-}
-div.contenidoFecha{
-	margin-top: 50px;
-}
-p.fecha{
-	font-size: 20px;
+
+#inicio,#aplicaciones{
+  color: #fff;
 }
 
+p.contenidoInicio{
+  margin: 10% 0;
+}
+/**Tipografía para todos*/
+p.tituloTipografiaTodos{
+  font-size: 32px;
+  line-height: 32px;
+  margin-top: 40px;
+}
+p.tituloTipografiaTodos span{
+  font-size: 80px;
+  line-height: 80px;
+  color: #fff;
+}
+
+p.cotenidoTipografiaTodos{
+  margin-left: 65px;
+}
+
+/*Aplicaciones*/
+/*Para todo*/
+div.backgroundParaTodo{
+  background-image: url('../images/contenido/paratodoBG.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.round-button {
+  display: block;
+  width: 150px;
+  height: 150px;
+  line-height: 50px;
+  border: 5px solid #FFD200;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  box-shadow: 0 0 3px grey;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.round-button:hover {
+    background: #FFD200;
+    color: #000;
+    transition: 0.5s;
+}
+
+.btnDescarga {
+  background: #ffd200 ;
+  /* Old browsers */
+  background: linear-gradient(to right, transparent 50%, #ffd200 50%);
+  background-position:left bottom;
+  background-size: 200% 100%;
+  border: 1px solid #FFD200;
+  transition:all .2s ease;
+  padding: 10px 0 10px 10px;
+  cursor: pointer;
+}
+
+.btnDescarga:hover {
+  background-position:right bottom;
+  color:#000;
+}
+.btnDescarga span.iconoDescarga{
+  background: #ffd200;
+  color: #000;
+  padding: 6px 40px;
+  margin-left: 9px;
+}
+
+.botonFamilia{
+  background: transparent;
+  border: 1px solid #FFD200;
+  color: #2D4FA1;
+  font-size: 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+.botonFamilia:hover,.botonFamilia:active{
+  background: #FFD200;
+}
+
+/*Print & Web*/
+section#printweb p.titulo{
+  font-size: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+
+/*Sistema Tipografico*/
+section#sistemaTipografico,section#descargas, section#printweb{
+  padding: 70px 15px;
+}
+section#sistemaTipografico p.titulo{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+section#sistemaTipografico p.subtitulo{
+  font-size: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+
+section#sistemaTipografico .columnaIzq{
+  padding-right: 6%;
+}
+section#sistemaTipografico .columnaDer{
+  padding-left: 6%;
+}
+
+section#sistemaTipografico p.descripcionFamilia{
+  margin-top: 40px;
+}
+section#sistemaTipografico p.descripcionFamilia2{
+  margin-top: 65px;
+}
+
+section#sistemaTipografico p.varianteNumero{
+  font-size: 100px;
+  line-height: 100px;
+}
+section#sistemaTipografico p.varianteSubtitulo1{
+  font-size: 20px;
+  line-height: 20px;
+  background: #FFD200;
+  padding: 0 8px;
+  margin: 0;
+}
+section#sistemaTipografico p.nombreVarianteTipo{
+  margin: 5px;
+}
+section#sistemaTipografico p.varianteSubtitulo2{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+section#sistemaTipografico p.familiaTitulo{
+  font-size: 50px;
+  line-height: 50px;
+}
+section#sistemaTipografico p.familiaVarianteTitulo{
+  font-size: 40px;
+  line-height: 40px;
+}
+section#sistemaTipografico .modal-header{
+      border-bottom: none;
+}
+
+section#sistemaTipografico .modal-header .close {
+    padding: 12px 16px;
+    margin: 0rem 0rem -1rem auto;
+    border: solid 1px #FFD200;;
+    border-radius: 50px;
+}
+button.close{
+  color: #FFD200;
+}
+/*Descargas*/
+section#descargas p.titulo{
+  font-size: 70px;
+  line-height: 70px;
+}
+section#descargas p.subtitulo{
+  font-size: 40px;
+  line-height: 40px;
+}
+
+section#descargas p.tituloInfo{
+  font-size: 25px;
+  line-height: 25px;
+}
+
+section#descargas p.contenido300{
+  font-size: 22px;
+  line-height: 22px;
+  margin-top: 80px;
+}
+section#descargas div.columnaDescargas{
+  padding: 80px 30px;
+}
 
 /*Fin Contenido*/
 /*Footer*/
-footer {
-  text-align: center;
-  padding-top: 10px;
-}
-footer a{
-	color: #101d61;
-  font-weight: bold;
-}
-footer a:hover{
-	text-decoration: none;
-	color: #c30824;
-
-}
-footer div ul {
-    list-style-image: url('../images/footer/icon_redArrow.png');
-}
-footer div ul li {
-    float: right;
-    margin-left: 50px
-}
-
-footer div ul li a {
-    display: block;
-    text-align: center;
-    padding: 16px 0px;
-    text-decoration: none;
-}
-
-p.direccionFooter {
-  color: #fff;
-  text-align: left;
-}
-
-p.aviso, p.terminos{
-  cursor: pointer;
-  padding: 1% 0;
-}
-p.aviso:hover, p.terminos:hover{
-  color: #c30824;
-}
-p.aviso.active,p.terminos.active{
-  border-bottom: #c30824 solid 2px;
-}
-div.resumenAviso p, div.resumenTerminos p{
-  text-align: left;
-}
-
-.bgBlack {
-	background: #000;
-	text-align: center!important;
-}
-.bgBlack > p {
-	width: 100%;
-	color: #fff;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-bottom: 0px;
-}
-
-.bgGray{
-	background: #232323;
-	padding-top: 20px;
-}
-.redesSociales {
-	vertical-align: middle;
-}
-div.redesSociales figure
-{
-	display: inline-block;
-	padding: 0%;
-}
-div.redesSociales p
-{
-	color: #fff;
-	text-align: left;
-}
-.img-responsive {
-  text-align: left;
-}
-.logos img{
-  margin: auto auto 15px 0;
-  text-align: right;
-  /* position: absolute; */
-  /* margin: 0 30px 20px 30%; */
-}
-
-/* redes sociales */
-#siguenos_ {
-	width: 128px;
-	height: 75px;
-	background: url("../images/footer/Siguenos_Flat.png") -6px -10px;
-}
-#_facebook {/*1*/
-	width: 32px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -133px -23px;
-}
-#_twitter {/*2*/
-	width: 31px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -164px -23px;
-}
-#_instagram {/*3*/
-	width: 30px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -195px -23px;
-}
-#_linkedin {/*4*/
-	width: 32px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -225px -23px;
-}
-#_foursquare { /*5*/
-	width: 32px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -133px -55px;
-}
-#_swarm { /*6*/
-	width: 31px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -164px -55px;
-}
-#_snapchat { /*7*/
-	width: 32px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -194px -55px;
-}
-#_youtube { /*8*/
-	width: 32px;
-	height: 32px;
-	background: url("../images/footer/Siguenos_Flat.png") -226px -55px;
-}
-.siguenos{
-	padding-bottom: 20px;
-}
-.siguenos > img {
-	display: block;
-	max-width:100%;
-	max-height:100%;
-	width: 117px;
- 	height: 77px;
-}
-
-.footer-col {
-	padding: 0px 0px 0px 0px;
-}
 
 /*Fin Footer*/
 /*Media Queries*/
@@ -431,43 +879,65 @@ div.redesSociales p
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px){
-   	h1 {
+  h1 {
 	    font-size: 70px;
-	    line-height: 40px;
+      line-height: 40px;
 	}
-	.bgAzul {
-	    height: 25vh;
-	}
-	.bgTextura{
-	  background-image: url('../images/background.png');
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  background-size:  cover;
-	  -o-background-size: cover;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-attachment: initial;
-	}
-	h2 {
-	    font-size: 60px;
-	}
-	footer {
-		align-self: center;
-		background: transparent;
-	}
-	.redesSociales {
-		padding: 0 15px 0 0
-	}
-	#siguenos_ {
-		width: 125px;
-		height: 62px;
-		background: url("../images/footer/Sprite5.png") 0px 0px;
-		margin-left: 15px;
-	}
-	.bloque-social {
-		margin-top: 15px;
-		margin-bottom: 15px;
-	}
+  h2.fontPalabra {
+      margin-top: 0;
+  }
+  h2 {
+      font-size: 60px;
+  }
+  /**Tipografía para todos*/
+  p.tituloTipografiaTodos{
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+  }
+  p.tituloTipografiaTodos span{
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  p.cotenidoTipografiaTodos{
+    margin-left: 65px;
+  }
+  hr.lineaAmarilla {
+    width: 50%;
+  }
+  .round-button {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+  section#printweb p.titulo {
+    font-size: 75px;
+    line-height: 75px;
+  }
+  section#sistemaTipografico p.titulo {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  section#sistemaTipografico p.subtitulo {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  section#sistemaTipografico p.variantes{
+    font-size: 24px;
+  }
+  section#descargas div.columnaDescargas {
+    padding: 25px 30px;
+  }
+  section#descargas div.columnasInfo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  section#descargas p.contenido{
+    font-size: 22px;
+    line-height: 22px;
+  }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -494,14 +964,30 @@ div.redesSociales p
 	}
 }
 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  p.tituloTipografiaTodos {
+    margin-left: 10px;
+  }
+  p.tituloTipografiaTodos span{
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  p.cotenidoTipografiaTodos{
+    margin-left: 10px;
+  }
+  div.videoSuperior{
+    align-self: center!important;
+  }
+
+}
+
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px){ 
 
 }
 
 @media (min-width: 1200px) {
-	.redesSociales {
-		padding-left: 7%;
-		padding-right: 7%;
-	}
+
 }
