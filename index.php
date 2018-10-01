@@ -194,8 +194,8 @@ include 'header.php';
 		<div class="col-12">
 			<p class="titulo textoAmarillo">Print & Web</p>		
 		</div>
-		<div>
-			<button class="btnDescarga textoBlanco">Descargar guía <span class="iconoDescarga"><i class="fas fa-download"></i></span></button>
+		<div class="col-12 text-center">
+			<a class="btnDescarga2 textoBlanco" href="#"><span>Descargar guía </span><i class="fas fa-download"></i></a>
 		</div>
 		<br>
 		<br>

@@ -757,6 +757,38 @@ div.backgroundParaTodo{
   margin-left: 9px;
 }
 
+a.btnDescarga2{
+  background: #ffd200;
+    background: linear-gradient(to right, transparent 50%, #ffd200 50%);
+    background-position: left bottom;
+    background-size: 100% 100%;
+    border: 2px solid #FFD200;
+    transition: all .2s ease;
+    padding: 11px 60px 11px 11px;
+
+    display: inline-block;
+}
+a.btnDescarga2 span{
+  margin-right: 80px;
+}
+a.btnDescarga2 svg{
+  color: #000;
+}
+a.btnDescarga2:hover {
+  background-position:right bottom;
+  color:#000;
+  text-decoration: none;
+  background-size: 200% 100%;
+}
+a.iconoDescarga{
+  background: #ffd200;
+  color: #000;
+  margin-left: 0px;
+  display: inline;
+  padding: 0.46777em;
+}
+
+
 .botonFamilia{
   background: transparent;
   border: 1px solid #FFD200;
