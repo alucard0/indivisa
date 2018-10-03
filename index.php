@@ -195,7 +195,7 @@ include 'header.php';
 			<p class="titulo textoAmarillo">Print & Web</p>		
 		</div>
 		<div class="col-12 text-center">
-			<a class="btnDescarga2 textoBlanco" href="#"><span>Descargar guía </span><i class="fas fa-download"></i></a>
+			<a class="btnDescarga textoBlanco" href="#"><span>Descargar guía </span><i class="fas fa-download"></i></a>
 		</div>
 		<br>
 		<br>
@@ -483,35 +483,35 @@ include 'header.php';
 			<p class="titulo text-center textoAzul">Descargas</p>
 		</div>
 	</div>
-	<div class="row justify-content-center align-items-end">
+	<div class="row justify-content-center align-items-end text-center">
 		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
-			<p class="subtitulo text-center textoAzul">Set general</p>
-			<p class="contenido textoGris"><span>16 variantes</span><br>Administrativos, estudiantes y comunidad en general.</p>
-			<button class="btnDescarga textoAzul">Descarga<span class="iconoDescarga"><i class="fas fa-download"></i></span></button>
+			<p class="subtitulo textoAzul">Set general</p>
+			<p class="contenido textoGris text-left"><span>16 variantes</span><br>Administrativos, estudiantes y comunidad en general.</p>
+			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
-			<p class="subtitulo text-center textoAzul">Set editorial</p>
-			<p class="contenido textoGris"><span>28 variantes</span><br>Áreas de diseño, comunicación, editorial, programación.</p>
-			<button class="btnDescarga textoAzul">Descarga<span class="iconoDescarga"><i class="fas fa-download"></i></span></button>
+			<p class="subtitulo textoAzul">Set editorial</p>
+			<p class="contenido textoGris text-left"><span>28 variantes</span><br>Áreas de diseño, comunicación, editorial, programación.</p>
+			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 		<div class="col-md-4 col-lg-4 col-xl-4 columnaDescargas">
-			<p class="subtitulo text-center textoAzul">Set para aplicaciones Web</p>
-			<p class="contenido textoGris"><span>28 variantes</span><br>eot / otf / sgv / ttf / woff / woff2</p>
-			<button class="btnDescarga textoAzul">Descarga<span class="iconoDescarga"><i class="fas fa-download"></i></span></button>
+			<p class="subtitulo textoAzul">Set para aplicaciones Web</p>
+			<p class="contenido textoGris text-left"><span>28 variantes</span><br>eot / otf / sgv / ttf / woff / woff2</p>
+			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 	</div>
 	<div class="row justify-content-center text-center align-items-end">
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3 columnasInfo">
 			<p class="tituloInfo textoAzul">Manual de usuario</p>
-			<button class="btnDescarga textoAzul">Descarga<span class="iconoDescarga"><i class="fas fa-download"></i></span></button>
+			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3 columnasInfo">
 			<p class="tituloInfo textoAzul">Información de actualizaciones</p>
-			<button class="btnDescarga textoAzul">Ver<span class="iconoDescarga"><i class="fas fa-download"></i></span></button>
+			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3">
 			<p class="tituloInfo textoAzul">Folleto</p>
-			<button class="btnDescarga textoAzul">Descarga<span class="iconoDescarga"><i class="fas fa-download"></i></span></button>
+			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 	</div>
 	<div class="row justify-content-center">
