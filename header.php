@@ -11,7 +11,21 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="La Salle">
-	<meta name="description" content="La Salle font family">
+	<meta name="description" content="Una sola “voz” para todos, para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.">
+	<!-- Metadatos Facebook-->
+	<meta property="og:url" content="http://indivisafont.org/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación" />
+	<meta property="og:description" content="Indivisa Font: Una sola “voz” para todos, para todo." />
+	<meta property="og:image" content="http://indivisafont.org/images/background.png" />
+
+	<!-- Metadatos Twitter-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Indivisafont">
+    <meta name="twitter:creator" content="@Indivisafont">
+    <meta name="twitter:title" content="Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación">
+    <meta name="twitter:description" content="Indivisa Font: Una sola “voz” para todos, para todo.">
+    <meta name="twitter:image" content="http://indivisafont.org/images/background.png">
 
 
 	<!-- Mobile Metas -->
@@ -40,7 +54,7 @@
 	
 	<!-- favicon -->
 	<link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
-	<link rel="alternate" href="http://indivisafont.org/" hreflang="en" />
+	<link rel="alternate" href="http://indivisafont.org/" hreflang="es-mx" />
 
 </head>
 <body>
@@ -49,17 +63,16 @@
     <div class="backGroundAzul">
 		<header class="container">
 		    <nav id="menu" class="navbar navbar-expand-lg navbar-light  ">
-		     <a class="navbar-brand" href="#"></a>
+		    <a class="navbar-brand col-8 col-xl-3" href="http://indivisafont.org"><img src="images/header/imagotipo/lasalleorg.png" alt="La Salle World Wide" class="img-fluid"></a>
 		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-		      <div class="navbar-nav align-items-center">
-		        <a class="navbar-brand" href="http://indivisafont.org"><img src="images/header/imagotipo/lasalleorg.png" alt="La Salle World Wide" class="img-responsive"></a>
+		      <div class="navbar-nav ">
 		        
 		        <a class="nav-item nav-link seccion lang" href="#" key="menu_conoceIndivisa">Conoce Indivisa</a>
 		        <a class="nav-item nav-link seccion lang" href="#aplicaciones" key="menu_aplicaciones">Aplicaciones</a>
-		        <a class="nav-item nav-link seccion lang" href="#descarga" key="menu_descarga">Descarga</a>
+		        <a class="nav-item nav-link seccion lang" href="#descargas" key="menu_descarga">Descarga</a>
 
 		        <a class="nav-item nav-link translate lang" id="en" href="#" key="menu_en">EN</a>
 		        <a class="nav-item nav-link translate lang" id="es" href="#" key="menu_es">ES</a>

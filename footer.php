@@ -151,9 +151,9 @@
 	</script>
 	
 	<!--js-->
-	<script type="text/javascript" charset="utf-8"  src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" charset="utf-8"  src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" charset="utf-8"  src="js/descargable.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/descargable.js"></script>
 	<script>
 		$(document).ready(function()
 		{
@@ -198,8 +198,8 @@
 	<script>
 		$("#modalEULA").scroll(function() {
 			var faltante=$(window).height()+$("#modalEULA").scrollTop();
-			console.log(faltante+" "+$("#modalEULA").scrollTop()+" "+$(window).height());
-			console.log($('#modalEULA')[0].scrollHeight);
+			//console.log(faltante+" "+$("#modalEULA").scrollTop()+" "+$(window).height());
+			//console.log($('#modalEULA')[0].scrollHeight);
 		   if(faltante == $('#modalEULA')[0].scrollHeight) {
 		    	
 		   	$('.botonDescarga').removeAttr('disabled');
@@ -215,6 +215,48 @@
 		function cambiarID(tipoID){
 			$('.botonDescarga').attr("id",tipoID);
 		}
+	</script>
+	<!--Scroll y URL-->
+	<script>
+		$('a[href*="#"]')
+		  // Remove links that don't actually link to anything
+			.not('[href="#"]')
+			.not('[href="#0"]')
+		 	.click(function(event) 
+		 	{
+			    // On-page links
+			    if (
+			      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+			      && 
+			      location.hostname == this.hostname
+			    ) 
+			    {
+			    	// Figure out element to scroll to
+			    	var target = $(this.hash);
+			    	target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			    	// Does a scroll target exist?
+			     	if (target.length) 
+			     	{
+			        	// Only prevent default if animation is actually gonna happen
+			    		event.preventDefault();
+			        	$('html, body').animate({
+			        		scrollTop: target.offset().top
+			        	}, 1000, function() 
+			        	{
+				        	// Callback after animation
+				        	// Must change focus!
+				        	var $target = $(target);
+				        	$target.focus();
+				        	if ($target.is(":focus")) { // Checking if the target was focused
+				        		return false;
+				        	} else {
+				            	$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+				            	$target.focus(); // Set focus again
+				        	};
+			        	});
+			    	}
+			    }
+			});
 	</script>
 </body>
 </html>

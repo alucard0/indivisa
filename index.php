@@ -61,7 +61,7 @@ include 'header.php';
 				
 			</div>
 			<div class="col-12 col-sm-12 col-md-6 videoFull videoSuperior">
-				<div class="youtube" data-embed="cNTkez069QU">
+				<div class="youtube" data-embed="EIZa5k7Wgsk">
 	                <div class="play-button"></div>
 	            </div>
 	        </div>
@@ -487,17 +487,17 @@ include 'header.php';
 		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
 			<p class="subtitulo textoAzul">Set general</p>
 			<p class="contenido textoGris text-left"><span>16 variantes</span><br>Administrativos, estudiantes y comunidad en general.</p>
-			<a class="btnDescarga textoAzul"  data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_General')"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<button class="btnDescarga textoAzul"  data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_General')"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
 		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
 			<p class="subtitulo textoAzul">Set editorial</p>
 			<p class="contenido textoGris text-left"><span>28 variantes</span><br>Áreas de diseño, comunicación, editorial, programación.</p>
-			<a class="btnDescarga textoAzul" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Editorial')"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<button class="btnDescarga textoAzul" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Editorial')"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
 		<div class="col-md-4 col-lg-4 col-xl-4 columnaDescargas">
 			<p class="subtitulo textoAzul">Set para aplicaciones Web</p>
 			<p class="contenido textoGris text-left"><span>28 variantes</span><br>eot / otf / sgv / ttf / woff / woff2</p>
-			<a class="btnDescarga textoAzul" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Web')"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<button class="btnDescarga textoAzul" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Web')"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
 	</div>
 	<div class="row justify-content-center text-center align-items-end">
@@ -588,7 +588,7 @@ include 'header.php';
 	        </div>
 	      </div>
 	      <div class="modal-footer">
-	        <a id="set_General" class="btnDescarga textoAzul botonDescarga" disabled="disabled"><span>Descarga</span><i class="fas fa-download"></i></a>
+	        <button id="set_General" class="btnDescarga textoAzul botonDescarga" disabled="disabled"><span>Descarga</span><i class="fas fa-download"></i></button>
 	      </div>
 	    </div>
 	  </div>

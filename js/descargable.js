@@ -1,37 +1,35 @@
 
 jQuery(function($){
 	/*recupera el id*/
-	$("a[id]").click(function() {
+	$("button[id]").click(function() {
 		var id = $(this).attr("id");
 		var href = $(this).attr("href");
         /*confirm("id_boton: " + id + " URL " + href);*/
-        
 
 	        /*switch de descarga*/
 		    switch(id)
 		    {
-		    	/*Manuales
+		    	/*Tipografías
 
-		    	/*duotono_jpg*/
+		    	/*Set General*/
 		    	case 'set_General':
 		    		generaDescarga ('descargables/SetGeneral.zip');
 		    	break;
 
-		    	/*todos_jpg*/
+		    	/*Set Editorial*/
 		    	case 'set_Editorial':
 		    		generaDescarga ('descargables/SetEditorial.zip');
 		    	break;
 
 
-		    	/*imagotipo_png
-		    	color_png*/
+		    	/*Set Web*/
 		    	case 'set_Web':
 		    		generaDescarga ('descargables/SetWeb.zip');
 		    	break;
 
 		    	
 		    	default:
-		    		alert("No tiene ID asociado");
+		    		alert("No se encuentra el archivo");
 		    	break
 	    }
 	});

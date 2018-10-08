@@ -617,14 +617,20 @@ hr.v2{
   margin-top: 10px;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link {
+    display: inline-block;
     color: #fff;
 }
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
-  content: "";
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:after {
+  content: '';
   display: block;
-  width: 25%;
-  border-bottom: 5px solid #FFD200;
-  margin: 10px auto 0 auto;
+  width: 0;
+  height: 2px;
+  background: #FFD200;
+  margin: 10px auto;
+  transition: width .3s;
+}
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
+  width: 50%;
 }
 
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover {
@@ -736,7 +742,7 @@ div.backgroundParaTodo{
 
 
 
-a.btnDescarga{
+.btnDescarga{
   background: #ffd200;
     background: linear-gradient(to right, transparent 50%, #ffd200 50%);
     background-position: left bottom;
@@ -747,19 +753,28 @@ a.btnDescarga{
     cursor: pointer;
     display: inline-block;
 }
-a.btnDescarga span{
+.btnDescarga span{
   margin-right: 80px;
 }
-a.btnDescarga svg{
+.btnDescarga svg{
   color: #000;
 }
-a.btnDescarga:hover {
+.btnDescarga:hover {
   background-position:right bottom;
   color:#000;
   text-decoration: none;
   background-size: 200% 100%;
 }
-
+.btnDescarga:disabled{
+  background: #f5dd71;
+  background: linear-gradient(to right, transparent 50%, #f5dd71 50%);
+  border: 2px solid #f5dd71;
+  color: #969696 !important;
+  cursor: auto;
+}
+.btnDescarga:disabled svg{
+  color: #969696;
+}
 .botonFamilia{
   background: transparent;
   border: 1px solid #FFD200;
@@ -882,6 +897,9 @@ section#descargas div.columnaDescargas{
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px){
+  nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
+    margin: 10px auto 0 0;
+  }
   h1 {
 	    font-size: 70px;
       line-height: 40px;
@@ -945,6 +963,9 @@ section#descargas div.columnaDescargas{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
+    margin: 10px auto 0 0;
+  }
  	h1 {
 	    font-size: 70px;
 	    line-height: 40px;
@@ -969,6 +990,9 @@ section#descargas div.columnaDescargas{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
+  nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
+    margin: 10px auto 0 0;
+  }
   p.tituloTipografiaTodos {
     margin-left: 10px;
   }
