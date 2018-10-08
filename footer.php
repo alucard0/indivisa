@@ -153,7 +153,7 @@
 	<!--js-->
 	<script type="text/javascript" charset="utf-8"  src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" charset="utf-8"  src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" charset="utf-8"  src="js/home.min.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="js/descargable.js"></script>
 	<script>
 		$(document).ready(function()
 		{
@@ -194,6 +194,27 @@
 				};
 			})();
 		});
+	</script>
+	<script>
+		$("#modalEULA").scroll(function() {
+			var faltante=$(window).height()+$("#modalEULA").scrollTop();
+			console.log(faltante+" "+$("#modalEULA").scrollTop()+" "+$(window).height());
+			console.log($('#modalEULA')[0].scrollHeight);
+		   if(faltante == $('#modalEULA')[0].scrollHeight) {
+		    	
+		   	$('.botonDescarga').removeAttr('disabled');
+		   }
+		   else
+		   {
+		   		$('.botonDescarga').attr('disabled','disabled');
+		   }
+		});
+
+	</script>
+	<script type="text/javascript">
+		function cambiarID(tipoID){
+			$('.botonDescarga').attr("id",tipoID);
+		}
 	</script>
 </body>
 </html>
