@@ -68,7 +68,7 @@
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-		      <div class="navbar-nav ">
+		      <div class="navbar-nav">
 		        
 		        <a class="nav-item nav-link seccion lang" href="#" key="menu_conoceIndivisa">Conoce Indivisa</a>
 		        <a class="nav-item nav-link seccion lang" href="#aplicaciones" key="menu_aplicaciones">Aplicaciones</a>

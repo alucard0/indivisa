@@ -626,7 +626,7 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:after {
   width: 0;
   height: 2px;
   background: #FFD200;
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
   transition: width .3s;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
