@@ -153,6 +153,7 @@
 	<!--js-->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	 <script src="js/lenguaje.js"> </script>
 	<script src="js/descargable.js"></script>
 	<script>
 		$(document).ready(function()
@@ -200,7 +201,7 @@
 			var faltante=$(window).height()+$("#modalEULA").scrollTop();
 			//console.log(faltante+" "+$("#modalEULA").scrollTop()+" "+$(window).height());
 			//console.log($('#modalEULA')[0].scrollHeight);
-		   if(faltante == $('#modalEULA')[0].scrollHeight) {
+		   if(faltante => $('#modalEULA')[0].scrollHeight) {
 		    	
 		   	$('.botonDescarga').removeAttr('disabled');
 		   }

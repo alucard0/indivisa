@@ -10,7 +10,7 @@ include 'header.php';
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-10 col-md-6">
-						<p class="textoAmarillo fraseIntro">La identidad se construye<br><span>- cuando existe una voz única.</span></p>
+						<p class="textoAmarillo fraseIntro lang" key="inicio-frase1">La identidad se construye<br><span>- cuando existe una voz única.</span></p>
 					</div>
 				</div>
 			</div>	
@@ -20,22 +20,22 @@ include 'header.php';
 				<h1>Indivisa</h1>
 				<div class="row justify-content-center">
 					<div class="col-4 col-sm-8 col-md-5 col-lg-3 col-xl-2">
-						<p class="textoAmarillo fraseIntro2 d-none d-sm-block">Una sola voz para la</p>
-						<p class="textoAmarillo fraseIntro2 d-none d-sm-block">comunidad lasallista global</p>
+						<p class="textoAmarillo fraseIntro2 d-none d-sm-block lang" key="inicio-frase2-1">Una sola voz para la</p>
+						<p class="textoAmarillo fraseIntro2 d-none d-sm-block lang" key="inicio-frase2-2">comunidad lasallista global</p>
 						<hr class="lineaAmarilla v1">
 					</div>
 					<div class="col-8 col-sm-4 col-md-3">
 						<h2 class="fontPalabra">font</h2>
 					</div>
 					<div class="col-12 d-sm-none">
-						<p class="textoAmarillo fraseIntro2">Una sola voz para la</p>
-						<p class="textoAmarillo fraseIntro2">comunidad lasallista global</p>
+						<p class="textoAmarillo fraseIntro2 lang" key="inicio-frase2-1">Una sola voz para la</p>
+						<p class="textoAmarillo fraseIntro2 lang" key="inicio-frase2-2">comunidad lasallista global</p>
 					</div>
 					
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-4">
-						<p class="contenidoInicio">En un mundo diverso, nuestra tipografía es un elemento unificador que nos permite reconocernos como parte de una gran familia, y al mismo tiempo, celebrar la diversidad.</p>
+						<p class="contenidoInicio lang"  key="inicio-frase3">En un mundo diverso, nuestra tipografía es un elemento unificador que nos permite reconocernos como parte de una gran familia, y al mismo tiempo, celebrar la diversidad.</p>
 					</div>
 				</div>
 			</div>	
@@ -51,10 +51,10 @@ include 'header.php';
 			<div class="col-12 col-sm-12 col-md-6">
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-12 col-md-12 col-lg-10">
-						<p class="textoAmarillo tituloTipografiaTodos">Tipografía<br><span>para todos</span></p>
+						<p class="textoAmarillo tituloTipografiaTodos lang" key="paraTodos-titulo">Tipografía<br><span>para todos</span></p>
 						<hr class="lineaAmarilla v2">
-						<p class="cotenidoTipografiaTodos">Gratuita y de libre acceso</p>
-						<p class="cotenidoTipografiaTodos">La Salle impacta la vida de 3, 423, 465 de personas en todo el mundo. La riqueza de lenguas y culturas que convergen en esta obra, está representada en cada trazo, reflejando nuestra personalidad, tradición y prestigio.</p>
+						<p class="cotenidoTipografiaTodos lang" key="paraTodos-p1">Gratuita y de libre acceso</p>
+						<p class="cotenidoTipografiaTodos lang" key="paraTodos-p2">La Salle impacta la vida de 3, 423, 465 de personas en todo el mundo. La riqueza de lenguas y culturas que convergen en esta obra, está representada en cada trazo, reflejando nuestra personalidad, tradición y prestigio.</p>
 					</div>
 				</div>
 
@@ -71,17 +71,17 @@ include 'header.php';
 <section class="container-fluid" id="aplicaciones">
 	<div class="row backgroundParaTodo">
 		<div class="col-12">
-			<p class="textoAmarillo tituloTipografiaTodos">Tipografía<br><span>para todo</span></p>
-			<p>25,000 glifos para 270 idiomas del alfabeto latino</p>
-			<p>Con dos familias tipográficas, Indivisa es funcional y práctica.</p>
-			<p>Mayúsculas, versalitas, superiores, ligaduras, cifras matemáticas, diacríticos, editoriales, etc., agregan una personalidad única a folletos, redes sociales o publicidad.</p>
+			<p class="textoAmarillo tituloTipografiaTodos lang" key="paraTodos-titulo">Tipografía<br><span>para todo</span></p>
+			<p class="lang" key="paraTodos-p1">25,000 glifos para 270 idiomas del alfabeto latino</p>
+			<p class="lang" key="paraTodos-p2">Con dos familias tipográficas, Indivisa es funcional y práctica.</p>
+			<p class="lang" key="paraTodos-p3">Mayúsculas, versalitas, superiores, ligaduras, cifras matemáticas, diacríticos, editoriales, etc., agregan una personalidad única a folletos, redes sociales o publicidad.</p>
 		</div>
 		
 		<div class="col-12">
 			<div class="row justify-content-center">
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button" data-toggle="modal" data-target="#modalBranding">
+					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalBranding" key="aplicaciones-branding">
 						<i class="fas fa-eye fa-2x"></i><br>Branding
 					</button>
 
@@ -97,10 +97,6 @@ include 'header.php';
 					      </div>
 					      <div class="modal-body">
 					        ...
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary">Save changes</button>
 					      </div>	
 					    </div>
 					  </div>
@@ -108,33 +104,29 @@ include 'header.php';
 				</div>
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button" data-toggle="modal" data-target="#modalPublicaciones">
+					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalPublicaciones" key="aplicaciones-publicaciones">
 						<i class="fab fa-leanpub fa-2x"></i><br>Publicaciones
 					</button>
 					<!-- Modal -->
 					<div class="modal fade" id="modalPublicaciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					  <div class="modal-dialog modal-dialog-centered" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        ...
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary">Save changes</button>
-					      </div>	
-					    </div>
-					  </div>
+						<div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						    	<div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        ...
+							      </div>
+						  	</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button" data-toggle="modal" data-target="#modalAdministrativo">
+					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalAdministrativo" key="aplicaciones-administrativo">
 					 	<i class="far fa-file-alt fa-2x"></i><br>Administrativo
 					</button>
 					<!-- Modal -->
@@ -149,10 +141,6 @@ include 'header.php';
 					      </div>
 					      <div class="modal-body">
 					        ...
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary">Save changes</button>
 					      </div>	
 					    </div>
 					  </div>
@@ -160,7 +148,7 @@ include 'header.php';
 				</div>
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button" data-toggle="modal" data-target="#modalPlublicidad">
+					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalPlublicidad" key="aplicaciones-administrativo">
 						<i class="far fa-comment-dots fa-2x"></i><br>Publicidad
 					</button>
 					<!-- Modal -->
@@ -175,10 +163,6 @@ include 'header.php';
 					      </div>
 					      <div class="modal-body">
 					        ...
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary">Save changes</button>
 					      </div>	
 					    </div>
 					  </div>
@@ -192,10 +176,10 @@ include 'header.php';
 <section id="printweb" class="backgroundAzulyBlanco container-fluid">
 	<div class="row  justify-content-center">
 		<div class="col-12">
-			<p class="titulo textoAmarillo">Print & Web</p>		
+			<p class="titulo textoAmarillo lang" key="printweb-titulo">Print & Web</p>		
 		</div>
 		<div class="col-12 text-center">
-			<a class="btnDescarga textoBlanco" href="#"><span>Descargar guía </span><i class="fas fa-download"></i></a>
+			<a class="btnDescarga textoBlanco lang" key="printweb-btn-descargaGuia" href="#"><span>Descargar guía </span><i class="fas fa-download"></i></a>
 		</div>
 		<br>
 		<br>
@@ -219,24 +203,24 @@ include 'header.php';
 <section id="sistemaTipografico" class="container-fluid">
 	<div class="row justify-content-center">
 		<div class="col-6">
-			<p class="titulo">Sistema tipográfico</p>
+			<p class="titulo lang"  key="sistemaTipografico-titulo">Sistema tipográfico</p>
 			<hr class="lineaAmarilla v2">
 		</div>
 	</div>
 	<div class="row justify-content-center">
 		<div class="col-12">
 			<p class="subtitulo textoAzul">Indivisa</p>
-			<p class="text-center variantes">28 variantes tipográficas.</p>	
+			<p class="text-center variantes lang" key="sistemaTipografico-variantes">28 variantes tipográficas.</p>	
 		</div>
 		<div class="col-md-3 col-lg-3 col-xl-3 columnaIzq d-none d-sm-block">
 			<p class="varianteNumero textoAmarillo">16</p>
-			<p class="varianteSubtitulo1">Tipografías para</p>
-			<p class="varianteSubtitulo2">lectura</p>
+			<p class="varianteSubtitulo1 lang" key="sistemaTipografico-subtituloA-1">Tipografías para</p>
+			<p class="varianteSubtitulo2 lang" key="sistemaTipografico-subtituloA-2">lectura</p>
 		</div>
 		<div class="col-md-3 col-lg-3 col-xl-3 columnaDer d-none d-sm-block">
 			<p class="varianteNumero textoAmarillo text-right">12</p>
-			<p class="varianteSubtitulo1 text-right">Tipografías para</p>
-			<p class="varianteSubtitulo2 text-right">textos de impacto</p>
+			<p class="varianteSubtitulo1 text-right lang" key="sistemaTipografico-subtituloB-1">Tipografías para</p>
+			<p class="varianteSubtitulo2 text-right lang" key="sistemaTipografico-subtituloB-2">textos de impacto</p>
 		</div>
 	</div>
 	<div class="row d-sm-none">
@@ -259,8 +243,8 @@ include 'header.php';
 					    		<div class="row justify-content-center">
 									<div class="col-12">
 										<p class="varianteNumero textoAmarillo text-center">16</p>
-										<p class="varianteSubtitulo1">Tipografías para</p>
-										<p class="varianteSubtitulo2">lectura</p>
+										<p class="varianteSubtitulo1 lang" key="sistemaTipografico-subtituloA-1">Tipografías para</p>
+										<p class="varianteSubtitulo2 lang" key="sistemaTipografico-subtituloA-2">lectura</p>
 									</div>
 					    		</div>
 								<div class="row justify-content-center textoAzul">
@@ -305,7 +289,7 @@ include 'header.php';
 										</div>
 										<div class="row justify-content-center">
 											<div class="col-md-8 col-lg-8 col-xl-12">
-												<p class="textoGris descripcionFamilia">Proporciones y grosores ideales para lecturas inmersivas o fragmentarias, impresos o en web. Repertorio de caracteres adecuado para uso editorial.</p>
+												<p class="textoGris descripcionFamilia lang" key="sistemaTipografico-descripcionText">Proporciones y grosores ideales para lecturas inmersivas o fragmentarias, impresos o en web. Repertorio de caracteres adecuado para uso editorial.</p>
 											</div>
 										</div>
 									</div>
@@ -335,8 +319,8 @@ include 'header.php';
 						        <div class="row justify-content-center">
 						        	<div class="col-12">
 										<p class="varianteNumero textoAmarillo text-center">12</p>
-										<p class="varianteSubtitulo1">Tipografías para</p>
-										<p class="varianteSubtitulo2">textos de impacto</p>
+										<p class="varianteSubtitulo1 lang" key="sistemaTipografico-subtituloB-1">Tipografías para</p>
+										<p class="varianteSubtitulo2 lang" key="sistemaTipografico-subtituloB-2">textos de impacto</p>
 									</div>
 						        </div>
 						        <div class="row justify-content-center textoAzul ">
@@ -376,7 +360,7 @@ include 'header.php';
 										</div>
 										<div class="row justify-content-center">
 											<div class="col-md-8 col-lg-8 col-xl-12">
-												<p class="textoGris descripcionFamilia2">Contrastante y expresiva, es ideal para comunicar mensajes de la marca en materiales publicitarios o de branding.</p>
+												<p class="textoGris descripcionFamilia2 lang" key="sistemaTipografico-descripcionDisplay">Contrastante y expresiva, es ideal para comunicar mensajes de la marca en materiales publicitarios o de branding.</p>
 											</div>
 										</div>
 									</div>
@@ -430,7 +414,7 @@ include 'header.php';
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-8 col-lg-8 col-xl-12">
-					<p class="textoGris descripcionFamilia">Proporciones y grosores ideales para lecturas inmersivas o fragmentarias, impresos o en web. Repertorio de caracteres adecuado para uso editorial.</p>
+					<p class="textoGris descripcionFamilia lang" key="sistemaTipografico-descripcionText">Proporciones y grosores ideales para lecturas inmersivas o fragmentarias, impresos o en web. Repertorio de caracteres adecuado para uso editorial.</p>
 				</div>
 			</div>
 		</div>
@@ -470,7 +454,7 @@ include 'header.php';
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-8 col-lg-8 col-xl-12">
-					<p class="textoGris descripcionFamilia2">Contrastante y expresiva, es ideal para comunicar mensajes de la marca en materiales publicitarios o de branding.</p>
+					<p class="textoGris descripcionFamilia2 lang" key="sistemaTipografico-descripcionDisplay">Contrastante y expresiva, es ideal para comunicar mensajes de la marca en materiales publicitarios o de branding.</p>
 				</div>
 			</div>
 		</div>
@@ -480,43 +464,43 @@ include 'header.php';
 <section id="descargas" class="backgroundGris container-fluid">
 	<div class="row">
 		<div class="col-12">
-			<p class="titulo text-center textoAzul">Descargas</p>
+			<p class="titulo text-center textoAzul lang" key="descargas-titulo">Descargas</p>
 		</div>
 	</div>
 	<div class="row justify-content-center align-items-end text-center">
 		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
-			<p class="subtitulo textoAzul">Set general</p>
-			<p class="contenido textoGris text-left"><span>16 variantes</span><br>Administrativos, estudiantes y comunidad en general.</p>
-			<button class="btnDescarga textoAzul"  data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_General')"><span>Descarga</span><i class="fas fa-download"></i></button>
+			<p class="subtitulo textoAzul lang" key="descargas-setGeneral-titulo">Set general</p>
+			<p class="contenido textoGris text-left lang" key="descargas-setGeneral-contenido"><span>16 variantes</span><br>Administrativos, estudiantes y comunidad en general.</p>
+			<button class="btnDescarga textoAzul lang"  data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_General')" key="descargas-setGeneral-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
 		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
-			<p class="subtitulo textoAzul">Set editorial</p>
-			<p class="contenido textoGris text-left"><span>28 variantes</span><br>Áreas de diseño, comunicación, editorial, programación.</p>
-			<button class="btnDescarga textoAzul" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Editorial')"><span>Descarga</span><i class="fas fa-download"></i></button>
+			<p class="subtitulo textoAzul lang" key="descargas-setEditorial-titulo">Set editorial</p>
+			<p class="contenido textoGris text-left lang" key="descargas-setEditorial-contenido"><span>28 variantes</span><br>Áreas de diseño, comunicación, editorial, programación.</p>
+			<button class="btnDescarga textoAzul lang" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Editorial')" key="descargas-setEditorial-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
 		<div class="col-md-4 col-lg-4 col-xl-4 columnaDescargas">
-			<p class="subtitulo textoAzul">Set para aplicaciones Web</p>
-			<p class="contenido textoGris text-left"><span>28 variantes</span><br>eot / otf / sgv / ttf / woff / woff2</p>
-			<button class="btnDescarga textoAzul" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Web')"><span>Descarga</span><i class="fas fa-download"></i></button>
+			<p class="subtitulo textoAzul lang" key="descargas-setWeb-titulo">Set para aplicaciones Web</p>
+			<p class="contenido textoGris text-left lang" key="descargas-setWeb-contenido"><span>28 variantes</span><br>eot / otf / sgv / ttf / woff / woff2</p>
+			<button class="btnDescarga textoAzul lang" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Web')" key="descargas-setWeb-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
 	</div>
 	<div class="row justify-content-center text-center align-items-end">
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3 columnasInfo">
-			<p class="tituloInfo textoAzul">Manual de usuario</p>
-			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<p class="tituloInfo textoAzul lang" key="descargas-MUsuario-titulo">Manual de usuario</p>
+			<a class="btnDescarga textoAzul lang" href="#" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3 columnasInfo">
-			<p class="tituloInfo textoAzul">Información de actualizaciones</p>
-			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<p class="tituloInfo textoAzul lang" key="descargas-InfoAct-titulo">Información de actualizaciones</p>
+			<a class="btnDescarga textoAzul lang" href="#" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3">
-			<p class="tituloInfo textoAzul">Folleto</p>
-			<a class="btnDescarga textoAzul" href="#"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<p class="tituloInfo textoAzul lang" key="descargas-folleto-titulo">Folleto</p>
+			<a class="btnDescarga textoAzul lang" href="#" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 	</div>
 	<div class="row justify-content-center">
 		<div class="col-12 col-md-9 col-lg-7 col-xl-8">
-			<p class="textoAzul contenido300 text-center">A 300 años de la Pascua de San Juan Bautista De La Salle, la tipografía Indivisa representa la expresión permanente de quiénes somos y quiénes aspiramos a ser.</p>
+			<p class="textoAzul contenido300 text-center lang" key="descargas-frase">A 300 años de la Pascua de San Juan Bautista De La Salle, la tipografía Indivisa representa la expresión permanente de quiénes somos y quiénes aspiramos a ser.</p>
 		</div>
 	</div>
 	<!-- Legales EULA-->

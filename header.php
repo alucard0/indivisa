@@ -31,7 +31,7 @@
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<!-- Titulo -->
-	<title>Indivisa | La Salle</title>
+	<title >Indivisa | La Salle</title>
 
 	<!--css-->
 	<link rel="stylesheet" href="css/normalize.css">
@@ -73,10 +73,21 @@
 		        <a class="nav-item nav-link seccion lang" href="#" key="menu_conoceIndivisa">Conoce Indivisa</a>
 		        <a class="nav-item nav-link seccion lang" href="#aplicaciones" key="menu_aplicaciones">Aplicaciones</a>
 		        <a class="nav-item nav-link seccion lang" href="#descargas" key="menu_descarga">Descarga</a>
-
-		        <a class="nav-item nav-link translate lang" id="en" href="#" key="menu_en">EN</a>
-		        <a class="nav-item nav-link translate lang" id="es" href="#" key="menu_es">ES</a>
-		        <a class="nav-item nav-link translate lang" id="fr" href="#" key="menu_fr">FR</a> 
+				<div class="idiomas row no-gutters">
+					<div class="col-3">
+						<a class="nav-item nav-link translate lang" id="en" href="#" key="menu_en">EN</a>
+					</div>
+					<div class="col-3">
+						<a class="nav-item nav-link translate lang" id="es" href="#" key="menu_es">ES</a>
+					</div>
+					<div class="col-3">
+						<a class="nav-item nav-link translate lang" id="fr" href="#" key="menu_fr">FR</a> 
+					</div>
+					<div class="col-3">
+						<a class="nav-item nav-link translate lang" id="pt" href="#" key="menu_pt">PT</a> 
+					</div>
+				</div>
+		        
 		      </div>
 		    </div>
 		  </nav>

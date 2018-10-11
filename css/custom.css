@@ -633,6 +633,10 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after 
   width: 50%;
 }
 
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate{
+  text-transform: uppercase;
+}
+
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover {
   color: #FFD200;
 }
