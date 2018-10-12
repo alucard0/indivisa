@@ -753,15 +753,16 @@ div.backgroundParaTodo{
     background-size: 100% 100%;
     border: 2px solid #FFD200;
     transition: all .2s ease;
-    padding: 11px 60px 11px 11px;
+    padding: 11px 50px 11px 11px;
     cursor: pointer;
     display: inline-block;
 }
 .btnDescarga span{
-  margin-right: 80px;
+  margin-right: 50px;
 }
 .btnDescarga svg{
   color: #000;
+  margin-left: 40px;
 }
 .btnDescarga:hover {
   background-position:right bottom;
