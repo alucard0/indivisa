@@ -35,7 +35,7 @@
 
                 /*Print Web*/
                 'printweb-titulo':'Print & Web',
-                'printweb-btn-descargaGuia':'',
+                'printweb-btn-descargaGuia':'<span> </span><i class="fas fa-download"></i>',
 
                 /*Sistema Tipográfico*/
                 'sistemaTipografico-titulo':'',
@@ -100,7 +100,7 @@
 
                 /*Print Web*/
                 'printweb-titulo':'Print & Web',
-                'printweb-btn-descargaGuia':'Descargar guía',
+                'printweb-btn-descargaGuia':'<span>Descargar guía </span><i class="fas fa-download"></i>',
 
                 /*Sistema Tipográfico*/
                 'sistemaTipografico-titulo':'Sistema tipográfico',
@@ -167,7 +167,7 @@
 
                 /*Print Web*/
                 'printweb-titulo':'',
-                'printweb-btn-descargaGuia':'',
+                'printweb-btn-descargaGuia':'<span> </span><i class="fas fa-download"></i>',
 
                 /*Sistema Tipográfico*/
                 'sistemaTipografico-titulo':'',
@@ -233,7 +233,7 @@
 
                 /*Print Web*/
                 'printweb-titulo':'',
-                'printweb-btn-descargaGuia':'',
+                'printweb-btn-descargaGuia':'<span> </span><i class="fas fa-download"></i>',
 
                 /*Sistema Tipográfico*/
                 'sistemaTipografico-titulo':'',
@@ -265,7 +265,7 @@
 
             }
     	};
-        var lang = 'en';
+        var lang = 'es';
         /*Cambiar textos*/
         $('.lang').each(function(index, element){
                 $(this).html(arrLang[lang][$(this).attr('key')]);
