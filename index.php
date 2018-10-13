@@ -68,8 +68,8 @@ include 'header.php';
 		</div>
 
 </section>
-<section class="container-fluid" id="aplicaciones">
-	<div class="row backgroundParaTodo">
+<section class="container-fluid backgroundParaTodo" id="aplicaciones">
+	<div class="row">
 		<div class="col-12">
 			<p class="textoAmarillo tituloTipografiaTodos lang" key="paraTodos-titulo">Tipografía<br><span>para todo</span></p>
 			<p class="lang" key="paraTodos-p1">25,000 glifos para 270 idiomas del alfabeto latino</p>
@@ -518,7 +518,7 @@ include 'header.php';
 	        	<div class="row">
 	        		<div class="col">
 	        			<p>Usted acepta los términos de este acuerdo mediante el acceso, la instalación o el uso del software de la familia tipográfica.</p>
-	        			<ol>
+	        			<ol class="licencia">
 	        				<li>Este es un acuerdo legal entre la universidad la salle a.c. y la persona que tenga disponible la(s) fuente(s) tipográfica(s) o que sea el usuario final o licenciatario (usted). Usted acepta que quedará vinculado por los términos de este acuerdo mediante la descarga, instalación, copia o cualquier medio de acceso a la fuente tipográfica. Si no está de acuerdo con los términos de esta licencia, no instale, distribuya o utilice por ningún medio la fuente.</li>
 	        				<li>Al aceptar usted todas las condiciones, la universidad la salle a.c. está de acuerdo con concederle una licencia de uso revocable, no exclusiva, no transferible para instalar y utilizar el software tipográfico todas las computadoras necesarias para uso relacionado exclusivamente con actividades, proyectos, publicidad, trabajos, diseños, y cualquier tipo de piezas de la universidad la salle a.c. No está permitida la comercialización del software tipográfico ni su uso en proyectos personales o comerciales que no tengan relación con la universidad la salle a.c.
 	        				<br>

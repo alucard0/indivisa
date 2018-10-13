@@ -201,7 +201,7 @@
 			var faltante=$(window).height()+$("#modalEULA").scrollTop();
 			//console.log(faltante+" "+$("#modalEULA").scrollTop()+" "+$(window).height());
 			//console.log($('#modalEULA')[0].scrollHeight);
-		   if(faltante => $('#modalEULA')[0].scrollHeight) {
+		   if(faltante >= $('#modalEULA')[0].scrollHeight) {
 		    	
 		   	$('.botonDescarga').removeAttr('disabled');
 		   }

@@ -710,7 +710,7 @@ p.cotenidoTipografiaTodos{
 
 /*Aplicaciones*/
 /*Para todo*/
-div.backgroundParaTodo{
+.backgroundParaTodo{
   background-image: url('../images/contenido/paratodoBG.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -800,7 +800,7 @@ section#printweb p.titulo{
 }
 
 /*Sistema Tipografico*/
-section#sistemaTipografico,section#descargas, section#printweb{
+section#sistemaTipografico,section#descargas, section#printweb, section#aplicaciones{
   padding: 70px 15px;
 }
 section#sistemaTipografico p.titulo{
@@ -890,6 +890,10 @@ section#descargas p.contenido300{
 }
 section#descargas div.columnaDescargas{
   padding: 80px 30px;
+}
+
+ol.licencia li{
+  margin-bottom: 20px;
 }
 
 /*Fin Contenido*/
@@ -1012,6 +1016,13 @@ section#descargas div.columnaDescargas{
   div.videoSuperior{
     align-self: center!important;
   }
+  section#descargas .btnDescarga{
+    padding: 11px 40px 11px 11px;
+  }
+  section#descargas .btnDescarga span {
+    margin-right: 25px;
+  }
+
 
 }
 
