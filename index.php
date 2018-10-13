@@ -148,7 +148,7 @@ include 'header.php';
 				</div>
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalPlublicidad" key="aplicaciones-administrativo">
+					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalPlublicidad" key="aplicaciones-publicidad">
 						<i class="far fa-comment-dots fa-2x"></i><br>Publicidad
 					</button>
 					<!-- Modal -->
