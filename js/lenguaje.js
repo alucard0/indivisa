@@ -4,8 +4,8 @@
     			/*General*/
 				
     			/*Menu*/
-    			'menu_conoceIndivisa':'Know Indivisa',
-    			'menu_aplicaciones': 'Implementations',
+    			'menu_conoceIndivisa':'About Indivisa',
+    			'menu_aplicaciones': 'Features',
                 'menu_descarga':'Download',
                 'menu_en':'en',
                 'menu_es':'sp',
@@ -13,56 +13,56 @@
                 'menu_pt':'pt',
                 
                 /*inicio*/
-                'inicio-frase1':'<br><span>- </span>',
-                'inicio-frase2-1':'',
-                'inicio-frase2-2':'',
-                'inicio-frase3':'',
+                'inicio-frase1':'When a unique voice exists<br><span>- identity is built.</span>',
+                'inicio-frase2-1':'A single voice for the',
+                'inicio-frase2-2':'global Lasallian community',
+                'inicio-frase3':'In a diverse world, our font is a unifying element that allows us to recognize ourselves as part of a large family, and at the same time, to celebrate diversity.',
 
                 /*Tipografía para todos*/
-                'paraTodos-titulo':'<br><span></span>',
-                'paraTodos-p1':'',
-                'paraTodos-p2':'',
+                'paraTodos-titulo':'Typography<br><span>for everyone</span>',
+                'paraTodos-p1':'Free and open access',
+                'paraTodos-p2':'La Salle impacts the lives of 3, 423, 465 people around the world. The richness of the languages and cultures that converge in this work is represented in each stroke, reflecting our personality, tradition and prestige.',
 
                 /*Aplicaciones*/
-                'paraTodo-titulo':'<br><span></span>',
-                'paraTodo-p1':'',
-                'paraTodo-p2':'',
-                'paraTodo-p3':'',
+                'paraTodo-titulo':'Typography<br><span>for everything</span>',
+                'paraTodo-p1':'25,000 glyphs for 270 languages of the Latin alphabet',
+                'paraTodo-p2':'With two font families, Indivisa is functional and practical.',
+                'paraTodo-p3':'Capital letters, small caps, superiors, ligatures, mathematical figures, diacritics, editorial design, etc., add a unique personality to brochures, social networks or advertising. ',
                 'aplicaciones-branding':'<i class="fas fa-eye fa-2x"></i><br>Branding',
-                'aplicaciones-publicaciones':'<i class="fab fa-leanpub fa-2x"></i><br>',
-                'aplicaciones-administrativo':'<i class="far fa-file-alt fa-2x"></i><br>',
-                'aplicaciones-publicidad':'<i class="far fa-comment-dots fa-2x"></i><br>',
+                'aplicaciones-publicaciones':'<i class="fab fa-leanpub fa-2x"></i><br>Publications',
+                'aplicaciones-administrativo':'<i class="far fa-file-alt fa-2x"></i><br>Administrative',
+                'aplicaciones-publicidad':'<i class="far fa-comment-dots fa-2x"></i><br>Advertising',
 
                 /*Print Web*/
                 'printweb-titulo':'Print & Web',
-                'printweb-btn-descargaGuia':'<span> </span><i class="fas fa-download"></i>',
+                'printweb-btn-descargaGuia':'<span>Download guide </span><i class="fas fa-download"></i>',
 
                 /*Sistema Tipográfico*/
-                'sistemaTipografico-titulo':'',
-                'sistemaTipografico-variantes':'',
-                'sistemaTipografico-subtituloA-1':'',
-                'sistemaTipografico-subtituloA-2':'',
-                'sistemaTipografico-descripcionText':'',
-                'sistemaTipografico-subtituloB-1':'',
-                'sistemaTipografico-subtituloB-2':'',
-                'sistemaTipografico-descripcionDisplay':'',
+                'sistemaTipografico-titulo':'Font system',
+                'sistemaTipografico-variantes':'28 font variants.',
+                'sistemaTipografico-subtituloA-1':'Font for ',
+                'sistemaTipografico-subtituloA-2':'reading',
+                'sistemaTipografico-descripcionText':'Proportions and thicknesses ideal for immersive or fragmentary readings, printed or on the web. Repertory of characters suitable for editorial use.',
+                'sistemaTipografico-subtituloB-1':'Fonts for ',
+                'sistemaTipografico-subtituloB-2':'impact texts',
+                'sistemaTipografico-descripcionDisplay':'Contrasting and expressive, it is ideal for communicating brand messages in advertising or branding materials.',
 
                 /*Descargas*/
-                'descargas-titulo':'',
-                'descargas-setGeneral-titulo':'',
-                'descargas-setGeneral-contenido':'<span></span><br>',
-                'descargas-setGeneral-btnDescarga':'<span></span><i class="fas fa-download"></i>',
-                'descargas-setEditorial-titulo':'',
-                'descargas-setEditorial-contenido':'<span></span><br>',
-                'descargas-setEditorial-btnDescarga':'<span></span><i class="fas fa-download"></i>',
-                'descargas-setWeb-titulo':'',
-                'descargas-setWeb-contenido':'<span></span><br>eot / otf / sgv / ttf / woff / woff2',
-                'descargas-setWeb-btnDescarga':'<span></span><i class="fas fa-download"></i>',
-                'descargas-MUsuario-titulo':'',
-                'descargas-btnDescarga':'<span></span><i class="fas fa-download"></i>',
-                'descargas-InfoAct-titulo':'',
-                'descargas-folleto-titulo':'',
-                'descargas-frase':'',
+                'descargas-titulo':'Download',
+                'descargas-setGeneral-titulo':'General set',
+                'descargas-setGeneral-contenido':'<span>16 variants</span><br>Administrators, students and community in general.',
+                'descargas-setGeneral-btnDescarga':'<span>Download</span><i class="fas fa-download"></i>',
+                'descargas-setEditorial-titulo':'Editorial set',
+                'descargas-setEditorial-contenido':'<span>28 variants</span><br>Design, communication, editorial, and programming areas. ',
+                'descargas-setEditorial-btnDescarga':'<span>Download</span><i class="fas fa-download"></i>',
+                'descargas-setWeb-titulo':'Web applications set',
+                'descargas-setWeb-contenido':'<span>28 variants</span><br>eot / otf / sgv / ttf / woff / woff2',
+                'descargas-setWeb-btnDescarga':'<span>Download</span><i class="fas fa-download"></i>',
+                'descargas-MUsuario-titulo':'User manual',
+                'descargas-btnDescarga':'<span>Download</span><i class="fas fa-download"></i>',
+                'descargas-InfoAct-titulo':'Update information',
+                'descargas-folleto-titulo':'Brochure',
+                'descargas-frase':'Three hundred years after the Easter of St. John Baptist de la Salle, Indivisa font represents the permanent expression of who we are and who we aspire to be.',
                 'eula-titulo':'End user license agreement (EULA)',
                 'eula-intro':'By accessing, installing or using the font family software you agree to the terms hereof stablished.',
                 'eula-p1':'This is a legal agreement between the LA SALLE A.C. university and the person with available access to the text font(s) or who is the end user or licensee (you). You hereby agree to be subject to the terms of this agreement by downloading, installing, copying or any means of access to the text font. If you do not agree with the terms of this license, do not install, distribute or use the font by any means.',
@@ -346,19 +346,33 @@
                     case 'es':
                         $('meta[name=description]').attr('content', 'Una sola “voz” para todos, para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.');
                         $('meta[property=og\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
+                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
+                        $('meta[name=twitter\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
+                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
                         break;
                     case 'fr':
                         $('meta[name=description]').attr('content', 'Une seule “voix” pour tous, pour tout. Typographie officielle de La Salle dans le monde : 5 continents, 80 pays, 1 million d’étudiants.');
                         $('meta[property=og\\:title]').attr('content', 'Indivisa Font: Typographie La Salle.  Design| Marque | Communication');
+                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font : Une seule “voix” pour tous, pour tout.');
+                        $('meta[name=twitter\\:title]').attr('content', 'Indivisa Font: Typographie La Salle.  Design| Marque | Communication');
+                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font : Une seule “voix” pour tous, pour tout.');
                         break;
                     case 'en':
-                        $('meta[name=description]').attr('content', '');
+                        $('meta[name=description]').attr('content', 'One “voice” for everyone, for everything. La Salle oficial font in the world: 5 continents, 80 countries, 1 million students.');
+                        $('meta[property=og\\:title]').attr('content', 'Indivisa Font: La Salle Font.  Design| Brand | Communication');
+                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font: One “voice” for everyone, for everything.');
+                        $('meta[name=twitter\\:title]').attr('content', 'Indivisa Font: La Salle Font.  Design| Brand | Communication');
+                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: One “voice” for everyone, for everything.');
                         break;
                     case 'pt':
                         $('meta[name=description]').attr('content', '');
                         break;
                     default:
                         $('meta[name=description]').attr('content', 'Una sola “voz” para todos, para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.');
+                        $('meta[property=og\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
+                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
+                        $('meta[name=twitter\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
+                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
                 }
 
     		});
