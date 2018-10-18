@@ -71,10 +71,10 @@ include 'header.php';
 <section class="container-fluid backgroundParaTodo" id="aplicaciones">
 	<div class="row">
 		<div class="col-12">
-			<p class="textoAmarillo tituloTipografiaTodos lang" key="paraTodos-titulo">Tipografía<br><span>para todo</span></p>
-			<p class="lang" key="paraTodos-p1">25,000 glifos para 270 idiomas del alfabeto latino</p>
-			<p class="lang" key="paraTodos-p2">Con dos familias tipográficas, Indivisa es funcional y práctica.</p>
-			<p class="lang" key="paraTodos-p3">Mayúsculas, versalitas, superiores, ligaduras, cifras matemáticas, diacríticos, editoriales, etc., agregan una personalidad única a folletos, redes sociales o publicidad.</p>
+			<p class="textoAmarillo tituloTipografiaTodos lang" key="paraTodo-titulo">Tipografía<br><span>para todo</span></p>
+			<p class="lang" key="paraTodo-p1">25,000 glifos para 270 idiomas del alfabeto latino</p>
+			<p class="lang" key="paraTodo-p2">Con dos familias tipográficas, Indivisa es funcional y práctica.</p>
+			<p class="lang" key="paraTodo-p3">Mayúsculas, versalitas, superiores, ligaduras, cifras matemáticas, diacríticos, editoriales, etc., agregan una personalidad única a folletos, redes sociales o publicidad.</p>
 		</div>
 		
 		<div class="col-12">
@@ -508,7 +508,7 @@ include 'header.php';
 	  <div class="modal-dialog modal-dialog-centered modal-lg"  role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title">End user license agreement (EULA)</h5>
+	        <h5 class="modal-title lang" key="eula-titulo">End user license agreement (EULA)</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>
@@ -517,17 +517,17 @@ include 'header.php';
 	        <div class="container-fluid">
 	        	<div class="row">
 	        		<div class="col">
-	        			<p>Usted acepta los términos de este acuerdo mediante el acceso, la instalación o el uso del software de la familia tipográfica.</p>
+	        			<p class="lang" key="eula-intro">Usted acepta los términos de este acuerdo mediante el acceso, la instalación o el uso del software de la familia tipográfica.</p>
 	        			<ol class="licencia">
-	        				<li>Este es un acuerdo legal entre la universidad la salle a.c. y la persona que tenga disponible la(s) fuente(s) tipográfica(s) o que sea el usuario final o licenciatario (usted). Usted acepta que quedará vinculado por los términos de este acuerdo mediante la descarga, instalación, copia o cualquier medio de acceso a la fuente tipográfica. Si no está de acuerdo con los términos de esta licencia, no instale, distribuya o utilice por ningún medio la fuente.</li>
-	        				<li>Al aceptar usted todas las condiciones, la universidad la salle a.c. está de acuerdo con concederle una licencia de uso revocable, no exclusiva, no transferible para instalar y utilizar el software tipográfico todas las computadoras necesarias para uso relacionado exclusivamente con actividades, proyectos, publicidad, trabajos, diseños, y cualquier tipo de piezas de la universidad la salle a.c. No está permitida la comercialización del software tipográfico ni su uso en proyectos personales o comerciales que no tengan relación con la universidad la salle a.c.
+	        				<li class="lang"  key="eula-p1">Este es un acuerdo legal entre la universidad la salle a.c. y la persona que tenga disponible la(s) fuente(s) tipográfica(s) o que sea el usuario final o licenciatario (usted). Usted acepta que quedará vinculado por los términos de este acuerdo mediante la descarga, instalación, copia o cualquier medio de acceso a la fuente tipográfica. Si no está de acuerdo con los términos de esta licencia, no instale, distribuya o utilice por ningún medio la fuente.</li>
+	        				<li class="lang"  key="eula-p2">Al aceptar usted todas las condiciones, la universidad la salle a.c. está de acuerdo con concederle una licencia de uso revocable, no exclusiva, no transferible para instalar y utilizar el software tipográfico todas las computadoras necesarias para uso relacionado exclusivamente con actividades, proyectos, publicidad, trabajos, diseños, y cualquier tipo de piezas de la universidad la salle a.c. No está permitida la comercialización del software tipográfico ni su uso en proyectos personales o comerciales que no tengan relación con la universidad la salle a.c.
 	        				<br>
 	        				Si su propósito es utilizar el software tipográfico de algún modo que no esté explícitamente permitido en este acuerdo o no está seguro si ese uso no está permitido, por favor contacte a la universidad la salle a.c. La falta de contacto con la universidad la salle a.c. para la aprobación de ese uso, o la falta de una prohibición específica en este acuerdo, no deberá ser interpretada como una renuncia a este acuerdo o por el contrario, como la autorización de uso.
 	        				</li>
-	        				<li>La licencia concedida a usted bajo este acuerdo incluye el uso del software tipográfico por los miembros de la universidad la salle a.c. y para uso exterior por parte de proveedores. Los miembros incluyen empleados, administrativos, directores, agentes, proveedores de servicios, personal con convenios, subcontratistas y/o las personas autorizadas por la universidad la salle a.c. Usted debe procurar que las personas que usen el software tipográfico por medio de su fuente, cumplan con los términos de este acuerdo. Si usted es una agencia de diseño, publicidad o similar debe también cumplir con los afectos de este acuerdo.</li>
-	        				<li>El uso del software tipográfico con @font-face, Cufón o cualquier otro tipo de implementación tipográfica en web solo está permitida si existe la protección debida en el servidor para que no pueda ser descargada directamente y se tendrán que solicitar los formatos correspondientes a la universidad la salle a.c. No está permitido ningún tipo de conversión en los formatos sin previa autorización de la universidad la salle a.c.</li>
-	        				<li>La licencia concedida en el presente acuerdo le permite instalar y utilizar el software en cualquier computadora siempre y cuando su uso se limite a los especificados en este acuerdo. La licencia no es comercial por lo que cualquier tipo de pago por su adquisición está sancionado y deberá ser notificado a la universidad la salle a.c.</li>
-	        				<li>Usted y las personas a quien usted comparta la fuente no deben en
+	        				<li class="lang"  key="eula-p3">La licencia concedida a usted bajo este acuerdo incluye el uso del software tipográfico por los miembros de la universidad la salle a.c. y para uso exterior por parte de proveedores. Los miembros incluyen empleados, administrativos, directores, agentes, proveedores de servicios, personal con convenios, subcontratistas y/o las personas autorizadas por la universidad la salle a.c. Usted debe procurar que las personas que usen el software tipográfico por medio de su fuente, cumplan con los términos de este acuerdo. Si usted es una agencia de diseño, publicidad o similar debe también cumplir con los afectos de este acuerdo.</li>
+	        				<li class="lang"  key="eula-p4">El uso del software tipográfico con @font-face, Cufón o cualquier otro tipo de implementación tipográfica en web solo está permitida si existe la protección debida en el servidor para que no pueda ser descargada directamente y se tendrán que solicitar los formatos correspondientes a la universidad la salle a.c. No está permitido ningún tipo de conversión en los formatos sin previa autorización de la universidad la salle a.c.</li>
+	        				<li class="lang"  key="eula-p5">La licencia concedida en el presente acuerdo le permite instalar y utilizar el software en cualquier computadora siempre y cuando su uso se limite a los especificados en este acuerdo. La licencia no es comercial por lo que cualquier tipo de pago por su adquisición está sancionado y deberá ser notificado a la universidad la salle a.c.</li>
+	        				<li class="lang"  key="eula-p6">Usted y las personas a quien usted comparta la fuente no deben en
 							ningún momento: (a) vender, licenciar, sub-licenciar, ceder, alquilar,
 							prestar o transferir el software o su derecho de uso a ningún tercero; (b)
 							copiar, adaptar, modificar, alterar, descompilar, desmontar o al contrario,
@@ -540,13 +540,13 @@ include 'header.php';
 							material gráfico o de otro tipo en el que se incluya el software, o parte
 							de él, de una manera o formato que permita la edición, modificación,
 							mejoras, modificaciones, o la extracción de software.</li>
-	        				<li>Si es absolutamente necesario, se puede dar una copia del software tipográfico
+	        				<li class="lang"  key="eula-p7">Si es absolutamente necesario, se puede dar una copia del software tipográfico
 							a una imprenta o servicio de producción para preparar documentos,
 							siempre y cuando el licenciatario se asegure de compartir esta licencia
 							e idealmente que todas las copias del software se destruyan una vez
 							completado el trabajo. No obstante, usted debe asegurarse que en medida
 							de lo posible, dicha transmisión del software sea por medio de un pdf.</li>
-	        				<li>El software es propiedad exclusiva de la universidad la salle a.c. y está
+	        				<li class="lang"  key="eula-p8">El software es propiedad exclusiva de la universidad la salle a.c. y está
 							protegido legalmente por las instituciones correspondientes. Usted acepta
 							que la universidad la salle a.c. posee todos los derechos físicos de
 							uso y distribución (sin limitación) y enigma diseño los derechos morales
@@ -555,11 +555,11 @@ include 'header.php';
 							propiedad exclusiva de la universidad la salle a.c. y no está permitido
 							modificar dichas marcas de ninguna manera sin el consentimiento previo
 							por escrito.</li>
-	        				<li>Usted se compromete a no crear trabajos derivados o basados en el diseño
+	        				<li class="lang"  key="eula-p9">Usted se compromete a no crear trabajos derivados o basados en el diseño
 							incorporado en el software tipográfico. A excepción de lo permitido en
 							este documento, el concesionario se compromete a no copiar ningún material
 							escrito, que puede acompañar al software o al software en sí.</li>
-	        				<li>En ningún caso la universidad la salle a.c. será responsable por daños
+	        				<li class="lang"  key="eula-p10">En ningún caso la universidad la salle a.c. será responsable por daños
 							indirectos, incidentales, consecuentes, especiales o ejemplares (incluyendo,
 							pero no limitado a, daños por pérdida o beneficios, ahorros de
 							información, o interrupción de negocio) en virtud de cualquier causa de
@@ -572,7 +572,7 @@ include 'header.php';
 	        </div>
 	      </div>
 	      <div class="modal-footer">
-	        <button id="set_General" class="btnDescarga textoAzul botonDescarga" disabled="disabled"><span>Descarga</span><i class="fas fa-download"></i></button>
+	        <button id="set_General" class="btnDescarga textoAzul botonDescarga lang" disabled="disabled" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 	      </div>
 	    </div>
 	  </div>
