@@ -157,19 +157,11 @@
 	<script src="js/descargable.js"></script>
 	<script>
 		$(document).ready(function()
-		{
-		    //Resetea el video al cerrar el Modal
-		    $("button.close").click(function()
-		    {
-		        //Obtiene la URL del video
-		        var url = $('.videos').attr('src');
-		        //Asigna vacio a la URL para pausar
-		        $('.videos').attr('src', '');
-		        // Regresa la URL del video
-				$('.videos').attr('src', url);
-		    });
+		{	
+			lazyloadVideo();
+
 		    //LazyLoad video youtube
-		    ( function() {
+		    function lazyloadVideo() {
 				var youtube = document.querySelectorAll( ".youtube" );
 				for (var i = 0; i < youtube.length; i++) 
 				{
@@ -193,7 +185,7 @@
 										this.appendChild( iframe );
 							} );	
 				};
-			})();
+			};
 		});
 	</script>
 	<script>

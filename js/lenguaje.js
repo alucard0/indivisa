@@ -314,14 +314,50 @@
 
             }
     	};
-        var lang = 'es';
-        /*Cambiar textos*/
-        $('.lang').each(function(index, element){
-                $(this).html(arrLang[lang][$(this).attr('key')]);
-        });
+        
+        
+        //Primera vez que ingresa
+        if(localStorage.getItem("idiomaDefault") == null)
+        {
+            var lang = 'es';
+        }
+        else//Ya hay un idioma definido
+        {
+            var lang = localStorage.getItem("idiomaDefault");
+            /*Cambiar textos*/
+            $('.lang').each(function(index, element){
+                    $(this).html(arrLang[lang][$(this).attr('key')]);
+            });
+
+            switch(lang) {
+                case 'es':
+                    $('#videoHermano').attr('data-embed', 'EIZa5k7Wgsk');
+                    
+                break;
+                
+                case 'fr':
+                    $('#videoHermano').attr('data-embed', 'HyHNuVaZJ-k');
+                break;
+                
+                case 'en':
+                    $('#videoHermano').attr('data-embed', 'HyHNuVaZJ-k');
+
+                break;
+                    
+                case 'pt':
+                    $('#videoHermano').attr('data-embed', 'HyHNuVaZJ-k');
+                break;
+
+                default:
+                    $('#videoHermano').attr('data-embed', 'EIZa5k7Wgsk');
+            }
+        }
+        
+
     	$(function(){
 
-    		$('.translate').click(function(){
+    		$('.translate').click(function()
+            {
     			var lang = $(this).attr('id');
                 /*Cambiar textos*/
     			$('.lang').each(function(index, element){
@@ -363,6 +399,7 @@
                         $('meta[property=og\\:description]').attr('content', 'Indivisa Font: One “voice” for everyone, for everything.');
                         $('meta[name=twitter\\:title]').attr('content', 'Indivisa Font: La Salle Font.  Design| Brand | Communication');
                         $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: One “voice” for everyone, for everything.');
+                        $('#videoHermano').attr('data-embed', 'HyHNuVaZJ-k');
                         break;
                     case 'pt':
                         $('meta[name=description]').attr('content', '');
@@ -375,6 +412,22 @@
                         $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
                 }
 
+                //Se asigna el idioma default
+                if(typeof(Storage) !== "undefined") 
+                {
+                    localStorage.setItem("idiomaDefault",lang);
+                    location.reload();
+                    //$('#videoHermano').load('',lazyloadVideo());
+                } 
+                else 
+                {
+                    //document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+                    console.log("Sorry, your browser does not support web storage...");
+                }
+
     		});
+            /*Cambiar videos*/
+            console.log(localStorage.getItem("idiomaDefault"));
     	});
 });
+

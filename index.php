@@ -6,16 +6,14 @@ include 'header.php';
 */
 ?>
 <section id="inicio" class="container-fluid">
-		<div class="row backGroundAzul ">
+		<div class="row backGroundAzul bgTextura justify-content-center">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-10 col-md-6">
 						<p class="textoAmarillo fraseIntro lang" key="inicio-frase1">La identidad se construye<br><span>- cuando existe una voz única.</span></p>
 					</div>
 				</div>
-			</div>	
-		</div>
-		<div class="row backGroundAzul bgTextura justify-content-center">	
+			</div>		
 			<div class="col">
 				<h1>Indivisa</h1>
 				<div class="row justify-content-center">
@@ -61,7 +59,7 @@ include 'header.php';
 				
 			</div>
 			<div class="col-12 col-sm-12 col-md-6 videoFull videoSuperior">
-				<div class="youtube" data-embed="EIZa5k7Wgsk">
+				<div id="videoHermano" class="youtube" data-embed="EIZa5k7Wgsk">
 	                <div class="play-button"></div>
 	            </div>
 	        </div>

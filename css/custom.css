@@ -676,13 +676,13 @@ h2.fontPalabra{
 }
 .bgTextura{
   background-image: url('../images/contenido/background.png');
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size:  contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size:  cover;
   -o-background-size: contain;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: initial;
 }
 
 #inicio,#aplicaciones{
@@ -718,7 +718,7 @@ p.cotenidoTipografiaTodos{
   -o-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: initial;
 }
 
 .round-button {
