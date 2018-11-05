@@ -83,9 +83,11 @@
 					<div class="col-3">
 						<a class="nav-item nav-link translate lang" id="fr" href="#" key="menu_fr">FR</a> 
 					</div>
+					<!--
 					<div class="col-3">
 						<a class="nav-item nav-link translate lang" id="pt" href="#" key="menu_pt">PT</a> 
 					</div>
+					-->
 				</div>
 		        
 		      </div>

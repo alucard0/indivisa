@@ -330,6 +330,7 @@ body {
   font-style: normal;
   font-size: 18px;
   line-height: 18px;
+  letter-spacing: 1px;
 }
 
 
@@ -354,7 +355,10 @@ p.variantes,
 section#sistemaTipografico p.varianteSubtitulo1,
 section#sistemaTipografico p.varianteSubtitulo2,
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black,
-section#descargas p.contenido span{
+section#descargas p.contenido span,
+section#aplicaciones p.paratodoDescripcion,
+section#aplicaciones p.paratodoDescripcion2,
+section#aplicaciones div.modal p.titulo{
   font-family: "IndivisaTextSans";
   font-weight: 700;
   font-style: normal;
@@ -376,7 +380,9 @@ section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold-italic{
   font-weight: 600;
   font-style: italic;
 }
-section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular{
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular,
+section#aplicaciones p.paratodoDescripcion span,
+section#aplicaciones p.paratodoDescripcion2 span{
   font-family: "IndivisaTextSans";
   font-weight: 400;
 }
@@ -388,7 +394,8 @@ section#descargas p.subtitulo{
 }
 section#sistemaTipografico div.text p.familiaVarianteTitulo,
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light,
-section#descargas p.titulo{
+section#descargas p.titulo,
+section#aplicaciones div.modal p.descripcion{
   font-family: "IndivisaTextSans";
   font-weight: 300;
 }
@@ -553,6 +560,12 @@ hr.v2{
   border-top: 20px solid #FFD200;
   width: 10%;
 }
+hr.v3{
+  margin: 1rem 1rem 1rem auto;
+  border-top: 20px solid #FFD200;
+  width: 50%;
+}
+
 
 /*Estilos para lazy load youtube*/
 .youtube {
@@ -709,9 +722,97 @@ p.cotenidoTipografiaTodos{
 }
 
 /*Aplicaciones*/
+section#aplicaciones p.paratodoDescripcion{
+  font-size: 30px;
+  line-height: 35px;
+}
+section#aplicaciones p.paratodoDescripcion span{
+  font-size: 18px;
+}
+section#aplicaciones p.paratodoDescripcion span.alfabeto{
+  margin-left: 45px;
+  vertical-align: top;
+}
+
+section#aplicaciones p.paratodoDescripcion2{
+  font-size: 25px;
+  line-height: 30px;
+}
+section#aplicaciones div.filaParrafo2{
+  margin: 200px 0;
+}
+section#aplicaciones div.filaBotones{
+  margin: 100px 0;
+}
+
+section#aplicaciones div#modalPublicaciones div.modal-content{
+  background-image: url('../images/contenido/POPUP_PUBLICACIONES.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+}
+section#aplicaciones div#modalAdministrativo div.modal-content{
+  background-image: url('../images/contenido/POPUP_ADMINISTRATIVO.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+}
+section#aplicaciones div#modalPlublicidad div.modal-content{
+  background-image: url('../images/contenido/POPUP_PUBLICIDAD.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+}
+section#aplicaciones div#modalBranding div.modal-content{
+  background-image: url('../images/contenido/POPUP_BRANDING.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+}
+section#aplicaciones div.modal-header{
+  border-bottom: none;
+}
+section#aplicaciones div.modal p.titulo{
+  font-size: 40px;
+  line-height: 40px;
+  border: 3px solid #FFD200;
+  padding: 20px;
+}
+section#aplicaciones div.modal div.modal-body{
+  padding: 4rem 1rem;
+}
+
+section#aplicaciones button.close{
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 3rem;
+  opacity: 1;
+}
+section#aplicaciones button.close:hover{
+  color: #FFD200;
+}
+
+
+
 /*Para todo*/
 .backgroundParaTodo{
-  background-image: url('../images/contenido/paratodoBG.png');
+  background-image: url('../images/contenido/paratodoBG.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -723,8 +824,8 @@ p.cotenidoTipografiaTodos{
 
 .round-button {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 115px;
+  height: 115px;
   line-height: 50px;
   border: 5px solid #FFD200;
   border-radius: 50%;
@@ -737,6 +838,7 @@ p.cotenidoTipografiaTodos{
   line-height: 22px;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 .round-button:hover {
     background: #FFD200;
@@ -799,6 +901,28 @@ section#printweb p.titulo{
   text-align: center;
 }
 
+section#printweb div.ejemplos img{
+  position: absolute;
+}
+section#printweb div.ejemplos img.base{
+  position: relative;
+}
+section#printweb div.ejemplos img.celular{
+  top:0;
+  right:0;
+}
+section#printweb div.ejemplos img.folleto{
+  top:28%;
+  left:10%;
+}
+section#printweb div.ejemplos img.libro{
+  top:30%;
+  left:20%;
+}
+section#printweb div.ejemplos img.credencial{
+  top: 30%;
+  left: 30%;
+}
 /*Sistema Tipografico*/
 section#sistemaTipografico,section#descargas, section#printweb, section#aplicaciones{
   padding: 70px 15px;
@@ -862,16 +986,25 @@ section#sistemaTipografico .modal-header{
 section#sistemaTipografico .modal-header .close {
     padding: 12px 16px;
     margin: 0rem 0rem -1rem auto;
-    border: solid 1px #FFD200;;
+    border: solid 2px #FFD200;;
     border-radius: 50px;
 }
-button.close{
+
+section#sistemaTipografico button.close{
   color: #FFD200;
+  text-shadow: none;
+  font-size: 3rem;
+  opacity: 1;
 }
+section#sistemaTipografico button.close:hover{
+  color: #2D4FA1;
+}
+
+
 /*Descargas*/
 section#descargas p.titulo{
-  font-size: 70px;
-  line-height: 70px;
+  font-size: 65px;
+  line-height: 65px;
 }
 section#descargas p.subtitulo{
   font-size: 40px;
@@ -967,6 +1100,9 @@ ol.licencia li{
     font-size: 22px;
     line-height: 22px;
   }
+  section#aplicaciones div.modal p.titulo{
+    font-size: 28px;
+  } 
 
 }
 
@@ -995,6 +1131,7 @@ ol.licencia li{
 	h2 {
 	    font-size: 60px;
 	}
+
 }
 
 /* Medium devices (tablets, 768px and up)*/

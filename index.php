@@ -67,103 +67,166 @@ include 'header.php';
 
 </section>
 <section class="container-fluid backgroundParaTodo" id="aplicaciones">
-	<div class="row">
-		<div class="col-12">
+	<div class="row justify-content-center">
+		<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
 			<p class="textoAmarillo tituloTipografiaTodos lang" key="paraTodo-titulo">Tipografía<br><span>para todo</span></p>
-			<p class="lang" key="paraTodo-p1">25,000 glifos para 270 idiomas del alfabeto latino</p>
-			<p class="lang" key="paraTodo-p2">Con dos familias tipográficas, Indivisa es funcional y práctica.</p>
-			<p class="lang" key="paraTodo-p3">Mayúsculas, versalitas, superiores, ligaduras, cifras matemáticas, diacríticos, editoriales, etc., agregan una personalidad única a folletos, redes sociales o publicidad.</p>
+			<div class="row no-gutters">
+				<div class="col-3">
+					<hr class="lineaAmarilla v3">
+				</div>
+				<div class="col-9">
+					<p class="lang paratodoDescripcion" key="paraTodo-p1">25,000 glifos<br> <span>para</span> 270 idiomas<br> <span class="alfabeto">del alfabeto latino</span></p>
+				</div>
+			</div>
 		</div>
-		
+	</div>
+	<div class="row justify-content-center filaParrafo2">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+			<p class="lang text-center paratodoDescripcion2" key="paraTodo-p2">Con dos familias tipográficas,<br>Indivisa es funcional y práctica.</p>
+		</div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+			<p class="lang text-center paratodoDescripcion2" key="paraTodo-p3">
+				<span>Mayúsculas, versalitas, superiores, ligaduras,<br> cifras matemáticas, diacríticos, editoriales, etc.,</span><br> agregan una personalidad única<br> a folletos, redes sociales o publicidad.</p>
+		</div>
+	</div>
+
+	<div class="row justify-content-center filaBotones">
 		<div class="col-12">
 			<div class="row justify-content-center">
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalBranding" key="aplicaciones-branding">
-						<i class="fas fa-eye fa-2x"></i><br>Branding
+					<button type="button" class="round-button mx-auto" data-toggle="modal" data-target="#modalBranding">
+						<i class="fas fa-eye fa-2x"></i>
 					</button>
+					<p class="lang text-center" key="aplicaciones-branding">Branding</p>
 
 					<!-- Modal -->
-					<div class="modal fade" id="modalBranding" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					  <div class="modal-dialog modal-dialog-centered" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        ...
-					      </div>	
-					    </div>
-					  </div>
+					<div class="modal fade" id="modalBranding" tabindex="-1" role="dialog" aria-labelledby="Branding" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+						    <div class="modal-content">
+						    	<div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+						    	</div>
+						    	<div class="modal-body">
+							      	<div class="container-fluid">
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+							      				<p class="titulo lang text-center" key="aplicaciones-branding">Branding</p>
+							      			</div>
+							      		</div>
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+							      				<p class="descripcion text-center lang" key="aplicaciones-branding-descripcion">Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa.</p>
+							      			</div>
+							      		</div>
+							      	</div>
+						    	</div>	
+						    </div>
+						</div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalPublicaciones" key="aplicaciones-publicaciones">
-						<i class="fab fa-leanpub fa-2x"></i><br>Publicaciones
+					<button type="button" class="round-button mx-auto" data-toggle="modal" data-target="#modalPublicaciones">
+						<i class="fab fa-leanpub fa-2x"></i>
 					</button>
+					<p class="lang text-center" key="aplicaciones-publicaciones">Publicaciones</p>
 					<!-- Modal -->
-					<div class="modal fade" id="modalPublicaciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-						<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal fade" id="modalPublicaciones" tabindex="-1" role="dialog" aria-labelledby="Publicaciones" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 						    <div class="modal-content">
 						    	<div class="modal-header">
-							        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
 							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							          <span aria-hidden="true">&times;</span>
 							        </button>
-							      </div>
-							      <div class="modal-body">
-							        ...
-							      </div>
+							    </div>
+							    <div class="modal-body">
+							      	<div class="container-fluid">
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+							      				<p class="titulo lang text-center" key="aplicaciones-publicaciones">Publicaciones</p>
+							      			</div>
+							      		</div>
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+							      				<p class="descripcion text-center lang" key="aplicaciones-publicaciones-descripcion">Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo.</p>
+							      			</div>
+							      		</div>
+							      	</div>
+							    </div>
 						  	</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalAdministrativo" key="aplicaciones-administrativo">
-					 	<i class="far fa-file-alt fa-2x"></i><br>Administrativo
+					<button type="button" class="round-button mx-auto" data-toggle="modal" data-target="#modalAdministrativo" >
+					 	<i class="far fa-file-alt fa-2x"></i>
 					</button>
+					<p class="lang text-center" key="aplicaciones-administrativo">Administrativo</p>
+					
 					<!-- Modal -->
-					<div class="modal fade" id="modalAdministrativo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					  <div class="modal-dialog modal-dialog-centered" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        ...
-					      </div>	
-					    </div>
-					  </div>
+					<div class="modal fade" id="modalAdministrativo" tabindex="-1" role="dialog" aria-labelledby="Administrativo" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+						    <div class="modal-content">
+						    	<div class="modal-header">    
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							    </div>
+						    	<div class="modal-body">
+							      	<div class="container-fluid">
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+							      				<p class="titulo lang text-center" key="aplicaciones-administrativo">Administrativo</p>
+							      			</div>
+							      		</div>
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+							      				<p class="descripcion text-center lang" key="aplicaciones-administrativo-descripcion">Trámites, proveedores, formatos, docentes, alumnos.</p>
+							      			</div>
+							      		</div>
+							      	</div>
+						    	</div>	
+						    </div>
+						</div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
 					<!-- Button trigger modal -->
-					<button type="button" class="round-button lang" data-toggle="modal" data-target="#modalPlublicidad" key="aplicaciones-publicidad">
-						<i class="far fa-comment-dots fa-2x"></i><br>Publicidad
+					<button type="button" class="round-button mx-auto" data-toggle="modal" data-target="#modalPlublicidad">
+						<i class="far fa-comment-dots fa-2x"></i>
 					</button>
+					<p class="lang text-center" key="aplicaciones-publicidad">Publicidad</p>
 					<!-- Modal -->
-					<div class="modal fade" id="modalPlublicidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					  <div class="modal-dialog modal-dialog-centered" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        ...
-					      </div>	
-					    </div>
-					  </div>
+					<div class="modal fade" id="modalPlublicidad" tabindex="-1" role="dialog" aria-labelledby="Publicidad" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+						    <div class="modal-content">
+						    	<div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+						    	</div>
+						    	<div class="modal-body">
+							      	<div class="container-fluid">
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+							      				<p class="titulo lang text-center" key="aplicaciones-publicidad">Publicidad</p>
+							      			</div>
+							      		</div>
+							      		<div class="row justify-content-center">
+							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+							      				<p class="descripcion text-center lang" key="aplicaciones-publicidad-descripcion">...</p>
+							      			</div>
+							      		</div>
+							      	</div>
+						    	</div>	
+						    </div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -179,22 +242,17 @@ include 'header.php';
 		<div class="col-12 text-center">
 			<a class="btnDescarga textoBlanco lang" key="printweb-btn-descargaGuia" href="#"><span>Descargar guía </span><i class="fas fa-download"></i></a>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	
+	</div>
+	<div class="row justify-content-center">
+		<div class="col-6">
+			<div class="ejemplos">
+				<img src="images/contenido/5_CELULAR_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid base">
+				<img src="images/contenido/4_CELULAR_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid celular">
+				<img src="images/contenido/3_FOLLETO_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid folleto">
+				<img src="images/contenido/2_LIBRO_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid libro">
+				<img src="images/contenido/1_CREDENCIAL_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid credencial">
+			</div>
+		</div>
 	</div>
 </section>
 

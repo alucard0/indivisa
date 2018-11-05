@@ -25,13 +25,17 @@
 
                 /*Aplicaciones*/
                 'paraTodo-titulo':'Typography<br><span>for everything</span>',
-                'paraTodo-p1':'25,000 glyphs for 270 languages of the Latin alphabet',
-                'paraTodo-p2':'With two font families, Indivisa is functional and practical.',
-                'paraTodo-p3':'Capital letters, small caps, superiors, ligatures, mathematical figures, diacritics, editorial design, etc., add a unique personality to brochures, social networks or advertising. ',
-                'aplicaciones-branding':'<i class="fas fa-eye fa-2x"></i><br>Branding',
-                'aplicaciones-publicaciones':'<i class="fab fa-leanpub fa-2x"></i><br>Publications',
-                'aplicaciones-administrativo':'<i class="far fa-file-alt fa-2x"></i><br>Administrative',
-                'aplicaciones-publicidad':'<i class="far fa-comment-dots fa-2x"></i><br>Advertising',
+                'paraTodo-p1':'25,000 glyphs<br> <span>for</span> 270 languages<br> <span class="alfabeto">of the Latin alphabet</span>',
+                'paraTodo-p2':'With two font families,<br> Indivisa is functional and practical.',
+                'paraTodo-p3':'<span>Capital letters, small caps, superiors, ligatures,<br> mathematical figures, diacritics, editorial design, etc.,</span><br> add a unique personality<br> to brochures, social networks or advertising. ',
+                'aplicaciones-branding':'Branding',
+                'aplicaciones-branding-descripcion':'',
+                'aplicaciones-publicaciones':'Publications',
+                'aplicaciones-publicaciones-descripcion':'',
+                'aplicaciones-administrativo':'Administrative',
+                'aplicaciones-administrativo-descripcion':'',
+                'aplicaciones-publicidad':'Advertising',
+                'aplicaciones-publicidad-descripcion':'',
 
                 /*Print Web*/
                 'printweb-titulo':'Print & Web',
@@ -102,13 +106,17 @@
 
                 /*Aplicaciones*/
                 'paraTodo-titulo':'Tipografía<br><span>para todo</span>',
-                'paraTodo-p1':'25,000 glifos para 270 idiomas del alfabeto latino',
-                'paraTodo-p2':'Con dos familias tipográficas, Indivisa es funcional y práctica.',
-                'paraTodo-p3':'Mayúsculas, versalitas, superiores, ligaduras, cifras matemáticas, diacríticos, editoriales, etc., agregan una personalidad única a folletos, redes sociales o publicidad.',
-                'aplicaciones-branding':'<i class="fas fa-eye fa-2x"></i><br>Branding',
-                'aplicaciones-publicaciones':'<i class="fab fa-leanpub fa-2x"></i><br>Publicaciones',
-                'aplicaciones-administrativo':'<i class="far fa-file-alt fa-2x"></i><br>Administrativo',
-                'aplicaciones-publicidad':'<i class="far fa-comment-dots fa-2x"></i><br>Publicidad',
+                'paraTodo-p1':'25,000 glifos<br> <span>para</span> 270 idiomas<br> <span class="alfabeto">del alfabeto latino</span>',
+                'paraTodo-p2':'Con dos familias tipográficas,<br>Indivisa es funcional y práctica.',
+                'paraTodo-p3':'<span>Mayúsculas, versalitas, superiores, ligaduras,<br> cifras matemáticas, diacríticos, editoriales, etc.,</span><br> agregan una personalidad única<br> a folletos, redes sociales o publicidad.',
+                'aplicaciones-branding':'Branding',
+                'aplicaciones-branding-descripcion':'Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa.',
+                'aplicaciones-publicaciones':'Publicaciones',
+                'aplicaciones-publicaciones-descripcion':'Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo.',
+                'aplicaciones-administrativo':'Administrativo',
+                'aplicaciones-administrativo-descripcion':'Trámites, proveedores, formatos, docentes, alumnos.',
+                'aplicaciones-publicidad':'Publicidad',
+                'aplicaciones-publicidad-descripcion':'...',
 
                 /*Print Web*/
                 'printweb-titulo':'Print & Web',
@@ -181,13 +189,17 @@
 
                 /*Aplicaciones*/
                 'paraTodo-titulo':'Une typographie<br><span>pour tous</span>',
-                'paraTodo-p1':'25.000 glyphes pour 270 langues de l’alphabet latin',
-                'paraTodo-p2':'Avec ses deux familles de polices de caractères, Indivisa est pratique et fonctionnelle.',
-                'paraTodo-p3':'Majuscules, petites capitales, exposants, ligatures, chiffres mathématiques, diacritiques, éditoriaux donnent une personnalité unique aux brochures, réseaux sociaux et supports publicitaires.',
-                'aplicaciones-branding':'<i class="fas fa-eye fa-2x"></i><br>Labels',
-                'aplicaciones-publicaciones':'<i class="fab fa-leanpub fa-2x"></i><br>Publications',
-                'aplicaciones-administrativo':'<i class="far fa-file-alt fa-2x"></i><br>Documents administratifs',
-                'aplicaciones-publicidad':'<i class="far fa-comment-dots fa-2x"></i><br>Publicité',
+                'paraTodo-p1':'25.000 glyphes<br> <span>pour</span> 270 langues<br> <span class="alfabeto">de l’alphabet latin</span>',
+                'paraTodo-p2':'Avec ses deux familles de polices de caractères,<br> Indivisa est pratique et fonctionnelle.',
+                'paraTodo-p3':'<span>Majuscules, petites capitales, exposants, ligatures,<br> chiffres mathématiques, diacritiques, éditoriaux</span><br> donnent une personnalité unique<br> aux brochures, réseaux sociaux et supports publicitaires.',
+                'aplicaciones-branding':'Labels',
+                'aplicaciones-branding-descripcion':'',
+                'aplicaciones-publicaciones':'Publications',
+                'aplicaciones-publicaciones-descripcion':'',
+                'aplicaciones-administrativo':'Documents administratifs',
+                'aplicaciones-administrativo-descripcion':'',
+                'aplicaciones-publicidad':'Publicité',
+                'aplicaciones-publicidad-descripcion':'',
 
                 /*Print Web*/
                 'printweb-titulo':'Impression & Web',
@@ -317,6 +329,7 @@
         
         
         //Primera vez que ingresa
+        /*
         if(localStorage.getItem("idiomaDefault") == null)
         {
             var lang = 'es';
@@ -324,7 +337,7 @@
         else//Ya hay un idioma definido
         {
             var lang = localStorage.getItem("idiomaDefault");
-            /*Cambiar textos*/
+            //Cambiar textos
             $('.lang').each(function(index, element){
                     $(this).html(arrLang[lang][$(this).attr('key')]);
             });
@@ -351,7 +364,8 @@
                 default:
                     $('#videoHermano').attr('data-embed', 'EIZa5k7Wgsk');
             }
-        }
+
+        }*/
         
 
     	$(function(){
@@ -416,7 +430,7 @@
                 if(typeof(Storage) !== "undefined") 
                 {
                     localStorage.setItem("idiomaDefault",lang);
-                    location.reload();
+                    //location.reload();
                     //$('#videoHermano').load('',lazyloadVideo());
                 } 
                 else 
