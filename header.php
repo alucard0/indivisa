@@ -70,7 +70,7 @@
 		    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
 		      <div class="navbar-nav">
 		        
-		        <a class="nav-item nav-link seccion lang" href="#" key="menu_conoceIndivisa">Conoce Indivisa</a>
+		        <a class="nav-item nav-link seccion lang" href="conoce-indivisa.php" key="menu_conoceIndivisa">Conoce Indivisa</a>
 		        <a class="nav-item nav-link seccion lang" href="#aplicaciones" key="menu_aplicaciones">Aplicaciones</a>
 		        <a class="nav-item nav-link seccion lang" href="#descargas" key="menu_descarga">Descarga</a>
 				<div class="idiomas row no-gutters">

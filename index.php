@@ -7,13 +7,15 @@ include 'header.php';
 ?>
 <section id="inicio" class="container-fluid">
 		<div class="row backGroundAzul bgTextura justify-content-center">
+			<!--
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-10 col-md-6">
 						<p class="textoAmarillo fraseIntro lang" key="inicio-frase1">La identidad se construye<br><span>- cuando existe una voz única.</span></p>
 					</div>
 				</div>
-			</div>		
+			</div>
+			-->		
 			<div class="col">
 				<h1>Indivisa</h1>
 				<div class="row justify-content-center">
@@ -40,7 +42,7 @@ include 'header.php';
 		</div>
 		<div class="row">
 			<div class="col-12 videoFull">
-				<div class="youtube" data-embed="EqGs36oPpLQ">
+				<div class="youtube" data-embed="J0OL_zPEnXE">
 	                <div class="play-button"></div>
 	            </div>
 			</div>
@@ -59,7 +61,7 @@ include 'header.php';
 				
 			</div>
 			<div class="col-12 col-sm-12 col-md-6 videoFull videoSuperior">
-				<div id="videoHermano" class="youtube" data-embed="EIZa5k7Wgsk">
+				<div id="videoHermano" class="youtube" data-embed="pVHDI3Pl85w">
 	                <div class="play-button"></div>
 	            </div>
 	        </div>
@@ -68,7 +70,7 @@ include 'header.php';
 </section>
 <section class="container-fluid backgroundParaTodo" id="aplicaciones">
 	<div class="row justify-content-center">
-		<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+		<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 			<p class="textoAmarillo tituloTipografiaTodos lang" key="paraTodo-titulo">Tipografía<br><span>para todo</span></p>
 			<div class="row no-gutters">
 				<div class="col-3">
@@ -80,19 +82,19 @@ include 'header.php';
 			</div>
 		</div>
 	</div>
-	<div class="row justify-content-center filaParrafo2">
+	<div class="row justify-content-center">
 		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-			<p class="lang text-center paratodoDescripcion2" key="paraTodo-p2">Con dos familias tipográficas,<br>Indivisa es funcional y práctica.</p>
+			<p class="lang text-center paratodoDescripcion2 p-2" key="paraTodo-p2">Con dos familias tipográficas,<br>Indivisa es funcional y práctica.</p>
 		</div>
 	</div>
 	<div class="row justify-content-center">
 		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-			<p class="lang text-center paratodoDescripcion2" key="paraTodo-p3">
+			<p class="lang text-center paratodoDescripcion2 p-3" key="paraTodo-p3">
 				<span>Mayúsculas, versalitas, superiores, ligaduras,<br> cifras matemáticas, diacríticos, editoriales, etc.,</span><br> agregan una personalidad única<br> a folletos, redes sociales o publicidad.</p>
 		</div>
 	</div>
 
-	<div class="row justify-content-center filaBotones">
+	<div class="row justify-content-center">
 		<div class="col-12">
 			<div class="row justify-content-center">
 				<div class="col-6 col-sm-6 col-md-3 col-xl-2">
@@ -100,7 +102,7 @@ include 'header.php';
 					<button type="button" class="round-button mx-auto" data-toggle="modal" data-target="#modalBranding">
 						<i class="fas fa-eye fa-2x"></i>
 					</button>
-					<p class="lang text-center" key="aplicaciones-branding">Branding</p>
+					<p class="lang text-center" key="aplicaciones-branding">Identidad Corporativa</p>
 
 					<!-- Modal -->
 					<div class="modal fade" id="modalBranding" tabindex="-1" role="dialog" aria-labelledby="Branding" aria-hidden="true">
@@ -120,7 +122,7 @@ include 'header.php';
 							      		</div>
 							      		<div class="row justify-content-center">
 							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-							      				<p class="descripcion text-center lang" key="aplicaciones-branding-descripcion">Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa.</p>
+							      				<p class="descripcion text-center lang" key="aplicaciones-branding-descripcion">Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa</p>
 							      			</div>
 							      		</div>
 							      	</div>
@@ -153,7 +155,7 @@ include 'header.php';
 							      		</div>
 							      		<div class="row justify-content-center">
 							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-							      				<p class="descripcion text-center lang" key="aplicaciones-publicaciones-descripcion">Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo.</p>
+							      				<p class="descripcion text-center lang" key="aplicaciones-publicaciones-descripcion">Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo</p>
 							      			</div>
 							      		</div>
 							      	</div>
@@ -187,7 +189,7 @@ include 'header.php';
 							      		</div>
 							      		<div class="row justify-content-center">
 							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-							      				<p class="descripcion text-center lang" key="aplicaciones-administrativo-descripcion">Trámites, proveedores, formatos, docentes, alumnos.</p>
+							      				<p class="descripcion text-center lang" key="aplicaciones-administrativo-descripcion">Trámites, proveedores, formatos, docentes, alumnos</p>
 							      			</div>
 							      		</div>
 							      	</div>
@@ -220,7 +222,7 @@ include 'header.php';
 							      		</div>
 							      		<div class="row justify-content-center">
 							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-							      				<p class="descripcion text-center lang" key="aplicaciones-publicidad-descripcion">...</p>
+							      				<p class="descripcion text-center lang" key="aplicaciones-publicidad-descripcion">Espectacular, parabuses, lonas, posters, campañas en redes sociales, inserciones de prensa</p>
 							      			</div>
 							      		</div>
 							      	</div>
@@ -240,17 +242,13 @@ include 'header.php';
 			<p class="titulo textoAmarillo lang" key="printweb-titulo">Print & Web</p>		
 		</div>
 		<div class="col-12 text-center">
-			<a class="btnDescarga textoBlanco lang" key="printweb-btn-descargaGuia" href="#"><span>Descargar guía </span><i class="fas fa-download"></i></a>
+			<a class="btnDescarga textoBlanco lang descargable" key="printweb-btn-descargaGuia" keyb="printweb-descargable-guia" href="descargables/GUIA-PRINT-WEB_ES.pdf" target="_blank"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 	</div>
-	<div class="row justify-content-center">
+	<div class="row d-none d-sm-flex justify-content-center ">
 		<div class="col-6">
-			<div class="ejemplos">
-				<img src="images/contenido/5_CELULAR_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid base">
-				<img src="images/contenido/4_CELULAR_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid celular">
-				<img src="images/contenido/3_FOLLETO_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid folleto">
-				<img src="images/contenido/2_LIBRO_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid libro">
-				<img src="images/contenido/1_CREDENCIAL_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid credencial">
+			<div class="text-center">
+				<img src="images/contenido/0_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid">
 			</div>
 		</div>
 	</div>
@@ -524,27 +522,28 @@ include 'header.php';
 		</div>
 	</div>
 	<div class="row justify-content-center align-items-end text-center">
-		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
+		<div class="col-md-6 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
 			<p class="subtitulo textoAzul lang" key="descargas-setGeneral-titulo">Set general</p>
 			<p class="contenido textoGris text-left lang" key="descargas-setGeneral-contenido"><span>16 variantes</span><br>Administrativos, estudiantes y comunidad en general.</p>
 			<button class="btnDescarga textoAzul lang"  data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_General')" key="descargas-setGeneral-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
-		<div class="col-md-4 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
+		<div class="col-md-6 col-lg-4 col-xl-4 lineaAzulVertical columnaDescargas">
 			<p class="subtitulo textoAzul lang" key="descargas-setEditorial-titulo">Set editorial</p>
 			<p class="contenido textoGris text-left lang" key="descargas-setEditorial-contenido"><span>28 variantes</span><br>Áreas de diseño, comunicación, editorial, programación.</p>
 			<button class="btnDescarga textoAzul lang" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Editorial')" key="descargas-setEditorial-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
-		<div class="col-md-4 col-lg-4 col-xl-4 columnaDescargas">
+		<div class="col-md-6 col-lg-4 col-xl-4 columnaDescargas">
 			<p class="subtitulo textoAzul lang" key="descargas-setWeb-titulo">Set para aplicaciones Web</p>
 			<p class="contenido textoGris text-left lang" key="descargas-setWeb-contenido"><span>28 variantes</span><br>eot / otf / sgv / ttf / woff / woff2</p>
 			<button class="btnDescarga textoAzul lang" data-toggle="modal" data-target="#modalEULA" onclick="cambiarID('set_Web')" key="descargas-setWeb-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 		</div>
 	</div>
 	<div class="row justify-content-center text-center align-items-end">
-		<div class="col-12 col-md-4 col-lg-3 col-xl-3 columnasInfo">
+		<div class="col-12 col-md-6 col-lg-3 col-xl-3 columnasInfo">
 			<p class="tituloInfo textoAzul lang" key="descargas-MUsuario-titulo">Manual de usuario</p>
 			<a class="btnDescarga textoAzul lang" href="#" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
+		<!--
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3 columnasInfo">
 			<p class="tituloInfo textoAzul lang" key="descargas-InfoAct-titulo">Información de actualizaciones</p>
 			<a class="btnDescarga textoAzul lang" href="#" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></a>
@@ -553,6 +552,7 @@ include 'header.php';
 			<p class="tituloInfo textoAzul lang" key="descargas-folleto-titulo">Folleto</p>
 			<a class="btnDescarga textoAzul lang" href="#" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
+		-->
 	</div>
 	<div class="row justify-content-center">
 		<div class="col-12 col-md-9 col-lg-7 col-xl-8">
@@ -564,7 +564,7 @@ include 'header.php';
 	  <div class="modal-dialog modal-dialog-centered modal-lg"  role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title lang" key="eula-titulo">End user license agreement (EULA)</h5>
+	        <h5 class="modal-title textoAzul lang" key="eula-titulo">End user license agreement (EULA)</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>

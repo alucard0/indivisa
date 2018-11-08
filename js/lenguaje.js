@@ -28,18 +28,19 @@
                 'paraTodo-p1':'25,000 glyphs<br> <span>for</span> 270 languages<br> <span class="alfabeto">of the Latin alphabet</span>',
                 'paraTodo-p2':'With two font families,<br> Indivisa is functional and practical.',
                 'paraTodo-p3':'<span>Capital letters, small caps, superiors, ligatures,<br> mathematical figures, diacritics, editorial design, etc.,</span><br> add a unique personality<br> to brochures, social networks or advertising. ',
-                'aplicaciones-branding':'Branding',
-                'aplicaciones-branding-descripcion':'',
+                'aplicaciones-branding':'Corporate identity',
+                'aplicaciones-branding-descripcion':'Corporate stationery, institutional communiqué, corporate events, engagement campaigns',
                 'aplicaciones-publicaciones':'Publications',
-                'aplicaciones-publicaciones-descripcion':'',
+                'aplicaciones-publicaciones-descripcion':'Brochures, books, magazines, newspapers, manuals, essays, theses, gazettes',
                 'aplicaciones-administrativo':'Administrative',
-                'aplicaciones-administrativo-descripcion':'',
+                'aplicaciones-administrativo-descripcion':'Presentations, letters, reports, circulars',
                 'aplicaciones-publicidad':'Advertising',
-                'aplicaciones-publicidad-descripcion':'',
+                'aplicaciones-publicidad-descripcion':'Display advertising, bus shelters, posters, campaigns in social media, press insertions',
 
                 /*Print Web*/
                 'printweb-titulo':'Print & Web',
-                'printweb-btn-descargaGuia':'<span>Download guide </span><i class="fas fa-download"></i>',
+                'printweb-btn-descargaGuia':'<span>Download</span><i class="fas fa-download"></i>',
+                'printweb-descargable-guia':'descargables/GUIDE-PRINT-WEB_EN.pdf',
 
                 /*Sistema Tipográfico*/
                 'sistemaTipografico-titulo':'Font system',
@@ -109,18 +110,19 @@
                 'paraTodo-p1':'25,000 glifos<br> <span>para</span> 270 idiomas<br> <span class="alfabeto">del alfabeto latino</span>',
                 'paraTodo-p2':'Con dos familias tipográficas,<br>Indivisa es funcional y práctica.',
                 'paraTodo-p3':'<span>Mayúsculas, versalitas, superiores, ligaduras,<br> cifras matemáticas, diacríticos, editoriales, etc.,</span><br> agregan una personalidad única<br> a folletos, redes sociales o publicidad.',
-                'aplicaciones-branding':'Branding',
-                'aplicaciones-branding-descripcion':'Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa.',
+                'aplicaciones-branding':'Identidad corporativa',
+                'aplicaciones-branding-descripcion':'Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa',
                 'aplicaciones-publicaciones':'Publicaciones',
-                'aplicaciones-publicaciones-descripcion':'Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo.',
+                'aplicaciones-publicaciones-descripcion':'Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo',
                 'aplicaciones-administrativo':'Administrativo',
-                'aplicaciones-administrativo-descripcion':'Trámites, proveedores, formatos, docentes, alumnos.',
+                'aplicaciones-administrativo-descripcion':'Trámites, proveedores, formatos, docentes, alumnos',
                 'aplicaciones-publicidad':'Publicidad',
-                'aplicaciones-publicidad-descripcion':'...',
+                'aplicaciones-publicidad-descripcion':'Espectacular, parabuses, lonas, posters, campañas en redes sociales, inserciones de prensa',
 
                 /*Print Web*/
                 'printweb-titulo':'Print & Web',
-                'printweb-btn-descargaGuia':'<span>Descargar guía </span><i class="fas fa-download"></i>',
+                'printweb-btn-descargaGuia':'<span>Descarga</span><i class="fas fa-download"></i>',
+                'printweb-descargable-guia':'descargables/GUIA-PRINT-WEB_ES.pdf',
 
                 /*Sistema Tipográfico*/
                 'sistemaTipografico-titulo':'Sistema tipográfico',
@@ -192,18 +194,19 @@
                 'paraTodo-p1':'25.000 glyphes<br> <span>pour</span> 270 langues<br> <span class="alfabeto">de l’alphabet latin</span>',
                 'paraTodo-p2':'Avec ses deux familles de polices de caractères,<br> Indivisa est pratique et fonctionnelle.',
                 'paraTodo-p3':'<span>Majuscules, petites capitales, exposants, ligatures,<br> chiffres mathématiques, diacritiques, éditoriaux</span><br> donnent une personnalité unique<br> aux brochures, réseaux sociaux et supports publicitaires.',
-                'aplicaciones-branding':'Labels',
-                'aplicaciones-branding-descripcion':'',
+                'aplicaciones-branding':'L\'identité d\'entreprise',
+                'aplicaciones-branding-descripcion':'Papeterie d\'entreprise, communiqué institutionnel, événements corporatifs',
                 'aplicaciones-publicaciones':'Publications',
-                'aplicaciones-publicaciones-descripcion':'',
+                'aplicaciones-publicaciones-descripcion':'Brochures, livres, magazines, journaux, manuels, essais, thèses, gazettes',
                 'aplicaciones-administrativo':'Documents administratifs',
-                'aplicaciones-administrativo-descripcion':'',
+                'aplicaciones-administrativo-descripcion':'Présentations, lettres, rapports, circulaires',
                 'aplicaciones-publicidad':'Publicité',
-                'aplicaciones-publicidad-descripcion':'',
+                'aplicaciones-publicidad-descripcion':'Publicité display, abris de bus, affiches, campagnes dans les médias sociaux, insertions de presse',
 
                 /*Print Web*/
                 'printweb-titulo':'Impression & Web',
-                'printweb-btn-descargaGuia':'<span>Télécharger le guide</span><i class="fas fa-download"></i>',
+                'printweb-btn-descargaGuia':'<span>Téléchargement</span><i class="fas fa-download"></i>',
+                'printweb-descargable-guia':'descargables/GUIDE-PRINT-WEB_FR.pdf',
 
                 /*Sistema Tipográfico*/
                 'sistemaTipografico-titulo':'Système typographique',
@@ -379,8 +382,9 @@
 	    		});
                 /*Cambiar descargables*/
                 $('.descargable').each(function(index, element){
-                    $(this).attr("href",arrLang[lang][$(this).attr('key')]);
+                    $(this).attr("href",arrLang[lang][$(this).attr('keyb')]);
                 });
+
                 /*Cambiar place holder*/
                 $('.placeForm').each(function(index, element){
                     $(this).attr("placeholder",arrLang[lang][$(this).attr('key')]);

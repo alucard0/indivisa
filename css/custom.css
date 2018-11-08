@@ -329,7 +329,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 25px;
   letter-spacing: 1px;
 }
 
@@ -358,36 +358,48 @@ section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black,
 section#descargas p.contenido span,
 section#aplicaciones p.paratodoDescripcion,
 section#aplicaciones p.paratodoDescripcion2,
-section#aplicaciones div.modal p.titulo{
+section#aplicaciones div.modal p.titulo,
+h1.tituloConoce,
+section#sistemaTipografico div.letrasA.TextSans p span.black,
+section#sistemaTipografico div.letrasN.TextSans p span.black{
   font-family: "IndivisaTextSans";
   font-weight: 700;
   font-style: normal;
 }
 section#sistemaTipografico div.text p.familiaTitulo.sans,
-section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black-italic{
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black-italic,
+section#sistemaTipografico div.letrasA.TextSans-Italic p span.black,
+section#sistemaTipografico div.letrasN.TextSans p span.black-italic{
   font-family: "IndivisaTextSans";
   font-weight: 700;
   font-style: italic;
 }
 .fraseIntro2,p.tituloTipografiaTodos span,
-section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold{
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold,
+h2.subtituloConoce,
+section#sistemaTipografico div.letrasA.TextSans p span.bold{
   font-family: "IndivisaTextSans";
   font-weight: 600;
 }
 .fraseIntro2,p.tituloTipografiaTodos span,
-section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold-italic{
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold-italic,
+section#sistemaTipografico p.subtituloSistemaConoce,
+section#sistemaTipografico div.letrasA.TextSans-Italic p span.bold{
   font-family: "IndivisaTextSans";
   font-weight: 600;
   font-style: italic;
 }
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular,
 section#aplicaciones p.paratodoDescripcion span,
-section#aplicaciones p.paratodoDescripcion2 span{
+section#aplicaciones p.paratodoDescripcion2 span,
+section#sistemaTipografico div.letrasA.TextSans p span.regular{
   font-family: "IndivisaTextSans";
   font-weight: 400;
 }
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular-italic,
-section#descargas p.subtitulo{
+section#descargas p.subtitulo,
+section#descargas h5.modal-title,
+section#sistemaTipografico div.letrasA.TextSans-Italic p span.regular{
   font-family: "IndivisaTextSans";
   font-weight: 400;
   font-style: italic;
@@ -395,57 +407,75 @@ section#descargas p.subtitulo{
 section#sistemaTipografico div.text p.familiaVarianteTitulo,
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light,
 section#descargas p.titulo,
-section#aplicaciones div.modal p.descripcion{
+section#aplicaciones div.modal p.descripcion,
+section#sistemaTipografico div.letrasA.TextSans p span.light,
+section#sistemaTipografico div.letrasN.TextSans p span.light{
   font-family: "IndivisaTextSans";
   font-weight: 300;
 }
-section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light-italic{
+section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light-italic,
+section#sistemaTipografico div.letrasA.TextSans-Italic p span.light,
+section#sistemaTipografico div.letrasN.TextSans p span.light-italic{
   font-family: "IndivisaTextSans";
   font-weight: 300;
   font-style: italic;
 }
 /*Text Serif*/
 h1,h2,section#sistemaTipografico p.subtitulo,
-section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black{
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black,
+h2.subtituloConoce span,
+section#sistemaTipografico div.letrasA.TextSerif p span.black,
+section#sistemaTipografico div.letrasN.TextSerif p span.black{
   font-family: "IndivisaTextSerif";
   font-weight: 700;
   font-style: normal;
 }
-section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black-italic{
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black-italic,
+section#sistemaTipografico div.letrasA.TextSerif-Italic p span.black,
+section#sistemaTipografico div.letrasN.TextSerif p span.black-italic{
   font-family: "IndivisaTextSerif";
   font-weight: 700;
   font-style: italic;
 }
-section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold{
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold,
+section#sistemaTipografico div.letrasA.TextSerif p span.bold{
   font-family: "IndivisaTextSerif";
   font-weight: 600;
 }
 p.indivisaManent,.fraseIntro,
-section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold-italic{
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold-italic,
+section#sistemaTipografico div.letrasA.TextSerif-Italic p span.bold
+{
   font-family: "IndivisaTextSerif";
   font-weight: 600;
   font-style: italic;
 }
 
 
-h2,section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular{
+h2,section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular,
+section#sistemaTipografico div.letrasA.TextSerif p span.regular{
   font-family: "IndivisaTextSerif";
   font-weight: 400;
   font-style: normal;
 }
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular-italic,
 section#descargas p.tituloInfo,
-section#descargas p.contenido300{
+section#descargas p.contenido300,
+section#sistemaTipografico div.letrasA.TextSerif-Italic p span.regular{
   font-family: "IndivisaTextSerif";
   font-weight: 400;
   font-style: italic;
 }
 
-section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light{
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light,
+section#sistemaTipografico div.letrasA.TextSerif p span.light,
+section#sistemaTipografico div.letrasN.TextSerif p span.light{
   font-family: "IndivisaTextSerif";
   font-weight: 300;
 }
-section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light-italic{
+section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light-italic,
+section#sistemaTipografico div.letrasA.TextSerif-Italic p span.light,
+section#sistemaTipografico div.letrasN.TextSerif p span.light-italic{
   font-family: "IndivisaTextSerif";
   font-weight: 300;
   font-style: italic;
@@ -483,7 +513,7 @@ section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.thin-italic
   font-style: italic;
 }
 /*Display Serif*/
-section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy{
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy {
   font-family: "IndivisaDisplaySerif";
   font-weight: 900;
 }
@@ -519,12 +549,12 @@ section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin-itali
 }
 .backgroundAzulyBlanco{
   background: rgba(45,80,161,1);
-  background: -moz-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(45,80,161,1)), color-stop(50%, rgba(45,80,161,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
-  background: -o-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
-  background: -ms-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(to bottom, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  background: -moz-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 60%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(45,80,161,1)), color-stop(60%, rgba(45,80,161,1)), color-stop(40%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 60%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 60%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 60%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(45,80,161,1) 0%, rgba(45,80,161,1) 60%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d50a1', endColorstr='#ffffff', GradientType=0 );
 
 }
@@ -534,6 +564,12 @@ section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin-itali
 }
 .backgroundGris{
   background: #EAEAEA;
+}
+.backgroundGrisClaro{
+  background: #f1f1f1;
+}
+.backgroundAmarillo{
+  background: #FFD200;;
 }
 .textoAmarillo{
   color: #FFD200;
@@ -642,7 +678,7 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:after {
   margin: 10px auto 0 auto;
   transition: width .3s;
 }
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after, nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:active::after{
   width: 50%;
 }
 
@@ -650,9 +686,11 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate{
   text-transform: uppercase;
 }
 
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover {
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover,nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:active {
   color: #FFD200;
 }
+
+
 .navbar-light .navbar-toggler, .navbar-light .navbar-toggler:focus{
   border-color: transparent;
 }
@@ -680,7 +718,7 @@ h2.fontPalabra{
   margin: 15% 0;
 }
 .fraseIntro2:first-child{
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 
 }
 .fraseIntro2:nth-child(2){
@@ -689,13 +727,14 @@ h2.fontPalabra{
 }
 .bgTextura{
   background-image: url('../images/contenido/background.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size:  cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size:  contain;
   -o-background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: initial;
+  padding-top: 50px;
 }
 
 #inicio,#aplicaciones{
@@ -709,7 +748,7 @@ p.contenidoInicio{
 p.tituloTipografiaTodos{
   font-size: 32px;
   line-height: 32px;
-  margin-top: 40px;
+  margin-top: 120px;
 }
 p.tituloTipografiaTodos span{
   font-size: 80px;
@@ -736,13 +775,14 @@ section#aplicaciones p.paratodoDescripcion span.alfabeto{
 
 section#aplicaciones p.paratodoDescripcion2{
   font-size: 25px;
-  line-height: 30px;
+  line-height: 35px;
+
 }
-section#aplicaciones div.filaParrafo2{
-  margin: 200px 0;
+section#aplicaciones p.paratodoDescripcion2.p-2{
+    margin-bottom: 345px;
 }
-section#aplicaciones div.filaBotones{
-  margin: 100px 0;
+section#aplicaciones p.paratodoDescripcion2.p-3{
+    margin-bottom: 35px;
 }
 
 section#aplicaciones div#modalPublicaciones div.modal-content{
@@ -850,27 +890,29 @@ section#aplicaciones button.close:hover{
 
 .btnDescarga{
   background: #ffd200;
-    background: linear-gradient(to right, transparent 50%, #ffd200 50%);
+    background: linear-gradient(to right, transparent 60%, #ffd200 60%);
     background-position: left bottom;
     background-size: 100% 100%;
     border: 2px solid #FFD200;
     transition: all .2s ease;
-    padding: 11px 50px 11px 11px;
+    padding: 11px 20px 11px 11px;
     cursor: pointer;
     display: inline-block;
 }
 .btnDescarga span{
   margin-right: 50px;
 }
+
 .btnDescarga svg{
   color: #000;
   margin-left: 40px;
+  margin-right: 20px;
 }
 .btnDescarga:hover {
   background-position:right bottom;
   color:#000;
   text-decoration: none;
-  background-size: 200% 100%;
+  background-size: 260% 100%;
 }
 .btnDescarga:disabled{
   background: #f5dd71;
@@ -901,37 +943,21 @@ section#printweb p.titulo{
   text-align: center;
 }
 
-section#printweb div.ejemplos img{
-  position: absolute;
-}
-section#printweb div.ejemplos img.base{
-  position: relative;
-}
-section#printweb div.ejemplos img.celular{
-  top:0;
-  right:0;
-}
-section#printweb div.ejemplos img.folleto{
-  top:28%;
-  left:10%;
-}
-section#printweb div.ejemplos img.libro{
-  top:30%;
-  left:20%;
-}
-section#printweb div.ejemplos img.credencial{
-  top: 30%;
-  left: 30%;
-}
+
 /*Sistema Tipografico*/
-section#sistemaTipografico,section#descargas, section#printweb, section#aplicaciones{
-  padding: 70px 15px;
+section#descargas, section#printweb{
+  padding: 40px 15px;
+}
+section#sistemaTipografico{
+  padding: 0px 15px;
 }
 section#sistemaTipografico p.titulo{
   font-size: 30px;
   line-height: 30px;
 }
-
+section#printweb{
+  padding-bottom: 0;
+}
 section#sistemaTipografico p.subtitulo{
   font-size: 90px;
   line-height: 90px;
@@ -984,7 +1010,7 @@ section#sistemaTipografico .modal-header{
 }
 
 section#sistemaTipografico .modal-header .close {
-    padding: 12px 16px;
+    padding: 10px 20px;
     margin: 0rem 0rem -1rem auto;
     border: solid 2px #FFD200;;
     border-radius: 50px;
@@ -1018,7 +1044,6 @@ section#descargas p.tituloInfo{
 
 section#descargas p.contenido300{
   font-size: 22px;
-  line-height: 22px;
   margin-top: 80px;
 }
 section#descargas div.columnaDescargas{
@@ -1027,6 +1052,124 @@ section#descargas div.columnaDescargas{
 
 ol.licencia li{
   margin-bottom: 20px;
+}
+
+
+/*Conoce indivisa*/
+section#inicioConoce{
+  background-image: url('../images/contenido/conoceIndivisa/bgConoceIndivisa.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+}
+section#inicioConoce{
+  padding: 100px 15px;
+}
+
+h1.tituloConoce{
+  font-size: 45px;
+  line-height: 60px;
+}
+
+h2.subtituloConoce{
+  font-size: 30px;
+  line-height: 30px;
+}
+h2.subtituloConoce span{
+  font-size: 18px;
+}
+
+div.descripcionIntro{
+  padding: 70px 15px;
+}
+/*Sistema Tipografico Conoce*/
+section#sistemaTipografico div.contenidoLetras{
+  padding-bottom: 70px;
+}
+section#sistemaTipografico p.subtituloSistemaConoce{
+  font-size: 35px;
+  line-height: 45px;
+}
+section#sistemaTipografico p.fraseSistemaConoce{
+  font-size: 18px;
+}
+
+section#sistemaTipografico div.filaSistema{
+  padding-top: 60px;
+}
+section#sistemaTipografico div.filaProceso{
+  padding: 60px 15px 190px 15px;
+}
+
+section#sistemaTipografico img.cuaderno{
+  position: absolute;
+}
+
+section#sistemaTipografico img.letras{
+  margin-top: 50%;
+  margin-bottom: 50px;
+}
+section#sistemaTipografico div.wrapperLetras{
+  border-bottom: 1px solid #2d4fa1;
+  margin-bottom: 40px;
+}
+section#sistemaTipografico div.letrasA p span{
+  font-size: 4em;
+}
+section#sistemaTipografico div.letrasN p span{
+  font-size: 5em;
+  line-height: .5em;
+  text-align: justify;
+}
+
+section#sistemaTipografico div.letrasA p, section#sistemaTipografico div.letrasN p{
+  margin-bottom: 0
+}
+section#sistemaTipografico div.letrasA p.familia,section#sistemaTipografico div.letrasN p.familia{
+  font-size: 15px;
+  line-height: 15px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+section#sistemaTipografico div.letrasN p.familia{
+  text-align: center;
+}
+
+section#sistemaTipografico div.colSerif{
+  border-right: dashed #2d4fa1 1px;
+}
+section#sistemaTipografico .colSans:after{
+  position: absolute;
+  top: 15px;
+  left: 140px;
+  background-image: url(../images/contenido/conoceIndivisa/flecha.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 70px;
+  height: 170px;
+  content: "";
+}
+
+.cuadrosAzules{
+  padding: 20px;
+}
+.cuadrosAzules p{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.bordeDerecha{
+  border-right: 1px solid rgba(255, 255, 255, 0.50);
+}
+.bordeAbajo{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.50);
 }
 
 /*Fin Contenido*/
@@ -1039,6 +1182,18 @@ ol.licencia li{
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px){
+  .bgTextura{
+    background-image: url('../images/contenido/background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:  cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    padding-top: 50px;
+  }
+
   nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.seccion:hover::after {
     margin: 10px auto 0 0;
   }
@@ -1070,17 +1225,26 @@ ol.licencia li{
     width: 50%;
   }
   .round-button {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 20px;
   }
+  section#printweb {
+    padding-bottom: 50px;
+  }
   section#printweb p.titulo {
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .backgroundAzulyBlanco{
+    background: #2d50a1;
+  }
+  section#sistemaTipografico {
+    padding: 50px 15px;
   }
   section#sistemaTipografico p.titulo {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
   }
   section#sistemaTipografico p.subtitulo {
     font-size: 70px;
@@ -1088,6 +1252,10 @@ ol.licencia li{
   }
   section#sistemaTipografico p.variantes{
     font-size: 24px;
+  }
+  section#descargas p.titulo {
+    font-size: 38px;
+    line-height: 38px;
   }
   section#descargas div.columnaDescargas {
     padding: 25px 30px;
@@ -1098,11 +1266,52 @@ ol.licencia li{
   }
   section#descargas p.contenido{
     font-size: 22px;
-    line-height: 22px;
+  }
+  section#aplicaciones{
+    padding-bottom: 50px;
   }
   section#aplicaciones div.modal p.titulo{
     font-size: 28px;
-  } 
+  }
+  .backgroundParaTodo{
+    background-image: url('../images/contenido/paratodoBG-movil.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+  }
+  p.tituloTipografiaTodos{
+    margin-top: 40px;
+  }
+  section#aplicaciones p.paratodoDescripcion2 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  section#aplicaciones p.paratodoDescripcion2.p-2 {
+    margin-bottom: 1rem; 
+  }
+
+  /*Conoce Indivisa*/
+  section#sistemaTipografico div.filaProceso {
+    padding: 60px 15px 120px 15px;
+  }
+  section#sistemaTipografico div.letrasN p span {
+      font-size: 3em;
+  }
+  section#sistemaTipografico .colSans:after {
+    position: absolute;
+    left: 66%;
+    top: 0;
+    background-image: url(../images/contenido/conoceIndivisa/flecha.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
+  }
 
 }
 
@@ -1159,15 +1368,24 @@ ol.licencia li{
   section#descargas .btnDescarga span {
     margin-right: 25px;
   }
+  section#sistemaTipografico div.filaProceso {
+    padding: 60px 15px 100px 15px;
+  }
 
 
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px){ 
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1919.98px) {
 
 }
 
-@media (min-width: 1200px) {
-
+@media (min-width: 1920px){
+  section#sistemaTipografico div.letrasA p span{
+    font-size: 7em;
+  }
 }
