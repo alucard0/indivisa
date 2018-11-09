@@ -79,9 +79,10 @@
                 'eula-p7':'Only if necessary, a copy of the font software can be given to a printing or production service to prepare documents, as long as the licensee makes sure to share this license and ideally, to destroy all of the copies once the work is completed. However, you must ensure that, if possible, the transmission of the software is in PDF format. ',
                 'eula-p8':'The LA SALLE A.C. university possesses the exclusive rights of the software and is legally protected by the corresponding institutions. You agree that the university possesses all the physical rights of use and distribution (without limitation) and ENIGMA DISEÑO, the copyright. You also agree that the LA SALLE A.C. university holds the exclusive rights of the trademarks (registered or unregistered) associated with the font software and it is not permitted to modify said brands in any way without prior written consent.',
                 'eula-p9':'You agree not to create derivative works or works based on the design incorporated in the font software. Except for what is authorized in this document, the concessionaire undertakes not to copy any written material, which may accompany the software or the software itself.',
-                'eula-p10':'In no case shall the LA SALLE A.C. university be liable for indirect, incidental, consequential, special or exemplary damages (including, but not limited to, damages for loss or benefits, information savings, or business interruption) by virtue of any cause of action arising from the use or the inability to use the software. If the copy of the software is defective, it shall be replaced by a new one in a reasonable manner.'
+                'eula-p10':'In no case shall the LA SALLE A.C. university be liable for indirect, incidental, consequential, special or exemplary damages (including, but not limited to, damages for loss or benefits, information savings, or business interruption) by virtue of any cause of action arising from the use or the inability to use the software. If the copy of the software is defective, it shall be replaced by a new one in a reasonable manner.',
 
- 
+                /*Conoce Inidivisa*/
+                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-EN.png'
 
     		},
     		'es':{
@@ -111,11 +112,11 @@
                 'paraTodo-p2':'Con dos familias tipográficas,<br>Indivisa es funcional y práctica.',
                 'paraTodo-p3':'<span>Mayúsculas, versalitas, superiores, ligaduras,<br> cifras matemáticas, diacríticos, editoriales, etc.,</span><br> agregan una personalidad única<br> a folletos, redes sociales o publicidad.',
                 'aplicaciones-branding':'Identidad corporativa',
-                'aplicaciones-branding-descripcion':'Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa',
+                'aplicaciones-branding-descripcion':'Papelería corporativa, comunicados, eventos corporativos, campañas de pertenencia, campañas internas',
                 'aplicaciones-publicaciones':'Publicaciones',
-                'aplicaciones-publicaciones-descripcion':'Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo',
+                'aplicaciones-publicaciones-descripcion':'Folletería, libros, revistas, periódicos, manuales, ensayos, tesis, gacetas',
                 'aplicaciones-administrativo':'Administrativo',
-                'aplicaciones-administrativo-descripcion':'Trámites, proveedores, formatos, docentes, alumnos',
+                'aplicaciones-administrativo-descripcion':'Presentaciones, cartas, reportes, circulares',
                 'aplicaciones-publicidad':'Publicidad',
                 'aplicaciones-publicidad-descripcion':'Espectacular, parabuses, lonas, posters, campañas en redes sociales, inserciones de prensa',
 
@@ -161,7 +162,10 @@
                 'eula-p7':'Si es absolutamente necesario, se puede dar una copia del software tipográfico a una imprenta o servicio de producción para preparar documentos, siempre y cuando el licenciatario se asegure de compartir esta licencia e idealmente que todas las copias del software se destruyan una vez completado el trabajo. No obstante, usted debe asegurarse que en medida de lo posible, dicha transmisión del software sea por medio de un pdf.',
                 'eula-p8':'El software es propiedad exclusiva de la universidad la salle a.c. y está protegido legalmente por las instituciones correspondientes. Usted acepta que la universidad la salle a.c. posee todos los derechos físicos de uso y distribución (sin limitación) y enigma diseño los derechos morales de autor e intelectuales. También acepta que las marcas comerciales (registradas o no registradas) asociadas con el software tipográfico son propiedad exclusiva de la universidad la salle a.c. y no está permitido modificar dichas marcas de ninguna manera sin el consentimiento previo por escrito.',
                 'eula-p9':'Usted se compromete a no crear trabajos derivados o basados en el diseño incorporado en el software tipográfico. A excepción de lo permitido en este documento, el concesionario se compromete a no copiar ningún material escrito, que puede acompañar al software o al software en sí.',
-                'eula-p10':'En ningún caso la universidad la salle a.c. será responsable por daños indirectos, incidentales, consecuentes, especiales o ejemplares (incluyendo, pero no limitado a, daños por pérdida o beneficios, ahorros de información, o interrupción de negocio) en virtud de cualquier causa de acción que surja del uso o la imposibilidad de utilizar el software. Si la copia del software está defectuosa, será remplazada por una nueva dess manera razonable.'
+                'eula-p10':'En ningún caso la universidad la salle a.c. será responsable por daños indirectos, incidentales, consecuentes, especiales o ejemplares (incluyendo, pero no limitado a, daños por pérdida o beneficios, ahorros de información, o interrupción de negocio) en virtud de cualquier causa de acción que surja del uso o la imposibilidad de utilizar el software. Si la copia del software está defectuosa, será remplazada por una nueva dess manera razonable.',
+
+                /*Conoce Inidivisa*/
+                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-ESP.png'
                 
 
 
@@ -245,7 +249,10 @@
                 'eula-p7':'En cas de besoin absolu, une copie du Logiciel de fonte peut être remise à une imprimerie ou à un service de production pour préparer des documents, à condition que vous vous assuriez de partager cette licence et que toutes les copies du Logiciel soient entièrement détruites une fois les travaux achevés. Vous devez de même veiller à ce que la transmission du Logiciel soit effectuée, dans la mesure du possible, sous forme de fichier pdf.',
                 'eula-p8':'Ce Logiciel est la propriété exclusive de l’universidad la salle a.c. et il est placé sous la protection juridique des institutions compétentes. Vous acceptez que  l’ universidad la salle a.c. en possède tous les droits d’utilisation et de distribution (sans limitation) ainsi que tous les droits d’auteur moraux et patrimoniaux. Vous acceptez également que les marques commerciales (déposées ou non) associées au Logiciel de fonte sont la propriété exclusive de l’universidad la salle a.c. et qu’elles ne peuvent être modifiées sans son consentement écrit préalable.',
                 'eula-p9':'Vous vous engagez à ne pas créer de versions dérivées du design intégré au Logiciel de fonte ou inspirées de ce design. À l’exception de ce qui est permis dans ce document, le concessionnaire s’engage à ne pas copier le matériel écrit pouvant accompagner ce Logiciel, ni le Logiciel lui-même.',
-                'eula-p10':'L’universidad la salle a.c. ne sera en aucun cas tenue pour responsable des dommages indirects, incidents, consécutifs, spéciaux ou punitifs (y compris, mais sans s’y limiter, les dommages et intérêts sur les pertes ou bénéfices, les économies d’information ou l’interruption des activités) causés par l’utilisation du Logiciel ou l’impossibilité de l’utiliser. Si la copie du Logiciel s’avère défectueuse, elle sera raisonnablement remplacée par une nouvelle copie.'
+                'eula-p10':'L’universidad la salle a.c. ne sera en aucun cas tenue pour responsable des dommages indirects, incidents, consécutifs, spéciaux ou punitifs (y compris, mais sans s’y limiter, les dommages et intérêts sur les pertes ou bénéfices, les économies d’information ou l’interruption des activités) causés par l’utilisation du Logiciel ou l’impossibilité de l’utiliser. Si la copie du Logiciel s’avère défectueuse, elle sera raisonnablement remplacée par une nouvelle copie.',
+
+                /*Conoce Inidivisa*/
+                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-FR.png'
 
 
             },
@@ -324,9 +331,6 @@
                 'eula-p8':'',
                 'eula-p9':'',
                 'eula-p10':''
-
-
-
             }
     	};
         
@@ -390,8 +394,8 @@
                     $(this).attr("placeholder",arrLang[lang][$(this).attr('key')]);
                 });
 
-                /*Cambiar logo*/
-                $('.logo').each(function(index, element){
+                /*Cambiar imagen*/
+                $('.imagenIdioma').each(function(index, element){
                     $(this).attr("src",arrLang[lang][$(this).attr('key')]);
                 });
 

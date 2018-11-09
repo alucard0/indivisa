@@ -122,7 +122,7 @@ include 'header.php';
 							      		</div>
 							      		<div class="row justify-content-center">
 							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-							      				<p class="descripcion text-center lang" key="aplicaciones-branding-descripcion">Campañas publicitarias, puntos de contacto: Gran formato, espectaculares, parabuses, lonas, fachadas, materiales colaterales, papelería corporativa, comunicados tanto internos como externos, inserciones en prensa</p>
+							      				<p class="descripcion text-center lang" key="aplicaciones-branding-descripcion">Papelería corporativa, comunicados, eventos corporativos, campañas de pertenencia, campañas internas</p>
 							      			</div>
 							      		</div>
 							      	</div>
@@ -155,7 +155,7 @@ include 'header.php';
 							      		</div>
 							      		<div class="row justify-content-center">
 							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-							      				<p class="descripcion text-center lang" key="aplicaciones-publicaciones-descripcion">Libros, tesis, ensayos, periódicos, boletines, tanto para uso interno como externo</p>
+							      				<p class="descripcion text-center lang" key="aplicaciones-publicaciones-descripcion">Folletería, libros, revistas, periódicos, manuales, ensayos, tesis, gacetas</p>
 							      			</div>
 							      		</div>
 							      	</div>
@@ -189,7 +189,7 @@ include 'header.php';
 							      		</div>
 							      		<div class="row justify-content-center">
 							      			<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-							      				<p class="descripcion text-center lang" key="aplicaciones-administrativo-descripcion">Trámites, proveedores, formatos, docentes, alumnos</p>
+							      				<p class="descripcion text-center lang" key="aplicaciones-administrativo-descripcion">Presentaciones, cartas, reportes, circulares</p>
 							      			</div>
 							      		</div>
 							      	</div>
