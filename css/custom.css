@@ -1302,6 +1302,9 @@ section#multilinguistico p.head span{
   font-size: 18px;
   line-height: 18px;
 }
+section#multilinguistico p.descripcion{
+  text-transform: uppercase;
+}
 /*Fin Contenido*/
 /*Footer*/
 
