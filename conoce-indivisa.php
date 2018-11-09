@@ -333,24 +333,70 @@ include 'header.php';
 			<p class="numeraria">28 varientes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span></p>
 		</div>
 	</div>
-	<div class="row backGroundAzul justify-content-center">
-		<div class="col-xl-4">
-			<div class="round-button mx-auto"><p class="head">a<br><span>Letras</span>
-			</p></div>
-			<div class="row">
+	<div class="row backGroundAzul justify-content-center contenidoGlifos">
+
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bordeDerecha">
+			<img src="images/contenido/conoceIndivisa/3_SIGNOS-INDIVISA.png" alt="" class="img-fluid">
+			<!--
+			<div class="round-button mx-auto">
+				<p class="head">a<br><span>Letras</span></p>
+			</div>
+			<div class="row textoBlanco">
 				<div class="col-6">
-					<p class="text-right">AG</p>
+					<p class="text-right serif-bold mayusculas">AG</p>
 				</div>
 				<div class="col-6">
 					<p class="descripcion">Mayúsculas</p>
 				</div>
 			</div>
+			<div class="row textoBlanco">
+				<div class="col-6">
+					<p class="text-right serif-bold">ag</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion">Minúsculas</p>
+				</div>
+			</div>
+			<div class="row textoBlanco">
+				<div class="col-6">
+					<p class="text-right serif-bold">ag</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion">Versalitas</p>
+				</div>
+			</div>
+			<div class="row textoBlanco">
+				<div class="col-6">
+					<p class="text-right serif-bold">fi</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion">Ligaduras</p>
+				</div>
+			</div>
+			<div class="row textoBlanco">
+				<div class="col-6">
+					<p class="text-right serif-bold">éęẽ</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion">Diacríticos</p>
+				</div>
+			</div>
+			<div class="row textoBlanco">
+				<div class="col-6">
+					<p class="text-right serif-bold">ct</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion">Discrecionales</p>
+				</div>
+			</div>
+			-->
+
 		</div>
-		<div class="col-xl-4">
-			
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bordeDerecha">
+			<img src="images/contenido/conoceIndivisa/2_SIGNOS-INDIVISA.png" alt="" class="img-fluid">
 		</div>
-		<div class="col-xl-4">
-			
+		<div class="col-12 col-sm-126 col-md-4 col-lg-4 col-xl-4">
+			<img src="images/contenido/conoceIndivisa/1_SIGNOS-INDIVISA.png" alt="" class="img-fluid">
 		</div>
 	</div>
 </section>

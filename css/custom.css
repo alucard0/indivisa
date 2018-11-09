@@ -455,7 +455,8 @@ section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.black-itali
 }
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold,
 section#sistemaTipografico div.letrasA.TextSerif p span.bold,
-section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.bold{
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.bold,
+section#multilinguistico p.serif-bold{
   font-family: "IndivisaTextSerif";
   font-weight: 600;
 }
@@ -1284,6 +1285,7 @@ section#multilinguistico p.numeraria span{
 section#multilinguistico div.contenidoNumeros{
   padding: 50px 15px 40px;
 }
+
 section#multilinguistico .round-button{
   color: #FFD200;
   cursor: auto;
@@ -1291,6 +1293,13 @@ section#multilinguistico .round-button{
 section#multilinguistico .round-button:hover{
   color: #000;
 }
+section#multilinguistico div.contenidoGlifos{
+      padding: 50px 15px;
+}
+section#multilinguistico div.contenidoGlifos .bordeDerecha {
+    border-right: 3px solid rgb(255, 255, 255);
+}
+
 section#multilinguistico p.head{
   font-size: 50px;
   line-height: 18px;
@@ -1303,6 +1312,10 @@ section#multilinguistico p.head span{
 section#multilinguistico p.descripcion{
   text-transform: uppercase;
 }
+section#multilinguistico p.mayusculas{
+  font-size: 35px;
+}
+
 /*Fin Contenido*/
 /*Footer*/
 
@@ -1445,6 +1458,9 @@ section#multilinguistico p.descripcion{
   }
   section#multilinguistico p.numeraria {
     margin-bottom: 35px;
+  }
+  section#multilinguistico div.contenidoGlifos .bordeDerecha {
+    border-right: none;
   }
 
 }
