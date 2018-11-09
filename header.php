@@ -30,6 +30,7 @@
 
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
 	<!-- Titulo -->
 	<title >Indivisa | La Salle</title>
 
@@ -48,7 +49,8 @@
 	<!--[if lte IE 8]>
 			<script src="js/respond/respond.js"></script>
 			<script src="js/excanvas/excanvas.js"></script>
-	<![endif]-->
+		<![endif]-->
+
 	<!--fonts-->
 	<!--js-->
 	
@@ -74,13 +76,13 @@
 		        <a class="nav-item nav-link seccion lang" href="#aplicaciones" key="menu_aplicaciones">Aplicaciones</a>
 		        <a class="nav-item nav-link seccion lang" href="#descargas" key="menu_descarga">Descarga</a>
 				<div class="idiomas row no-gutters">
-					<div class="col-3">
+					<div class="col-4 opcionIdiomas">
 						<a class="nav-item nav-link translate lang" id="en" href="#" key="menu_en">EN</a>
 					</div>
-					<div class="col-3">
+					<div class="col-4 opcionIdiomas">
 						<a class="nav-item nav-link translate lang" id="es" href="#" key="menu_es">ES</a>
 					</div>
-					<div class="col-3">
+					<div class="col-4 opcionIdiomas">
 						<a class="nav-item nav-link translate lang" id="fr" href="#" key="menu_fr">FR</a> 
 					</div>
 					<!--
