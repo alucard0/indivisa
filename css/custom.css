@@ -361,7 +361,10 @@ section#aplicaciones p.paratodoDescripcion2,
 section#aplicaciones div.modal p.titulo,
 h1.tituloConoce,
 section#sistemaTipografico div.letrasA.TextSans p span.black,
-section#sistemaTipografico div.letrasN.TextSans p span.black{
+section#sistemaTipografico div.letrasN.TextSans p span.black,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.black,
+section#multilinguistico p.numeraria,
+section#multilinguistico p.head{
   font-family: "IndivisaTextSans";
   font-weight: 700;
   font-style: normal;
@@ -369,7 +372,8 @@ section#sistemaTipografico div.letrasN.TextSans p span.black{
 section#sistemaTipografico div.text p.familiaTitulo.sans,
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black-italic,
 section#sistemaTipografico div.letrasA.TextSans-Italic p span.black,
-section#sistemaTipografico div.letrasN.TextSans p span.black-italic{
+section#sistemaTipografico div.letrasN.TextSans p span.black-italic,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.black-italic{
   font-family: "IndivisaTextSans";
   font-weight: 700;
   font-style: italic;
@@ -377,14 +381,19 @@ section#sistemaTipografico div.letrasN.TextSans p span.black-italic{
 .fraseIntro2,p.tituloTipografiaTodos span,
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold,
 h2.subtituloConoce,
-section#sistemaTipografico div.letrasA.TextSans p span.bold{
+section#sistemaTipografico div.letrasA.TextSans p span.bold,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.bold{
   font-family: "IndivisaTextSans";
   font-weight: 600;
 }
 .fraseIntro2,p.tituloTipografiaTodos span,
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold-italic,
 section#sistemaTipografico p.subtituloSistemaConoce,
-section#sistemaTipografico div.letrasA.TextSans-Italic p span.bold{
+section#sistemaTipografico div.letrasA.TextSans-Italic p span.bold,
+section#familiasyExtensiones p.subtitulo,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.bold-italic,
+section#multilinguistico p.subtitulo,
+section#multilinguistico p.head span{
   font-family: "IndivisaTextSans";
   font-weight: 600;
   font-style: italic;
@@ -392,14 +401,17 @@ section#sistemaTipografico div.letrasA.TextSans-Italic p span.bold{
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular,
 section#aplicaciones p.paratodoDescripcion span,
 section#aplicaciones p.paratodoDescripcion2 span,
-section#sistemaTipografico div.letrasA.TextSans p span.regular{
+section#sistemaTipografico div.letrasA.TextSans p span.regular,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.regular,
+section#multilinguistico p.numeraria span{
   font-family: "IndivisaTextSans";
   font-weight: 400;
 }
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular-italic,
 section#descargas p.subtitulo,
 section#descargas h5.modal-title,
-section#sistemaTipografico div.letrasA.TextSans-Italic p span.regular{
+section#sistemaTipografico div.letrasA.TextSans-Italic p span.regular,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.regular-italic{
   font-family: "IndivisaTextSans";
   font-weight: 400;
   font-style: italic;
@@ -409,13 +421,15 @@ section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light,
 section#descargas p.titulo,
 section#aplicaciones div.modal p.descripcion,
 section#sistemaTipografico div.letrasA.TextSans p span.light,
-section#sistemaTipografico div.letrasN.TextSans p span.light{
+section#sistemaTipografico div.letrasN.TextSans p span.light,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.light{
   font-family: "IndivisaTextSans";
   font-weight: 300;
 }
 section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light-italic,
 section#sistemaTipografico div.letrasA.TextSans-Italic p span.light,
-section#sistemaTipografico div.letrasN.TextSans p span.light-italic{
+section#sistemaTipografico div.letrasN.TextSans p span.light-italic,
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.light-italic{
   font-family: "IndivisaTextSans";
   font-weight: 300;
   font-style: italic;
@@ -425,26 +439,30 @@ h1,h2,section#sistemaTipografico p.subtitulo,
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black,
 h2.subtituloConoce span,
 section#sistemaTipografico div.letrasA.TextSerif p span.black,
-section#sistemaTipografico div.letrasN.TextSerif p span.black{
+section#sistemaTipografico div.letrasN.TextSerif p span.black,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.black{
   font-family: "IndivisaTextSerif";
   font-weight: 700;
   font-style: normal;
 }
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black-italic,
 section#sistemaTipografico div.letrasA.TextSerif-Italic p span.black,
-section#sistemaTipografico div.letrasN.TextSerif p span.black-italic{
+section#sistemaTipografico div.letrasN.TextSerif p span.black-italic,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.black-italic{
   font-family: "IndivisaTextSerif";
   font-weight: 700;
   font-style: italic;
 }
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold,
-section#sistemaTipografico div.letrasA.TextSerif p span.bold{
+section#sistemaTipografico div.letrasA.TextSerif p span.bold,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.bold{
   font-family: "IndivisaTextSerif";
   font-weight: 600;
 }
 p.indivisaManent,.fraseIntro,
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.bold-italic,
-section#sistemaTipografico div.letrasA.TextSerif-Italic p span.bold
+section#sistemaTipografico div.letrasA.TextSerif-Italic p span.bold,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.bold-italic
 {
   font-family: "IndivisaTextSerif";
   font-weight: 600;
@@ -453,7 +471,8 @@ section#sistemaTipografico div.letrasA.TextSerif-Italic p span.bold
 
 
 h2,section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular,
-section#sistemaTipografico div.letrasA.TextSerif p span.regular{
+section#sistemaTipografico div.letrasA.TextSerif p span.regular,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.regular{
   font-family: "IndivisaTextSerif";
   font-weight: 400;
   font-style: normal;
@@ -461,7 +480,8 @@ section#sistemaTipografico div.letrasA.TextSerif p span.regular{
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular-italic,
 section#descargas p.tituloInfo,
 section#descargas p.contenido300,
-section#sistemaTipografico div.letrasA.TextSerif-Italic p span.regular{
+section#sistemaTipografico div.letrasA.TextSerif-Italic p span.regular,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.regular-italic{
   font-family: "IndivisaTextSerif";
   font-weight: 400;
   font-style: italic;
@@ -469,76 +489,91 @@ section#sistemaTipografico div.letrasA.TextSerif-Italic p span.regular{
 
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light,
 section#sistemaTipografico div.letrasA.TextSerif p span.light,
-section#sistemaTipografico div.letrasN.TextSerif p span.light{
+section#sistemaTipografico div.letrasN.TextSerif p span.light,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.light{
   font-family: "IndivisaTextSerif";
   font-weight: 300;
 }
 section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.light-italic,
 section#sistemaTipografico div.letrasA.TextSerif-Italic p span.light,
-section#sistemaTipografico div.letrasN.TextSerif p span.light-italic{
+section#sistemaTipografico div.letrasN.TextSerif p span.light-italic,
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.light-italic{
   font-family: "IndivisaTextSerif";
   font-weight: 300;
   font-style: italic;
 }
 
 /*Display Sans*/
-section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.heavy{
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.heavy,
+section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.heavy{
   font-family: "IndivisaDisplaySans";
   font-weight: 900;
 }
-section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.heavy-italic{
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.heavy-italic,
+section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.heavy-italic{
   font-family: "IndivisaDisplaySans";
   font-weight: 900;
   font-style: italic;
 }
 section#sistemaTipografico p.titulo,
-section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.regular{
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.regular,
+section#familiasyExtensiones p.titulo,
+section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.regular,{
   font-family: "IndivisaDisplaySans";
   font-weight: 500;
 }
 section#sistemaTipografico div.display p.familiaTitulo.sans,
-section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.regular-italic{
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.regular-italic,
+section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.regular-italic{
   font-family: "IndivisaDisplaySans";
   font-weight: 500;
   font-style: italic;
 }
 section#printweb p.titulo,section#sistemaTipografico p.varianteNumero,
-section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.thin{
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.thin,
+section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.thin{
   font-family: "IndivisaDisplaySans";
   font-weight: 100;
 }
-section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.thin-italic{
+section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.thin-italic,
+section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.thin-italic{
   font-family: "IndivisaDisplaySans";
   font-weight: 100;
   font-style: italic;
 }
 /*Display Serif*/
-section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy {
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy,
+section#familiasyExtensiones div.display div.serif p.nombreVarianteTipo.heavy {
   font-family: "IndivisaDisplaySerif";
   font-weight: 900;
 }
-section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy-italic{
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.heavy-italic,
+section#familiasyExtensiones div.display div.serif p.nombreVarianteTipo.heavy-italic{
   font-family: "IndivisaDisplaySerif";
   font-weight: 900;
   font-style: italic;
 }
 
-section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.regular{
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.regular,
+section#familiasyExtensiones div.display div.serif p.nombreVarianteTipo.regular{
   font-family: "IndivisaDisplaySerif";
   font-weight: 500;
 }
 
-section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.regular-italic{
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.regular-italic,
+section#familiasyExtensiones div.display div.serif p.nombreVarianteTipo.regular-italic{
   font-family: "IndivisaDisplaySerif";
   font-weight: 500;
   font-style: italic;
 }
 
-section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin{
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin,
+section#familiasyExtensiones div.display div.serif p.nombreVarianteTipo.thin{
   font-family: "IndivisaDisplaySerif";
   font-weight: 100;
 }
-section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin-italic{
+section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin-italic,
+section#familiasyExtensiones div.display div.serif p.nombreVarianteTipo.thin-italic{
   font-family: "IndivisaDisplaySerif";
   font-weight: 100;
   font-style: italic;
@@ -567,6 +602,9 @@ section#sistemaTipografico div.display div.serif p.nombreVarianteTipo.thin-itali
 }
 .backgroundGrisClaro{
   background: #f1f1f1;
+}
+.backgroundGrisClaro2{
+  background: #f2f2f2;
 }
 .backgroundAmarillo{
   background: #FFD200;;
@@ -816,7 +854,7 @@ section#aplicaciones div#modalPlublicidad div.modal-content{
   background-attachment: initial;
 }
 section#aplicaciones div#modalBranding div.modal-content{
-  background-image: url('../images/contenido/POPUP_BRANDING.jpg');
+  background-image: url('../images/contenido/POPUP_IDENTIDAD.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1054,7 +1092,7 @@ ol.licencia li{
   margin-bottom: 20px;
 }
 
-
+/*--------------------------------------------------------------------------------------------------*/
 /*Conoce indivisa*/
 section#inicioConoce{
   background-image: url('../images/contenido/conoceIndivisa/bgConoceIndivisa.jpg');
@@ -1172,6 +1210,98 @@ section#sistemaTipografico .colSans:after{
   border-bottom: 1px solid rgba(255, 255, 255, 0.50);
 }
 
+/*Familias y extensiones*/
+section#familiasyExtensiones{
+  padding: 60px 15px;
+}
+section#familiasyExtensiones p.titulo,
+section#rasgosDistintivos p.titulo,
+section#multilinguistico p.titulo, section#rasgosDistintivos p.titulo {
+  font-size: 30px;
+  line-height: 30px;
+}
+section#familiasyExtensiones p.subtitulo {
+  font-size: 35px;
+  line-height: 45px;
+}
+
+section#familiasyExtensiones p.subtitulo-p1{
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+section#familiasyExtensiones div.card{
+  border-radius: 0;
+  border: none;
+}
+section#familiasyExtensiones div.card div.card-body{
+  padding: 0 0 1.25rem 0;
+}
+
+section#familiasyExtensiones div.card.display div.card-body{
+  padding: 0 0 3.657rem 0;
+}
+
+section#familiasyExtensiones div.card img.card-img-top{
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+}
+section#familiasyExtensiones div.card div.card-body .card-title{
+  padding: 15px 5px;
+  font-size: 25px;
+}
+
+/*Rasgos distintivos*/
+section#rasgosDistintivos img{
+  margin-bottom: 20px;
+}
+
+/*Multilingüistico*/
+section#multilinguistico div.backgroundMapa{
+  background-image: url('../images/contenido/conoceIndivisa/MUNDO-TIPOGRAFIA.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size:  cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  padding: 120px 15px;
+}
+section#multilinguistico p.subtitulo{
+  font-size: 35px;
+  line-height: 45px;
+  text-align: center;
+}
+
+section#multilinguistico p.numeraria{
+  font-size: 35px;
+  line-height: 20px;
+  text-align: center;
+}
+section#multilinguistico p.numeraria span{
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+}
+section#multilinguistico div.contenidoNumeros{
+  padding: 50px 15px 40px;
+}
+section#multilinguistico .round-button{
+  color: #FFD200;
+  cursor: auto;
+}
+section#multilinguistico .round-button:hover{
+  color: #000;
+}
+section#multilinguistico p.head{
+  font-size: 50px;
+  line-height: 18px;
+  margin-top: 25%;
+}
+section#multilinguistico p.head span{
+  font-size: 18px;
+  line-height: 18px;
+}
 /*Fin Contenido*/
 /*Footer*/
 
@@ -1312,6 +1442,9 @@ section#sistemaTipografico .colSans:after{
     display: inline-block;
     content: "";
   }
+  section#multilinguistico p.numeraria {
+    margin-bottom: 35px;
+  }
 
 }
 
@@ -1372,6 +1505,23 @@ section#sistemaTipografico .colSans:after{
     padding: 60px 15px 100px 15px;
   }
 
+  section#sistemaTipografico div.letrasA p span {
+    font-size: 3em;
+  }
+  section#sistemaTipografico div.letrasA p.familia, section#sistemaTipografico div.letrasN p.familia {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  section#sistemaTipografico div.letrasN p span {
+    font-size: 4em;
+  }
+  section#sistemaTipografico .colSans:after{
+    top: 0;
+    left: 105px;
+  }
+  section#multilinguistico p.numeraria {
+    font-size: 32px;
+  }
 
 }
 
@@ -1381,11 +1531,16 @@ section#sistemaTipografico .colSans:after{
 }
 
 @media (min-width: 1200px) and (max-width: 1919.98px) {
-
+  section#sistemaTipografico img.letras {
+    margin-top: 47%;
+  }
 }
 
 @media (min-width: 1920px){
   section#sistemaTipografico div.letrasA p span{
     font-size: 7em;
+  }
+  section#sistemaTipografico img.letras {
+    margin-top: 36%;
   }
 }
