@@ -440,7 +440,8 @@ section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.black,
 h2.subtituloConoce span,
 section#sistemaTipografico div.letrasA.TextSerif p span.black,
 section#sistemaTipografico div.letrasN.TextSerif p span.black,
-section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.black{
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.black,
+footer p.titulo span{
   font-family: "IndivisaTextSerif";
   font-weight: 700;
   font-style: normal;
@@ -473,7 +474,8 @@ section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.bold-italic
 
 h2,section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular,
 section#sistemaTipografico div.letrasA.TextSerif p span.regular,
-section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.regular{
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.regular,
+footer p.titulo{
   font-family: "IndivisaTextSerif";
   font-weight: 400;
   font-style: normal;
@@ -725,8 +727,12 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate{
   text-transform: uppercase;
 }
 
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover,nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:active {
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover,
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:active,
+footer a:hover,
+footer a:active {
   color: #FFD200;
+  text-decoration: none;
 }
 
 
@@ -1318,7 +1324,34 @@ section#multilinguistico p.mayusculas{
 
 /*Fin Contenido*/
 /*Footer*/
-
+footer{
+  padding: 50px;
+}
+footer p.titulo{
+  font-size: 28px;
+}
+footer p.contacto{
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding-bottom: 10px;
+}
+footer div.fila-1{
+  padding: 45px 12px;
+}
+footer div.fila-2{
+  margin-bottom: 50px;
+}
+footer p.cookies{
+  margin-bottom: 0;
+}
+footer img{
+  margin-left: 20px;
+}
+hr.lineaBlanca{
+  margin: 1rem auto 1rem 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  width: 90%;
+}
 /*Fin Footer*/
 /*Media Queries*/
 

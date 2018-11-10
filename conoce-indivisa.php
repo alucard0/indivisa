@@ -333,6 +333,7 @@ include 'header.php';
 			<p class="numeraria">28 varientes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span></p>
 		</div>
 	</div>
+	<!--
 	<div class="row backGroundAzul justify-content-center contenidoGlifos">
 
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bordeDerecha">
@@ -389,7 +390,7 @@ include 'header.php';
 					<p class="descripcion">Discrecionales</p>
 				</div>
 			</div>
-			-->
+
 
 		</div>
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bordeDerecha">
@@ -399,6 +400,7 @@ include 'header.php';
 			<img src="images/contenido/conoceIndivisa/1_SIGNOS-INDIVISA.png" alt="" class="img-fluid">
 		</div>
 	</div>
+	-->
 </section>
 
 <?php include 'footer.php';?>
