@@ -64,6 +64,7 @@
                 'descargas-setWeb-contenido':'<span>28 variants</span><br>eot / otf / sgv / ttf / woff / woff2',
                 'descargas-setWeb-btnDescarga':'<span>Download</span><i class="fas fa-download"></i>',
                 'descargas-MUsuario-titulo':'User manual',
+                'descargaManual':'descargables/Indivisa_Manual_English.pdf',
                 'descargas-btnDescarga':'<span>Download</span><i class="fas fa-download"></i>',
                 'descargas-InfoAct-titulo':'Update information',
                 'descargas-folleto-titulo':'Brochure',
@@ -82,7 +83,41 @@
                 'eula-p10':'In no case shall the LA SALLE A.C. university be liable for indirect, incidental, consequential, special or exemplary damages (including, but not limited to, damages for loss or benefits, information savings, or business interruption) by virtue of any cause of action arising from the use or the inability to use the software. If the copy of the software is defective, it shall be replaced by a new one in a reasonable manner.',
 
                 /*Conoce Inidivisa*/
-                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-EN.png'
+                /*Inicio Conoce*/
+                'inicio-tituloConoce':'The Font System of the<br> Lasallian community',
+                'inicio-subtitulo':'Indivisa Manent<br><span class="textoAmarillo">(permanently indivisible)<span>',
+                'inicioConoce-descripcion':'With a careful balance between functionality and personality, the font system covers all the needs of institutional communication through a graphic voice of human and ecumenical character, where the Lasallian spirit converges in a context of contemporary use.',
+                
+                /*Sistema tipografico Conoce*/
+                'sistemaConoce-subtitulo':'A font with<br> a Lasallian spirit',
+                'sistemaConoce-frase':'Typography is unique; it should reflect who we are, what we think, what we do and what we long for.',
+                'sistemaConoce-progresista':'Progressive',
+                'sistemaConoce-amigable':'Friendly',
+                'sistemaConoce-humana':'Human',
+                'sistemaConoce-cercana':'Close',
+                'sistemaConoce-integral':'Integral',
+                'sistemaConoce-versatil':'Versatile',
+                'sistemaConoce-expresiva':'Expressive',
+                'sistemaConoce-dinamica':'Dynamic',
+                'sistemaConoce-formal':'Formal and Juvenile',
+                'sistemaConoce-proceso':'Process',
+                'sistemaConoce-descripcion':'The letters were designed to convey both the human and disciplined spirit, as well as the Lasallian fraternity.',
+                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-EN.png',
+
+                /*Familias y extensiones*/
+                'familiasyExtensiones-titulo':'Families and extensions',
+                'familiasyExtensiones-subtitulo':'Designed to endure the great editorial, digital and printed complexity that our institutions require.',
+                'familiasyExtensiones-subtitulo-p1':'Functional and versatile, it is readable in small sizes, and powerful to to build distinctive messages.',
+
+                /*Rasgos distitinvos*/
+                'rasgosDistintivos-titulo':'Features',
+
+                /*Multilingüístico*/
+                'multilinguistico-titulo':'Multilingual',
+                'multilinguistico-subtitulo':'A System that represents the Lasallian identity globally',
+                'multilinguistico-idiomas':'270 languages<br><span>of the Latin alphabet</span>',
+                'multilinguistico-glifos':'25,000 glyphs',
+                'multilinguistico-variantes':'28 variants<br><span>16 Indivisa text variants</span><br><span>12 Indivisa display variants</span>'
 
     		},
     		'es':{
@@ -147,6 +182,7 @@
                 'descargas-setWeb-contenido':'<span>28 variantes</span><br>eot / otf / sgv / ttf / woff / woff2',
                 'descargas-setWeb-btnDescarga':'<span>Descarga</span><i class="fas fa-download"></i>',
                 'descargas-MUsuario-titulo':'Manual de usuario',
+                'descargaManual':'descargables/Indivisa_Manual_Espanol.pdf',
                 'descargas-btnDescarga':'<span>Descarga</span><i class="fas fa-download"></i>',
                 'descargas-InfoAct-titulo':'Información de actualizaciones',
                 'descargas-folleto-titulo':'Folleto',
@@ -165,8 +201,41 @@
                 'eula-p10':'En ningún caso la universidad la salle a.c. será responsable por daños indirectos, incidentales, consecuentes, especiales o ejemplares (incluyendo, pero no limitado a, daños por pérdida o beneficios, ahorros de información, o interrupción de negocio) en virtud de cualquier causa de acción que surja del uso o la imposibilidad de utilizar el software. Si la copia del software está defectuosa, será remplazada por una nueva dess manera razonable.',
 
                 /*Conoce Inidivisa*/
-                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-ESP.png'
+                /*Inicio Conoce*/
+                'inicio-tituloConoce':'Una voz gráfica que dará<br>consistencia a nuestra identidad',
+                'inicio-subtitulo':'Indivisa Manent<br><span class="textoAmarillo">(lo unido permanece)<span>',
+                'inicioConoce-descripcion':'Con un cuidado balance entre funcionalidad y personalidad, el sistema tipográfico cubre todas las necesidades de comunicación institucional mediante una voz gráfica de carácter humano y ecuménico, donde converge el espíritu lasallista en un contexto de uso contemporáneo.',
+
+                /*Sistema tipografico Conoce*/
+                'sistemaConoce-subtitulo':'Tipografía con<br>espíritu lasallista',
+                'sistemaConoce-frase':'La tipografía es única y debe reflejar lo que somos, pensamos, hacemos y anhelamos.',
+                'sistemaConoce-progresista':'Progresista',
+                'sistemaConoce-amigable':'Amigable',
+                'sistemaConoce-humana':'Humana',
+                'sistemaConoce-cercana':'Cercana',
+                'sistemaConoce-integral':'Integral',
+                'sistemaConoce-versatil':'Versátil',
+                'sistemaConoce-expresiva':'Expresiva',
+                'sistemaConoce-dinamica':'Dinámica',
+                'sistemaConoce-formal':'Formal y Juvenil',
+                'sistemaConoce-proceso':'Proceso',
+                'sistemaConoce-descripcion':'Las letras fueron diseñadas para transmitir tanto el espíritu humano y disciplinado, así como la fraternidad.',
+                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-ESP.png',
+
+                /*Familias y extensiones*/
+                'familiasyExtensiones-titulo':'Familias y extensiones',
+                'familiasyExtensiones-subtitulo':'Diseñada para cumplir con los requerimientos de comunicación escrita de la comunidad lasallista.',
+                'familiasyExtensiones-subtitulo-p1':'Funcional y versátil, es legible en textos con puntajes pequeños y potente en textos grandes.',
                 
+                /*Rasgos distitinvos*/
+                'rasgosDistintivos-titulo':'Rasgos distintivos',
+
+                /*Multilingüístico*/
+                'multilinguistico-titulo':'Multilingüístico',
+                'multilinguistico-subtitulo':'Un Sistema que representa el lasallismo a nivel global',
+                'multilinguistico-idiomas':'270 idiomas<br><span>con el alfabeto latino</span>',
+                'multilinguistico-glifos':'25,000 glifos',
+                'multilinguistico-variantes':'28 varientes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span>'
 
 
     		},
@@ -234,6 +303,7 @@
                 'descargas-setWeb-contenido':'<span></span><br>eot / otf / sgv / ttf / woff / woff2',
                 'descargas-setWeb-btnDescarga':'<span>Téléchargement</span><i class="fas fa-download"></i>',
                 'descargas-MUsuario-titulo':'Manuel de l’usager',
+                'descargaManual':'descargables/Indivisa_Manual_Francais.pdf',
                 'descargas-btnDescarga':'<span>Téléchargement</span><i class="fas fa-download"></i>',
                 'descargas-InfoAct-titulo':'Information sur les mises à jour',
                 'descargas-folleto-titulo':'Brochure',
@@ -252,7 +322,41 @@
                 'eula-p10':'L’universidad la salle a.c. ne sera en aucun cas tenue pour responsable des dommages indirects, incidents, consécutifs, spéciaux ou punitifs (y compris, mais sans s’y limiter, les dommages et intérêts sur les pertes ou bénéfices, les économies d’information ou l’interruption des activités) causés par l’utilisation du Logiciel ou l’impossibilité de l’utiliser. Si la copie du Logiciel s’avère défectueuse, elle sera raisonnablement remplacée par une nouvelle copie.',
 
                 /*Conoce Inidivisa*/
-                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-FR.png'
+                /*Inicio Conoce*/
+                'inicio-tituloConoce':'Indivisa Font, le système typographique<br> de la communauté lasallienne',
+                'inicio-subtitulo':'Indivisa Manent<br><span class="textoAmarillo">(demeurer inséparables)<span>',
+                'inicioConoce-descripcion':'Possédant un équilibre délicat entre fonctionnalité et personnalité, le système typographique répond à tous les besoins de communication institutionnellegrâce à une voix graphique à caractère humain et œcuménique, où transparaît l’esprit lasallien dans un contexte d’utilisation contemporaine.',
+
+                /*Sistema tipografico Conoce*/
+                'sistemaConoce-subtitulo':'Une typographie dans<br> l’esprit lasallien',
+                'sistemaConoce-frase':'La typographie est unique et doit refléter ce que nous sommes, ce que nous pensons, ce que nous faisons et ce à quoi nous aspirons.',
+                'sistemaConoce-progresista':'Progressif',
+                'sistemaConoce-amigable':'Amical',
+                'sistemaConoce-humana':'Humain',
+                'sistemaConoce-cercana':'Près',
+                'sistemaConoce-integral':'Intégral',
+                'sistemaConoce-versatil':'Polyvalent',
+                'sistemaConoce-expresiva':'Expressif',
+                'sistemaConoce-dinamica':'Dynamique',
+                'sistemaConoce-formal':'Formel et Juvénile',
+                'sistemaConoce-proceso':'Processus',
+                'sistemaConoce-descripcion':'Les lettres ont été conçues pour transmettre aussi bien l’esprit humain et discipliné que la fraternité des lasalliens.',
+                'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-FR.png',
+
+                /*Familias y extensiones*/
+                'familiasyExtensiones-titulo':'Familles et extensions',
+                'familiasyExtensiones-subtitulo':'Conçu pour supporter la grande complexité éditoriale, numérique et imprimée que nos institutions ont besoin.',
+                'familiasyExtensiones-subtitulo-p1':'Fonctionnelle et adaptable, elle est lisible pour des textes à petits caractères et dégage de la puissance dans les textes à gros caractères.',
+
+                /*Rasgos distitinvos*/
+                'rasgosDistintivos-titulo':'Traits',
+
+                /*Multilingüístico*/
+                'multilinguistico-titulo':'Multilinguistique',
+                'multilinguistico-subtitulo':'Un système qui représente l’esprit lasallien de toute la planète',
+                'multilinguistico-idiomas':'270 langues<br><span>de l’alphabet latin</span>',
+                'multilinguistico-glifos':'25,000 glyphes',
+                'multilinguistico-variantes':'28 variantes typographiques<br><span>16 variantes d’indivisa text</span><br><span>12 variantes d’indivisa display</span>'
 
 
             },

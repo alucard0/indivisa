@@ -1495,7 +1495,24 @@ hr.lineaBlanca{
   section#multilinguistico div.contenidoGlifos .bordeDerecha {
     border-right: none;
   }
-
+  footer p.titulo {
+    font-size: 35px;
+  }
+  footer div.fila-2 {
+    margin-bottom: 10px;
+  }
+  footer div.fila-1 {
+    padding: 0px 12px;
+  }
+  hr.lineaBlanca {
+    margin: 1rem auto 1rem auto;
+  }
+  footer p.cookies {
+    margin-bottom: 20px;
+  }
+  footer div.colLegales{
+    margin-bottom: 20px;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -1523,7 +1540,12 @@ hr.lineaBlanca{
 	h2 {
 	    font-size: 60px;
 	}
-
+  footer div.colLegales{
+    margin-bottom: 20px;
+  }
+  footer p.cookies {
+    margin-bottom: 20px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -1572,7 +1594,15 @@ hr.lineaBlanca{
   section#multilinguistico p.numeraria {
     font-size: 32px;
   }
-
+  footer div.fila-1 {
+    padding: 0 12px;
+  }
+  footer p.cookies {
+    margin-bottom: 20px;
+  }
+  footer div.fila-2 {
+    margin-bottom: 20px;
+  }
 }
 
 /*Large devices (desktops, 992px and up)*/

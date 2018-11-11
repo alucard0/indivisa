@@ -7,18 +7,30 @@
 
 <footer class="container-fluid backGroundAzul">
 	<div class="row fila-1">
-		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
 			<p class="titulo textoBlanco"><span>Indivisa</span>font</p>
 			<div class="row">
 				<div class="col-xl-10 offset-xl-2">
 					<p class="contacto">Contacto</p>
-					<a href="mailto:indivisafont@lasalle.org" class="textoBlanco">Reporta fallas en la tipografía</a>
-					<br>
-					<a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank" class="textoBlanco">Términos y condiciones</a> <span class="textoBlanco">|</span> <a href="http://www.lasalle.mx/privacidad/" target="_blank" class="textoBlanco">Aviso de privacidad</a>
+					<div class="row">
+						<div class="col">
+							<a href="mailto:indivisafont@lasalle.org" class="textoBlanco">Reporta fallas en la tipografía</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col d-none d-sm-inline">
+							<a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank" class="textoBlanco">Términos y condiciones</a> <span class="textoBlanco ">|</span> <a href="http://www.lasalle.mx/privacidad/" target="_blank" class="textoBlanco">Aviso de privacidad</a>
+						</div>
+						<div class="col d-block d-sm-none colLegales">
+							<a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank" class="textoBlanco">Términos y condiciones</a> 
+							<br>
+							<a href="http://www.lasalle.mx/privacidad/" target="_blank" class="textoBlanco">Aviso de privacidad</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-right align-self-end">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-right align-self-end">
 			<img src="images/footer/1_FOOTER_SIGNUM-FIDEI_150.png" alt="" class="img-fluid">
 			<a href="http://www.lasalle.org/" target="_blank">
 				<img src="images/footer/1_FOOTER_LASALLEORG_150.png" alt="" class="img-fluid">
@@ -29,23 +41,33 @@
 		<div class="col-12 fila-2">
 			<hr class="lineaBlanca">
 		</div>
-		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-self-end">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 align-self-end">
 
 			<p class="textoBlanco">Todos los derechos Reservados  Univeresidad La Salle México 2018</p>
 			<p class="textoBlanco cookies">This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. <a href="#" target="_blank" class="textoBlanco">Review our cookies information for more details.</a></p>
 		</div>
-		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 text-right align-self-end">
-			<img src="images/footer/1_FOOTER_300LASALLE_150.png" alt="" class="img-fluid">
-			<a href="https://twitter.com/lasalleorg?lang=en" target="_blank">
-				<img src="images/footer/1_FOOTER_TWITTER_150.png" alt="" class="img-fluid">
-			</a>
-			<a href="https://www.facebook.com/lasalleorg/" target="_blank">
-				<img src="images/footer/1_FOOTER_FACEBOOK_150.png" alt="" class="img-fluid">
-			</a>
-			
-			<a href="https://www.instagram.com/indivisafont/" target="_blank">
-				<img src="images/footer/1_FOOTER_INSTAGRAM_150.png" alt="" class="img-fluid">
-			</a>
+		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 text-right align-self-end">
+
+			<div class="row justify-content-end">
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+					<img src="images/footer/1_FOOTER_300LASALLE_150.png" alt="" class="img-fluid">
+				</div>
+				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+					<a href="https://twitter.com/lasalleorg?lang=en" target="_blank">
+						<img src="images/footer/1_FOOTER_TWITTER_150.png" alt="" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+					<a href="https://www.facebook.com/lasalleorg/" target="_blank">
+						<img src="images/footer/1_FOOTER_FACEBOOK_150.png" alt="" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+					<a href="https://www.instagram.com/indivisafont/" target="_blank">
+						<img src="images/footer/1_FOOTER_INSTAGRAM_150.png" alt="" class="img-fluid">
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 	

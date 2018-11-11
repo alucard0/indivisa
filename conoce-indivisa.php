@@ -7,14 +7,14 @@ include 'header.php';
 */
 ?>
 <section id="inicioConoce" class="container-fluid">
-	<h1 class="text-center  tituloConoce">Una voz gráfica que dará<br>consistencia a nuestra identidad</h1>
-	<h2 class="text-center subtituloConoce">Indivisa Manent<br><span class="textoAmarillo">(lo unido permanece)<span></h2>
+	<h1 class="text-center  tituloConoce lang" key="inicio-tituloConoce">Una voz gráfica que dará<br>consistencia a nuestra identidad</h1>
+	<h2 class="text-center subtituloConoce lang" key="inicio-subtitulo">Indivisa Manent<br><span class="textoAmarillo">(lo unido permanece)<span></h2>
 </section>
 
 <div class="container-fluid descripcionIntro">
 	<div class="row justify-content-center">
 		<div class="col-xl-7">
-			<p class="text-center">Con un cuidado balance entre funcionalidad y personalidad, el sistema tipográfico cubre todas las necesidades de comunicación institucional mediante una voz gráfica de carácter humano y ecuménico, donde converge el espíritu lasallista en un contexto de uso contemporáneo.</p>
+			<p class="text-center lang" key="inicioConoce-descripcion">Con un cuidado balance entre funcionalidad y personalidad, el sistema tipográfico cubre todas las necesidades de comunicación institucional mediante una voz gráfica de carácter humano y ecuménico, donde converge el espíritu lasallista en un contexto de uso contemporáneo.</p>
 		</div>
 	</div>
 </div>
@@ -28,8 +28,8 @@ include 'header.php';
 					<hr class="lineaAmarilla v2">
 				</div>
 				<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-					<p class="text-center subtituloSistemaConoce textoAzul">Tipografía con<br>espíritu lasallista</p>
-					<p class="text-center fraseSistemaConoce">La tipografía es única y debe reflejar lo que somos, pensamos, hacemos y anhelamos.</p>
+					<p class="text-center subtituloSistemaConoce textoAzul lang" key="sistemaConoce-subtitulo">Tipografía con<br>espíritu lasallista</p>
+					<p class="text-center fraseSistemaConoce lang" key="sistemaConoce-frase">La tipografía es única y debe reflejar lo que somos, pensamos, hacemos y anhelamos.</p>
 				</div>
 			</div>
 			<div class="row no-gutters">
@@ -63,31 +63,31 @@ include 'header.php';
 			</div>
 			<div class="row backGroundAzul justify-content-center">
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
-					<p>Progresista</p>
+					<p class="lang" key="sistemaConoce-progresista">Progresista</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
-					<p>Amigable</p>
+					<p class="lang" key="sistemaConoce-amigable">Amigable</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeAbajo">
-					<p>Humana</p>
+					<p class="lang" key="sistemaConoce-humana">Humana</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
-					<p>Cercana</p>
+					<p class="lang" key="sistemaConoce-cercana">Cercana</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
-					<p>Integral</p>
+					<p class="lang" key="sistemaConoce-integral">Integral</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeAbajo">
-					<p>Versátil</p>
+					<p class="lang" key="sistemaConoce-versatil">Versátil</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha">
-					<p>Expresiva</p>
+					<p class="lang" key="sistemaConoce-expresiva">Expresiva</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha">
-					<p>Dinámica</p>
+					<p class="lang" key="sistemaConoce-dinamica">Dinámica</p>
 				</div>
 				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules">
-					<p>Formal y Juvenil</p>
+					<p class="lang" key="sistemaConoce-formal">Formal y Juvenil</p>
 				</div>
 			</div>
 			<div class="row backgroundGrisClaro2 justify-content-center">
@@ -99,10 +99,10 @@ include 'header.php';
 		<div class="col-12 col col-sm-12 col-md-6 col-lg-6 col-xl-6">
 			<div class="row justify-content-center backgroundAmarillo filaProceso">
 				<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-					<p class="titulo">Proceso</p>
+					<p class="titulo lang" key="sistemaConoce-proceso">Proceso</p>
 				</div>
 				<div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-					<p class="text-center">Las letras fueron diseñadas para transmitir tanto el espíritu humano y disciplinado, así como la fraternidad.</p>
+					<p class="text-center lang" key="sistemaConoce-descripcion">Las letras fueron diseñadas para transmitir tanto el espíritu humano y disciplinado, así como la fraternidad.</p>
 					<img src="images/contenido/conoceIndivisa/CUADERNO_CONOCE_INDIVISA_600.png" alt="" class="img-fluid cuaderno">
 				</div>
 			</div>
@@ -190,12 +190,12 @@ include 'header.php';
 <section id="familiasyExtensiones" class="container-fluid">
 	<div class="row justify-content-center">
 		<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-			<p class="titulo lang"  key="sistemaTipografico-titulo">Familias y extensiones</p>
+			<p class="titulo lang"  key="familiasyExtensiones-titulo">Familias y extensiones</p>
 			<hr class="lineaAmarilla v2">
 		</div>
 		<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-			<p class="text-center subtitulo textoAzul">Diseñada para cumplir con los requerimientos de comunicación escrita de la comunidad lasallista.</p>
-			<p class="text-center subtitulo-p1">Funcional y versátil, es legible en textos con puntajes pequeños y potente en textos grandes.</p>
+			<p class="text-center subtitulo textoAzul lang" key="familiasyExtensiones-subtitulo">Diseñada para cumplir con los requerimientos de comunicación escrita de la comunidad lasallista.</p>
+			<p class="text-center subtitulo-p1 lang" key="familiasyExtensiones-subtitulo-p1">Funcional y versátil, es legible en textos con puntajes pequeños y potente en textos grandes.</p>
 		</div>
 	</div>
 
@@ -298,7 +298,7 @@ include 'header.php';
 <section id="rasgosDistintivos" class="container-fluid">
 	<div class="row justify-content-center">
 		<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-			<p class="titulo lang"  key="sistemaTipografico-titulo">Rasgos distintivos</p>
+			<p class="titulo lang"  key="rasgosDistintivos-titulo">Rasgos distintivos</p>
 			<hr class="lineaAmarilla v2">
 		</div>
 	</div>
@@ -313,24 +313,24 @@ include 'header.php';
 <section id="multilinguistico" class="container-fluid">
 	<div class="row justify-content-center">
 		<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-			<p class="titulo lang"  key="sistemaTipografico-titulo">Multilingüístico</p>
+			<p class="titulo lang"  key="multilinguistico-titulo">Multilingüístico</p>
 			<hr class="lineaAmarilla v2">
 		</div>
 	</div>
 	<div class="row backgroundMapa">
 		<div class="col-8-12 col-sm-12 col-md-9 col-lg-8 col-xl-8">
-			<p class="subtitulo textoBlanco">Un Sistema que representa el lasallismo a nivel global</p>
+			<p class="subtitulo textoBlanco lang" key="multilinguistico-subtitulo">Un Sistema que representa el lasallismo a nivel global</p>
 		</div>
 	</div>
 	<div class="row backgroundAmarillo contenidoNumeros">
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-			<p class="numeraria">270 idiomas<br><span>con el alfabeto latino</span></p>
+			<p class="numeraria lang" key="multilinguistico-idiomas">270 idiomas<br><span>con el alfabeto latino</span></p>
 		</div>
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-			<p class="numeraria">25,000 glifos</p>
+			<p class="numeraria lang" key="multilinguistico-glifos">25,000 glifos</p>
 		</div>
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-			<p class="numeraria">28 varientes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span></p>
+			<p class="numeraria lang" key="multilinguistico-variantes">28 varientes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span></p>
 		</div>
 	</div>
 	<!--
