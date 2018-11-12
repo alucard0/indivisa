@@ -557,11 +557,11 @@
                 /*Cambiar Metas*/
                 switch(lang) {
                     case 'es':
-                        $('meta[name=description]').attr('content', 'Una sola “voz” para todos, para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.');
+                        $('meta[name=description]').attr('content', 'Una voz para todos y para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.');
                         $('meta[property=og\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
-                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
+                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font: Una voz para todos y para todo.');
                         $('meta[name=twitter\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
-                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
+                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: Una voz para todos y para todo.');
                         break;
                     case 'fr':
                         $('meta[name=description]').attr('content', 'Une seule “voix” pour tous, pour tout. Typographie officielle de La Salle dans le monde : 5 continents, 80 pays, 1 million d’étudiants.');
@@ -582,11 +582,11 @@
                         $('meta[name=description]').attr('content', '');
                         break;
                     default:
-                        $('meta[name=description]').attr('content', 'Una sola “voz” para todos, para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.');
+                        $('meta[name=description]').attr('content', 'Una voz para todos y para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.');
                         $('meta[property=og\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
-                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
+                        $('meta[property=og\\:description]').attr('content', 'Indivisa Font: Una voz para todos y para todo.');
                         $('meta[name=twitter\\:title]').attr('content', 'Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación');
-                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: Una sola “voz” para todos, para todo.');
+                        $('meta[name=twitter\\:description]').attr('content', 'Indivisa Font: Una voz para todos y para todo.');
                 }
 
                 //Se asigna el idioma default

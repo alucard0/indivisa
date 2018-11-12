@@ -11,12 +11,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="La Salle">
-	<meta name="description" content="Una sola “voz” para todos, para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.">
+	<meta name="description" content="Una voz para todos y para todo. Tipografía oficial de La Salle en el mundo: 5 continentes, 80 países, 1 millón de estudiantes.">
 	<!-- Metadatos Facebook-->
 	<meta property="og:url" content="http://indivisafont.org/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación" />
-	<meta property="og:description" content="Indivisa Font: Una sola “voz” para todos, para todo." />
+	<meta property="og:description" content="Indivisa Font: Una voz para todos y para todo." />
 	<meta property="og:image" content="http://indivisafont.org/images/background.png" />
 
 	<!-- Metadatos Twitter-->
@@ -24,7 +24,7 @@
     <meta name="twitter:site" content="@Indivisafont">
     <meta name="twitter:creator" content="@Indivisafont">
     <meta name="twitter:title" content="Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación">
-    <meta name="twitter:description" content="Indivisa Font: Una sola “voz” para todos, para todo.">
+    <meta name="twitter:description" content="Indivisa Font: Una voz para todos y para todo.">
     <meta name="twitter:image" content="http://indivisafont.org/images/background.png">
 
 
