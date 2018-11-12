@@ -42,7 +42,7 @@ include 'header.php';
 		</div>
 		<div class="row">
 			<div class="col-12 videoFull">
-				<div id="videoPrincipal" class="youtube" data-embed="User manual">
+				<div id="videoPrincipal" class="youtube" data-embed="IwObzK2Z3Rc">
 	                <div class="play-button"></div>
 	            </div>
 			</div>
@@ -242,7 +242,7 @@ include 'header.php';
 			<p class="titulo textoAmarillo lang" key="printweb-titulo">Print & Web</p>		
 		</div>
 		<div class="col-12 text-center">
-			<a class="btnDescarga textoBlanco lang descargable" key="printweb-btn-descargaGuia" keyb="printweb-descargable-guia" href="descargables/GUIA-PRINT-WEB_ES.pdf" target="_blank"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<a class="btnDescarga textoBlanco lang descargable" key="printweb-btn-descargaGuia" keyb="printweb-descargable-guia" href="descargables/GUIA-PRINT-WEB_ES.pdf" target="_blank" onClick="ga('send','event',{eventCategory:'Print-Web-Guide', eventAction:'View',eventLabel:'Descarga/Manuales'})"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 	</div>
 	<div class="row d-none d-sm-flex justify-content-center ">
@@ -541,7 +541,7 @@ include 'header.php';
 	<div class="row justify-content-center text-center align-items-end">
 		<div class="col-12 col-md-6 col-lg-3 col-xl-3 columnasInfo">
 			<p class="tituloInfo textoAzul lang" key="descargas-MUsuario-titulo">Manual de usuario</p>
-			<a class="btnDescarga textoAzul lang descargable" href="descargables/Indivisa_Manual_Espanol.pdf" target="_blank" key="descargas-btnDescarga" keyb="descargaManual"><span>Descarga</span><i class="fas fa-download"></i></a>
+			<a class="btnDescarga textoAzul lang descargable" href="descargables/Indivisa_Manual_Espanol.pdf" target="_blank" key="descargas-btnDescarga" keyb="descargaManual" onClick="ga('send','event',{eventCategory:'Manual-Usuario', eventAction:'View',eventLabel:'Descarga/Manuales'})"><span>Descarga</span><i class="fas fa-download"></i></a>
 		</div>
 		<!--
 		<div class="col-12 col-md-4 col-lg-3 col-xl-3 columnasInfo">

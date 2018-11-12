@@ -14,17 +14,21 @@ jQuery(function($){
 		    	/*Set General*/
 		    	case 'set_General':
 		    		generaDescarga ('descargables/SetGeneral.zip');
+		    		
+					ga('send', {hitType: 'event',eventCategory: 'Download Set General',  eventAction: 'Download', eventLabel: 'Descarga/Tipografia'});
 		    	break;
 
 		    	/*Set Editorial*/
 		    	case 'set_Editorial':
 		    		generaDescarga ('descargables/SetEditorial.zip');
+		    		ga('send', {hitType: 'event',eventCategory: 'Download Set Editorial',  eventAction: 'Download', eventLabel: 'Descarga/Tipografia'});
 		    	break;
 
 
 		    	/*Set Web*/
 		    	case 'set_Web':
 		    		generaDescarga ('descargables/SetWeb.zip');
+		    		ga('send', {hitType: 'event',eventCategory: 'Download Set Web',  eventAction: 'Download', eventLabel: 'Descarga/Tipografia'});
 		    	break;
 
 		    	
