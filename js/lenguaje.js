@@ -81,6 +81,20 @@
                 'eula-p8':'The LA SALLE A.C. university possesses the exclusive rights of the software and is legally protected by the corresponding institutions. You agree that the university possesses all the physical rights of use and distribution (without limitation) and ENIGMA DISEÑO, the copyright. You also agree that the LA SALLE A.C. university holds the exclusive rights of the trademarks (registered or unregistered) associated with the font software and it is not permitted to modify said brands in any way without prior written consent.',
                 'eula-p9':'You agree not to create derivative works or works based on the design incorporated in the font software. Except for what is authorized in this document, the concessionaire undertakes not to copy any written material, which may accompany the software or the software itself.',
                 'eula-p10':'In no case shall the LA SALLE A.C. university be liable for indirect, incidental, consequential, special or exemplary damages (including, but not limited to, damages for loss or benefits, information savings, or business interruption) by virtue of any cause of action arising from the use or the inability to use the software. If the copy of the software is defective, it shall be replaced by a new one in a reasonable manner.',
+                
+                /*Instagram*/
+                'instagram-titilo-p1':'¡Indivisa<span>font</span>',
+                'instagram-titilo-p2':'in the world',
+                'instagram-subtitilo':'Do you have a lot of people in all your proyectos?<br>Share your creations on instagram!',
+
+                /*Footer*/
+                'footer-contacto':'Contact',
+                'footer-reportaFalla':'Report faults in typography',
+                'footer-terminos':'Terms and Conditions',
+                'footer-privacidad':'Privacy policy',
+                'footer-derechos':'All Rights Reserved. La Salle University Mexico 2018',
+                'footer-cookies-p1':'This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies.',
+                'footer-cookies-p2':'Review our cookies information for more details.',
 
                 /*Conoce Inidivisa*/
                 /*Inicio Conoce*/
@@ -94,7 +108,7 @@
                 'sistemaConoce-progresista':'Progressive',
                 'sistemaConoce-amigable':'Friendly',
                 'sistemaConoce-humana':'Human',
-                'sistemaConoce-cercana':'Close',
+                'sistemaConoce-cercana':'Approchable',
                 'sistemaConoce-integral':'Integral',
                 'sistemaConoce-versatil':'Versatile',
                 'sistemaConoce-expresiva':'Expressive',
@@ -199,6 +213,20 @@
                 'eula-p8':'El software es propiedad exclusiva de la universidad la salle a.c. y está protegido legalmente por las instituciones correspondientes. Usted acepta que la universidad la salle a.c. posee todos los derechos físicos de uso y distribución (sin limitación) y enigma diseño los derechos morales de autor e intelectuales. También acepta que las marcas comerciales (registradas o no registradas) asociadas con el software tipográfico son propiedad exclusiva de la universidad la salle a.c. y no está permitido modificar dichas marcas de ninguna manera sin el consentimiento previo por escrito.',
                 'eula-p9':'Usted se compromete a no crear trabajos derivados o basados en el diseño incorporado en el software tipográfico. A excepción de lo permitido en este documento, el concesionario se compromete a no copiar ningún material escrito, que puede acompañar al software o al software en sí.',
                 'eula-p10':'En ningún caso la universidad la salle a.c. será responsable por daños indirectos, incidentales, consecuentes, especiales o ejemplares (incluyendo, pero no limitado a, daños por pérdida o beneficios, ahorros de información, o interrupción de negocio) en virtud de cualquier causa de acción que surja del uso o la imposibilidad de utilizar el software. Si la copia del software está defectuosa, será remplazada por una nueva dess manera razonable.',
+
+                /*Instagram*/
+                'instagram-titilo-p1':'¡Indivisa<span>font</span>',
+                'instagram-titilo-p2':'en el mundo!',
+                'instagram-subtitilo':'¿Ya aplicaste indivisafont en tus proyectos?<br>Comparte tus artes en instagram!',
+
+                /*Footer*/
+                'footer-contacto':'Contacto',
+                'footer-reportaFalla':'Reporta fallas en la tipografía',
+                'footer-terminos':'Términos y condiciones',
+                'footer-privacidad':'Aviso de privacidad',
+                'footer-derechos':'Todos los derechos Reservados  Univeresidad La Salle México 2018',
+                'footer-cookies-p1':'Este sitio utiliza cookies. Al continuar navegando por el sitio, usted acepta nuestro uso de cookies.',
+                'footer-cookies-p2':'Revisa nuestra información de cookies para más detalles.',
 
                 /*Conoce Inidivisa*/
                 /*Inicio Conoce*/
@@ -321,6 +349,20 @@
                 'eula-p9':'Vous vous engagez à ne pas créer de versions dérivées du design intégré au Logiciel de fonte ou inspirées de ce design. À l’exception de ce qui est permis dans ce document, le concessionnaire s’engage à ne pas copier le matériel écrit pouvant accompagner ce Logiciel, ni le Logiciel lui-même.',
                 'eula-p10':'L’universidad la salle a.c. ne sera en aucun cas tenue pour responsable des dommages indirects, incidents, consécutifs, spéciaux ou punitifs (y compris, mais sans s’y limiter, les dommages et intérêts sur les pertes ou bénéfices, les économies d’information ou l’interruption des activités) causés par l’utilisation du Logiciel ou l’impossibilité de l’utiliser. Si la copie du Logiciel s’avère défectueuse, elle sera raisonnablement remplacée par une nouvelle copie.',
 
+                /*Instagram*/
+                'instagram-titilo-p1':'¡Indivisa<span>font</span>',
+                'instagram-titilo-p2':'dans le monde',
+                'instagram-subtitilo':'Avez-vous beaucoup de gens dans tous vos projets?<br> Partagez vos créations sur instagram!',
+
+                /*Footer*/
+                'footer-contacto':'Contact',
+                'footer-reportaFalla':'Signaler les fautes de typographie',
+                'footer-terminos':'Termes et conditions',
+                'footer-privacidad':'Politique de confidentialité',
+                'footer-derechos':'Tous droits réservés. Université La Salle Mexique 2018',
+                'footer-cookies-p1':'Ce site utilise des cookies. En poursuivant votre navigation sur ce site, vous acceptez notre utilisation des cookies.',
+                'footer-cookies-p2':'Consultez nos informations de cookies pour plus de détails.',
+
                 /*Conoce Inidivisa*/
                 /*Inicio Conoce*/
                 'inicio-tituloConoce':'Indivisa Font, le système typographique<br> de la communauté lasallienne',
@@ -333,7 +375,7 @@
                 'sistemaConoce-progresista':'Progressif',
                 'sistemaConoce-amigable':'Amical',
                 'sistemaConoce-humana':'Humain',
-                'sistemaConoce-cercana':'Près',
+                'sistemaConoce-cercana':'Proche',
                 'sistemaConoce-integral':'Intégral',
                 'sistemaConoce-versatil':'Polyvalent',
                 'sistemaConoce-expresiva':'Expressif',
@@ -440,7 +482,7 @@
         
         
         //Primera vez que ingresa
-        /*
+
         if(localStorage.getItem("idiomaDefault") == null)
         {
             var lang = 'es';
@@ -453,30 +495,36 @@
                     $(this).html(arrLang[lang][$(this).attr('key')]);
             });
 
+            /*Cambiar descargables*/
+            $('.descargable').each(function(index, element){
+                $(this).attr("href",arrLang[lang][$(this).attr('keyb')]);
+            });
+
+            $(".translate").siblings().removeClass('active')
+            $("#"+lang).addClass('active');
+
             switch(lang) {
                 case 'es':
-                    $('#videoHermano').attr('data-embed', 'EIZa5k7Wgsk');
-                    
+                    $('#videoHermano').attr('data-embed', 'YcjlltwSOBI');
+                    $('#videoPrincipal').attr('data-embed', 'IwObzK2Z3Rc');               
                 break;
                 
                 case 'fr':
-                    $('#videoHermano').attr('data-embed', 'HyHNuVaZJ-k');
+                    $('#videoHermano').attr('data-embed', 'mu6JaeXZcns');
+                    $('#videoPrincipal').attr('data-embed', '90A914_14gA');
                 break;
                 
                 case 'en':
-                    $('#videoHermano').attr('data-embed', 'HyHNuVaZJ-k');
-
-                break;
-                    
-                case 'pt':
-                    $('#videoHermano').attr('data-embed', 'HyHNuVaZJ-k');
+                    $('#videoHermano').attr('data-embed', '2HiQBBHvvkI');
+                    $('#videoPrincipal').attr('data-embed', 'Gh6aYO1dQsg');
                 break;
 
                 default:
-                    $('#videoHermano').attr('data-embed', 'EIZa5k7Wgsk');
+                    $('#videoHermano').attr('data-embed', 'YcjlltwSOBI');
+                    $('#videoPrincipal').attr('data-embed', 'IwObzK2Z3Rc');
             }
 
-        }*/
+        }
         
 
     	$(function(){
@@ -502,6 +550,9 @@
                 $('.imagenIdioma').each(function(index, element){
                     $(this).attr("src",arrLang[lang][$(this).attr('key')]);
                 });
+                
+                $(this).siblings().removeClass('active')
+                $(this).addClass('active');
 
                 /*Cambiar Metas*/
                 switch(lang) {
@@ -542,7 +593,7 @@
                 if(typeof(Storage) !== "undefined") 
                 {
                     localStorage.setItem("idiomaDefault",lang);
-                    //location.reload();
+                    location.reload();
                     //$('#videoHermano').load('',lazyloadVideo());
                 } 
                 else 
@@ -553,7 +604,7 @@
 
     		});
             /*Cambiar videos*/
-            console.log(localStorage.getItem("idiomaDefault"));
+            //console.log(localStorage.getItem("idiomaDefault"));
     	});
 });
 

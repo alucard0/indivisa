@@ -422,7 +422,8 @@ section#descargas p.titulo,
 section#aplicaciones div.modal p.descripcion,
 section#sistemaTipografico div.letrasA.TextSans p span.light,
 section#sistemaTipografico div.letrasN.TextSans p span.light,
-section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.light{
+section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.light,
+section#instagram p.subtitulo{
   font-family: "IndivisaTextSans";
   font-weight: 300;
 }
@@ -484,7 +485,8 @@ section#sistemaTipografico div.text div.serif p.nombreVarianteTipo.regular-itali
 section#descargas p.tituloInfo,
 section#descargas p.contenido300,
 section#sistemaTipografico div.letrasA.TextSerif-Italic p span.regular,
-section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.regular-italic{
+section#familiasyExtensiones div.text div.serif p.nombreVarianteTipo.regular-italic,
+section#instagram p.titulo span{
   font-family: "IndivisaTextSerif";
   font-weight: 400;
   font-style: italic;
@@ -513,7 +515,8 @@ section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.heavy{
   font-weight: 900;
 }
 section#sistemaTipografico div.display div.sans p.nombreVarianteTipo.heavy-italic,
-section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.heavy-italic{
+section#familiasyExtensiones div.display div.sans p.nombreVarianteTipo.heavy-italic,
+section#instagram p.titulo{
   font-family: "IndivisaDisplaySans";
   font-weight: 900;
   font-style: italic;
@@ -735,7 +738,9 @@ footer a:active {
   text-decoration: none;
 }
 
-
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate.active{
+  color: #FFD200;
+}
 .navbar-light .navbar-toggler, .navbar-light .navbar-toggler:focus{
   border-color: transparent;
 }
@@ -1097,6 +1102,29 @@ ol.licencia li{
   margin-bottom: 20px;
 }
 
+/*Instagram*/
+section#instagram{
+  padding: 25px 15px;
+}
+section#instagram div.colContenido{
+  padding: 10% 12%;
+}
+section#instagram hr.v1 {
+    margin: 1rem auto 1rem 22rem;
+}
+section#instagram p.titulo{
+  font-size: 70px;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+section#instagram p.titulo:nth-child(2){
+  margin-left: 10%;
+}
+section#instagram p.subtitulo{
+  font-size: 35px;
+  line-height: 45px;
+  margin-top: 20%;
+}
 /*--------------------------------------------------------------------------------------------------*/
 /*Conoce indivisa*/
 section#inicioConoce{
@@ -1378,6 +1406,10 @@ hr.lineaBlanca{
 	    font-size: 70px;
       line-height: 40px;
 	}
+  h1.tituloConoce {
+    font-size: 40px;
+    line-height: 45px;
+  }
   h2.fontPalabra {
       margin-top: 0;
   }
@@ -1471,9 +1503,34 @@ hr.lineaBlanca{
     margin-bottom: 1rem; 
   }
 
+  iframe#instagram-embed-0{
+    min-width: 290px !important;
+  }
+
+  section#instagram div.colContenido {
+    padding: 8% 15px;
+  }
+  section#instagram p.titulo {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  section#instagram hr.v1 {
+    margin: 1rem auto 1rem 8rem;
+  }
+  section#instagram p.titulo:nth-child(2) {
+    margin-left: 10%;
+  }
   /*Conoce Indivisa*/
   section#sistemaTipografico div.filaProceso {
-    padding: 60px 15px 120px 15px;
+    padding: 60px 0 120px 0;
+  }
+  section#sistemaTipografico img.cuaderno {
+    position: absolute;
+    left: 0;
+  }
+
+  section#familiasyExtensiones {
+    padding: 30px 15px;
   }
   section#sistemaTipografico div.letrasN p span {
       font-size: 3em;
@@ -1489,11 +1546,28 @@ hr.lineaBlanca{
     display: inline-block;
     content: "";
   }
+
+  div.descripcionIntro {
+      padding: 30px 15px;
+  }
+  section#sistemaTipografico div.filaSistema {
+      padding-top: 30px;
+  }
   section#multilinguistico p.numeraria {
     margin-bottom: 35px;
   }
   section#multilinguistico div.contenidoGlifos .bordeDerecha {
     border-right: none;
+  }
+
+  section#multilinguistico p.numeraria {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  section#instagram p.subtitulo {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 10%;
   }
   footer p.titulo {
     font-size: 35px;
@@ -1512,6 +1586,21 @@ hr.lineaBlanca{
   }
   footer div.colLegales{
     margin-bottom: 20px;
+  }
+  .bordeDerecha{
+    border-right: none;
+  }
+  .bordeAbajo{
+    border-bottom: none;
+  }
+
+  .bordeAbajoM{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+  }
+
+  .bordeAbder{
+    border-right: 1px solid rgba(255, 255, 255, 0.50);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
   }
 }
 
@@ -1546,6 +1635,7 @@ hr.lineaBlanca{
   footer p.cookies {
     margin-bottom: 20px;
   }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -1593,6 +1683,10 @@ hr.lineaBlanca{
   }
   section#multilinguistico p.numeraria {
     font-size: 32px;
+    line-height: 32px;
+  }
+  section#instagram p.subtitulo {
+    margin-top: 10%;
   }
   footer div.fila-1 {
     padding: 0 12px;

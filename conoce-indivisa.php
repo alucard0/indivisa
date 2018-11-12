@@ -27,7 +27,7 @@ include 'header.php';
 					<p class="titulo lang"  key="sistemaTipografico-titulo">Sistema tipográfico</p>
 					<hr class="lineaAmarilla v2">
 				</div>
-				<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+				<div class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-9">
 					<p class="text-center subtituloSistemaConoce textoAzul lang" key="sistemaConoce-subtitulo">Tipografía con<br>espíritu lasallista</p>
 					<p class="text-center fraseSistemaConoce lang" key="sistemaConoce-frase">La tipografía es única y debe reflejar lo que somos, pensamos, hacemos y anhelamos.</p>
 				</div>
@@ -45,48 +45,48 @@ include 'header.php';
 				<div class="col">
 					<img src="images/contenido/conoceIndivisa/4_ROSTRO_200.jpg" alt="" class="img-fluid">
 				</div>
-				<div class="col">
+				<div class="col d-none d-sm-block">
 					<img src="images/contenido/conoceIndivisa/5_ROSTRO_200.jpg" alt="" class="img-fluid">
 				</div>
-				<div class="col">
+				<div class="col d-none d-sm-block">
 					<img src="images/contenido/conoceIndivisa/6_ROSTRO_200.jpg" alt="" class="img-fluid">
 				</div>
-				<div class="col">
+				<div class="col d-none d-sm-block">
 					<img src="images/contenido/conoceIndivisa/7_ROSTRO_200.jpg" alt="" class="img-fluid">
 				</div>
-				<div class="col">
+				<div class="col d-none d-sm-block">
 					<img src="images/contenido/conoceIndivisa/8_ROSTRO_200.jpg" alt="" class="img-fluid">
 				</div>
-				<div class="col">
+				<div class="col d-none d-sm-block">
 					<img src="images/contenido/conoceIndivisa/9_ROSTRO_200.jpg" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="row backGroundAzul justify-content-center">
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo bordeAbder">
 					<p class="lang" key="sistemaConoce-progresista">Progresista</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo bordeAbajoM">
 					<p class="lang" key="sistemaConoce-amigable">Amigable</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeAbajo">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeAbajo bordeAbder">
 					<p class="lang" key="sistemaConoce-humana">Humana</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo bordeAbajoM">
 					<p class="lang" key="sistemaConoce-cercana">Cercana</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajo bordeAbder">
 					<p class="lang" key="sistemaConoce-integral">Integral</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeAbajo">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeAbajo bordeAbajoM">
 					<p class="lang" key="sistemaConoce-versatil">Versátil</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbder">
 					<p class="lang" key="sistemaConoce-expresiva">Expresiva</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeDerecha bordeAbajoM">
 					<p class="lang" key="sistemaConoce-dinamica">Dinámica</p>
 				</div>
-				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules">
+				<div class="col-6 col-sm-2 col-md-4 col-lg-4 col-xl-4 cuadrosAzules bordeAbajoM">
 					<p class="lang" key="sistemaConoce-formal">Formal y Juvenil</p>
 				</div>
 			</div>
@@ -101,7 +101,7 @@ include 'header.php';
 				<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
 					<p class="titulo lang" key="sistemaConoce-proceso">Proceso</p>
 				</div>
-				<div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+				<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
 					<p class="text-center lang" key="sistemaConoce-descripcion">Las letras fueron diseñadas para transmitir tanto el espíritu humano y disciplinado, así como la fraternidad.</p>
 					<img src="images/contenido/conoceIndivisa/CUADERNO_CONOCE_INDIVISA_600.png" alt="" class="img-fluid cuaderno">
 				</div>
@@ -193,7 +193,7 @@ include 'header.php';
 			<p class="titulo lang"  key="familiasyExtensiones-titulo">Familias y extensiones</p>
 			<hr class="lineaAmarilla v2">
 		</div>
-		<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
 			<p class="text-center subtitulo textoAzul lang" key="familiasyExtensiones-subtitulo">Diseñada para cumplir con los requerimientos de comunicación escrita de la comunidad lasallista.</p>
 			<p class="text-center subtitulo-p1 lang" key="familiasyExtensiones-subtitulo-p1">Funcional y versátil, es legible en textos con puntajes pequeños y potente en textos grandes.</p>
 		</div>

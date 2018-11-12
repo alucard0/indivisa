@@ -11,20 +11,20 @@
 			<p class="titulo textoBlanco"><span>Indivisa</span>font</p>
 			<div class="row">
 				<div class="col-xl-10 offset-xl-2">
-					<p class="contacto">Contacto</p>
+					<p class="contacto lang" key="footer-contacto">Contacto</p>
 					<div class="row">
 						<div class="col">
-							<a href="mailto:indivisafont@lasalle.org" class="textoBlanco">Reporta fallas en la tipografía</a>
+							<a href="mailto:indivisafont@lasalle.org" class="textoBlanco lang" key="footer-reportaFalla">Reporta fallas en la tipografía</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col d-none d-sm-inline">
-							<a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank" class="textoBlanco">Términos y condiciones</a> <span class="textoBlanco ">|</span> <a href="http://www.lasalle.mx/privacidad/" target="_blank" class="textoBlanco">Aviso de privacidad</a>
+							<a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank" class="textoBlanco lang" key="footer-terminos">Términos y condiciones</a> <span class="textoBlanco ">|</span> <a href="http://www.lasalle.mx/privacidad/" target="_blank" class="textoBlanco lang" key="footer-privacidad">Aviso de privacidad</a>
 						</div>
 						<div class="col d-block d-sm-none colLegales">
-							<a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank" class="textoBlanco">Términos y condiciones</a> 
+							<a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank" class="textoBlanco lang" key="footer-terminos">Términos y condiciones</a> 
 							<br>
-							<a href="http://www.lasalle.mx/privacidad/" target="_blank" class="textoBlanco">Aviso de privacidad</a>
+							<a href="http://www.lasalle.mx/privacidad/" target="_blank" class="textoBlanco lang" key="footer-privacidad">Aviso de privacidad</a>
 						</div>
 					</div>
 				</div>
@@ -43,8 +43,10 @@
 		</div>
 		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 align-self-end">
 
-			<p class="textoBlanco">Todos los derechos Reservados  Univeresidad La Salle México 2018</p>
-			<p class="textoBlanco cookies">This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. <a href="#" target="_blank" class="textoBlanco">Review our cookies information for more details.</a></p>
+			<p class="textoBlanco lang" key="footer-derechos">Todos los derechos Reservados  Universidad La Salle México 2018</p>
+			<!--
+			<p class="textoBlanco cookies lang" key="footer-cookies-p1">Este sitio utiliza cookies. Al continuar navegando por el sitio, usted acepta nuestro uso de cookies.</p> <a href="#" target="_blank" class="textoBlanco lang" key="footer-cookies-p2">Revisa nuestra información de cookies para más detalles.</a>
+		-->
 		</div>
 		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 text-right align-self-end">
 
