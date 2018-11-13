@@ -9,6 +9,13 @@
 	<div class="row fila-1">
 		<div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
 			<p class="titulo textoBlanco"><span>Indivisa</span>font</p>
+			<div class="row filaPremios">
+				<img src="images/footer/2_FOOTER_DISENAMEXICO_40.png" alt="" class="img-fluid">
+				<img src="images/footer/2_FOOTER_PREMIO1_40.png" alt="" class="img-fluid">
+				<img src="images/footer/2_FOOTER_PREMIO2_40.png" alt="" class="img-fluid">
+				<p class="textoBlanco premiosTexto">Premio al Ganador Absoluto en Diseño de Comunicaciones Visuales 2018</p>
+				<p class="textoBlanco premiosTexto">Premio al Mejor Proyecto - Publicaciones Editoriales 2018</p>
+			</div>
 			<div class="row">
 				<div class="col-xl-10 offset-xl-2">
 					<p class="contacto lang" key="footer-contacto">Contacto</p>
@@ -75,16 +82,6 @@
 	
 	
 </footer>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120536974-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-120536974-1');
-	</script>
 	
 	<!--js-->
 	<script src="js/jquery-3.1.1.min.js"></script>

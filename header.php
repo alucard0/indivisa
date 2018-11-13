@@ -1,4 +1,5 @@
 <?php
+include 'modelo/headerFunciones.php';
 /**
 * 	@author Amilkhael Chávez Delgado;
 *	Documento: Header para las páginas
@@ -17,7 +18,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación" />
 	<meta property="og:description" content="Indivisa Font: Una voz para todos y para todo." />
-	<meta property="og:image" content="http://indivisafont.org/images/background.png" />
+	<meta property="og:image" content="http://indivisafont.org/images/contenido/INDIVISAFONT_FACEBOOK.jpg" />
 
 	<!-- Metadatos Twitter-->
     <meta name="twitter:card" content="summary_large_image">
@@ -25,14 +26,15 @@
     <meta name="twitter:creator" content="@Indivisafont">
     <meta name="twitter:title" content="Indivisa Font: Tipografía La Salle.  Diseño| Marca | Comunicación">
     <meta name="twitter:description" content="Indivisa Font: Una voz para todos y para todo.">
-    <meta name="twitter:image" content="http://indivisafont.org/images/background.png">
+    <meta name="twitter:image" content="http://indivisafont.org/images/contenido/INDIVISAFONT_TWITTER.jpg">
 
 
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
 	<!-- Titulo -->
-	<title >Indivisa | La Salle</title>
+	
+	<?php imprimeTitulo(); ?>
 
 	<!--css-->
 	<link rel="stylesheet" href="css/normalize.css">
@@ -58,9 +60,20 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
 	<link rel="alternate" href="http://indivisafont.org/" hreflang="es-mx" />
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120536974-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-120536974-1');
+	</script>
+
 </head>
 <body>
-	
+
     <!-- HEADER-->
     <div class="backGroundAzul">
 		<header class="container">
@@ -72,18 +85,18 @@
 		    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
 		      <div class="navbar-nav">
 		        
-		        <a class="nav-item nav-link seccion lang" href="conoce-indivisa.php" key="menu_conoceIndivisa">Conoce Indivisa</a>
-		        <a class="nav-item nav-link seccion lang" href="#aplicaciones" key="menu_aplicaciones">Aplicaciones</a>
-		        <a class="nav-item nav-link seccion lang" href="#descargas" key="menu_descarga">Descarga</a>
+		        <a <?php echoActiveClassMenu("conoce-indivisa");?>class="nav-item nav-link seccion lang" href="conoce-indivisa.php" key="menu_conoceIndivisa" >Conoce Indivisa</a>
+		        <a class="nav-item nav-link seccion lang" <?php cambiaLinksMenuAplicaciones("conoce-indivisa"); ?>href="#aplicaciones" key="menu_aplicaciones" >Aplicaciones</a>
+		        <a class="nav-item nav-link seccion lang" <?php cambiaLinksMenuDescargas("conoce-indivisa"); ?>href="#descargas" key="menu_descarga">Descarga</a>
 				<div class="idiomas row no-gutters">
 					<div class="col-4 opcionIdiomas">
-						<a class="nav-item nav-link translate lang" id="en" href="#" key="menu_en">EN</a>
+						<a class="nav-item nav-link translate lang" id="en"  key="menu_en">EN</a>
 					</div>
 					<div class="col-4 opcionIdiomas">
-						<a class="nav-item nav-link translate lang" id="es" href="#" key="menu_es">ES</a>
+						<a class="nav-item nav-link translate lang" id="es"  key="menu_es">ES</a>
 					</div>
 					<div class="col-4 opcionIdiomas">
-						<a class="nav-item nav-link translate lang" id="fr" href="#" key="menu_fr">FR</a> 
+						<a class="nav-item nav-link translate lang" id="fr"  key="menu_fr">FR</a> 
 					</div>
 					<!--
 					<div class="col-3">

@@ -330,7 +330,7 @@ include 'header.php';
 			<p class="numeraria lang" key="multilinguistico-glifos">25,000 glifos</p>
 		</div>
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-			<p class="numeraria lang" key="multilinguistico-variantes">28 varientes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span></p>
+			<p class="numeraria lang" key="multilinguistico-variantes">28 variantes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span></p>
 		</div>
 	</div>
 	<!--

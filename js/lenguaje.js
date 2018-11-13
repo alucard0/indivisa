@@ -85,7 +85,7 @@
                 /*Instagram*/
                 'instagram-titilo-p1':'¡Indivisa<span>font</span>',
                 'instagram-titilo-p2':'in the world',
-                'instagram-subtitilo':'Do you have a lot of people in all your proyectos?<br>Share your creations on instagram!',
+                'instagram-subtitilo':'Your story with Indivisa Font',
 
                 /*Footer*/
                 'footer-contacto':'Contact',
@@ -146,14 +146,14 @@
 
                 /*inicio*/
                 'inicio-frase1':'La identidad se construye<br><span>- cuando existe una voz única.</span>',
-                'inicio-frase2-1':'Una sola voz para la',
+                'inicio-frase2-1':'Una voz para la ',
                 'inicio-frase2-2':'comunidad lasallista global',
                 'inicio-frase3':'En un mundo diverso, nuestra tipografía es un elemento unificador que nos permite reconocernos como parte de una gran familia, y al mismo tiempo, celebrar la diversidad.',
 
                 /*Tipografía para todos*/
                 'paraTodos-titulo':'Tipografía<br><span>para todos</span>',
                 'paraTodos-titulo-p1':'Gratuita y de libre acceso',
-                'paraTodos-p2':'La Salle impacta la vida de 3, 423, 465 de personas en todo el mundo. La riqueza de lenguas y culturas que convergen en esta obra, está representada en cada trazo, reflejando nuestra personalidad, tradición y prestigio.',
+                'paraTodos-p2':'La Salle impacta la vida de 3, 423, 465 personas en todo el mundo. La riqueza de lenguas y culturas que convergen en esta obra, está representada en cada trazo, reflejando nuestra personalidad, tradición y prestigio.',
 
                 /*Aplicaciones*/
                 'paraTodo-titulo':'Tipografía<br><span>para todo</span>',
@@ -217,7 +217,7 @@
                 /*Instagram*/
                 'instagram-titilo-p1':'¡Indivisa<span>font</span>',
                 'instagram-titilo-p2':'en el mundo!',
-                'instagram-subtitilo':'¿Ya aplicaste indivisafont en tus proyectos?<br>Comparte tus artes en instagram!',
+                'instagram-subtitilo':'Tu historia con Indivisa Font',
 
                 /*Footer*/
                 'footer-contacto':'Contacto',
@@ -263,7 +263,7 @@
                 'multilinguistico-subtitulo':'Un Sistema que representa el lasallismo a nivel global',
                 'multilinguistico-idiomas':'270 idiomas<br><span>con el alfabeto latino</span>',
                 'multilinguistico-glifos':'25,000 glifos',
-                'multilinguistico-variantes':'28 varientes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span>'
+                'multilinguistico-variantes':'28 variantes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span>'
 
 
     		},
@@ -282,13 +282,13 @@
                 /*inicio*/
                 'inicio-frase1':'L’identité se construit<br><span>- lorsqu’une seule voix se fait entendre.</span>',
                 'inicio-frase2-1':'Une seule voix pour la',
-                'inicio-frase2-2':'communauté lasalienne mondiale',
+                'inicio-frase2-2':'communauté lasallienne mondiale',
                 'inicio-frase3':'Dans ce monde divers, notre typographie est un élément d’unification qui nous permet de nous reconnaître comme membres d’une grande famille, tout en célébrant la diversité.',
 
                 /*Tipografía para todos*/
                 'paraTodos-titulo':'Une typographie<br><span>pour tous</span>',
                 'paraTodos-p1':'Gratuite et en libre accès',
-                'paraTodos-p2':'Les Frères des Écoles chrétiennes influencent la vie de 3.423. 465 personnes dans le monde. La richesse des langues et des cultures réunies dans l’œuvre lasalienne est représentée dans chaque trait et reflète notre personnalité, nos traditions et notre prestige.',
+                'paraTodos-p2':'Les Frères des Écoles chrétiennes influencent la vie de 3.423. 465 personnes dans le monde. La richesse des langues et des cultures réunies dans l’œuvre lasallienne est représentée dans chaque trait et reflète notre personnalité, nos traditions et notre prestige.',
 
                 /*Aplicaciones*/
                 'paraTodo-titulo':'Une typographie<br><span>pour tous</span>',
@@ -352,7 +352,7 @@
                 /*Instagram*/
                 'instagram-titilo-p1':'¡Indivisa<span>font</span>',
                 'instagram-titilo-p2':'dans le monde',
-                'instagram-subtitilo':'Avez-vous beaucoup de gens dans tous vos projets?<br> Partagez vos créations sur instagram!',
+                'instagram-subtitilo':'Votre histoire avec Indivisa Font',
 
                 /*Footer*/
                 'footer-contacto':'Contact',
@@ -500,6 +500,11 @@
                 $(this).attr("href",arrLang[lang][$(this).attr('keyb')]);
             });
 
+            /*Cambiar imagen*/
+            $('.imagenIdioma').each(function(index, element){
+               $(this).attr("src",arrLang[lang][$(this).attr('key')]);
+            });
+
             $(".translate").siblings().removeClass('active')
             $("#"+lang).addClass('active');
 
@@ -510,7 +515,7 @@
                 break;
                 
                 case 'fr':
-                    $('#videoHermano').attr('data-embed', 'mu6JaeXZcns');
+                    $('#videoHermano').attr('data-embed', '8Lx6S75z5Cs');
                     $('#videoPrincipal').attr('data-embed', '90A914_14gA');
                 break;
                 
