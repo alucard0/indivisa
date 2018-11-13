@@ -649,6 +649,13 @@ include 'header.php';
 		</div>
 	</div>
 </section>
-
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="images/contenido/8_INSTAGRAM-FLOTANTE_35.png">
+            <p class="lang" key="instagram-siguenos"><a href="https://www.instagram.com/indivisafont/" target="_blank">Síguenos<br> en Instagram</a></p>
+        </li>
+    </ul>
+</div>
 
 <?php include 'footer.php';?>
