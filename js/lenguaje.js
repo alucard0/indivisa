@@ -131,8 +131,25 @@
                 'multilinguistico-subtitulo':'A System that represents the Lasallian identity globally',
                 'multilinguistico-idiomas':'270 languages<br><span>of the Latin alphabet</span>',
                 'multilinguistico-glifos':'25,000 glyphs',
-                'multilinguistico-variantes':'28 variants<br><span>16 Indivisa text variants</span><br><span>12 Indivisa display variants</span>'
-
+                'multilinguistico-variantes':'28 variants<br><span>16 Indivisa text variants</span><br><span>12 Indivisa display variants</span>',
+                'multilinguistico-letras':'<span>Characters</span>',
+                'multilinguistico-mayusculas':'Uppercase',
+                'multilinguistico-minusculas':'Lowercase',
+                'multilinguistico-versalitas':'Small caps',
+                'multilinguistico-ligaduras':'Ligatures',
+                'multilinguistico-diacriticos':'Diacritics',
+                'multilinguistico-discrecionales':'Discretionary',
+                'multilinguistico-signosEditoriales':'<span>Editorial<br>signs</span>',
+                'multilinguistico-puntuacion':'Punctuation',
+                'multilinguistico-adaptativas':'F. Adaptive',
+                'multilinguistico-superiores':'Superiors',
+                'multilinguistico-inferiores':'Inferiors',
+                'multilinguistico-ordinales':'Ordinals',
+                'multilinguistico-matematicosMonetarios':'<span>Monetary mathematical</span>',
+                'multilinguistico-fracciones':'Fractions',
+                'multilinguistico-monetarios':'Monetary',
+                'multilinguistico-numerosAntiguos':'Ancient / tabular / proportional / small caps numbers',
+                'multilinguistico-numerosModernos':'Modern / tabular / proportional / small caps numbers',
     		},
     		'es':{
     			/*Menu*/
@@ -263,10 +280,26 @@
                 'multilinguistico-subtitulo':'Un Sistema que representa el lasallismo a nivel global',
                 'multilinguistico-idiomas':'270 idiomas<br><span>con el alfabeto latino</span>',
                 'multilinguistico-glifos':'25,000 glifos',
-                'multilinguistico-variantes':'28 variantes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span>'
-
-
-    		},
+                'multilinguistico-variantes':'28 variantes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span>',
+                'multilinguistico-letras':'<span>Letras</span>',
+                'multilinguistico-mayusculas':'Mayúsculas',
+                'multilinguistico-minusculas':'Minúsculas',
+                'multilinguistico-versalitas':'Versalitas',
+                'multilinguistico-ligaduras':'Ligaduras',
+                'multilinguistico-diacriticos':'Diacríticos',
+                'multilinguistico-discrecionales':'Discrecionales',
+                'multilinguistico-signosEditoriales':'<span>Signos<br>editoriales</span>',
+                'multilinguistico-puntuacion':'Punctuación',
+                'multilinguistico-adaptativas':'F. Adaptativas',
+                'multilinguistico-superiores':'Superiores',
+                'multilinguistico-inferiores':'Inferiores',
+                'multilinguistico-ordinales':'Ordinales',
+                'multilinguistico-matematicosMonetarios':'<span>Matemáticos monetarias</span>',
+                'multilinguistico-fracciones':'Fracciones',
+                'multilinguistico-monetarios':'Monetarios',
+                'multilinguistico-numerosAntiguos':'Números antiguos tabulares / versalitos',
+                'multilinguistico-numerosModernos':'Números modernos tabulares / versalitos',
+            },
             'fr' :{
                 /*General*/
 
@@ -398,9 +431,25 @@
                 'multilinguistico-subtitulo':'Un système qui représente l’esprit lasallien de toute la planète',
                 'multilinguistico-idiomas':'270 langues<br><span>de l’alphabet latin</span>',
                 'multilinguistico-glifos':'25,000 glyphes',
-                'multilinguistico-variantes':'28 variantes typographiques<br><span>16 variantes d’indivisa text</span><br><span>12 variantes d’indivisa display</span>'
-
-
+                'multilinguistico-variantes':'28 variantes typographiques<br><span>16 variantes d’indivisa text</span><br><span>12 variantes d’indivisa display</span>',
+                'multilinguistico-letras':'<span>Lettres</span>',
+                'multilinguistico-mayusculas':'Haut de casse',
+                'multilinguistico-minusculas':'Bas de casse',
+                'multilinguistico-versalitas':'Chiffres petites capitales',
+                'multilinguistico-ligaduras':'Ligatures',
+                'multilinguistico-diacriticos':'Diacritiques',
+                'multilinguistico-discrecionales':'Discrétionnaires',
+                'multilinguistico-signosEditoriales':'<span>Signes<br>éditoriaux</span>',
+                'multilinguistico-puntuacion':'Ponctuation',
+                'multilinguistico-adaptativas':'F. Adaptatives',
+                'multilinguistico-superiores':'Supérieures',
+                'multilinguistico-inferiores':'Inférieures',
+                'multilinguistico-ordinales':'Ordinaux',
+                'multilinguistico-matematicosMonetarios':'<span>Mathématiques et monétaires</span>',
+                'multilinguistico-fracciones':'Fractions',
+                'multilinguistico-monetarios':'Monétaires',
+                'multilinguistico-numerosAntiguos':'Chiffres anciens / tabulaires / proportionnels / petites capitales',
+                'multilinguistico-numerosModernos':'Chiffres modernes / tabulaires / proportionnels / petites capitales',
             },
             'pt' :{
                 /*General*/

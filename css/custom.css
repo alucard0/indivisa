@@ -1341,28 +1341,79 @@ section#multilinguistico .round-button:hover{
   color: #000;
 }
 section#multilinguistico div.contenidoGlifos{
-      padding: 50px 15px;
+      padding: 30px 15px;
 }
-section#multilinguistico div.contenidoGlifos .bordeDerecha {
-    border-right: 3px solid rgb(255, 255, 255);
-}
-
 section#multilinguistico p.head{
   font-size: 50px;
   line-height: 18px;
-  margin-top: 25%;
+  margin-top: 30%;
 }
 section#multilinguistico p.head span{
-  font-size: 18px;
+  font-size: 14px;
   line-height: 18px;
+  margin-top: 28px;
+  display: block;
 }
 section#multilinguistico p.descripcion{
   text-transform: uppercase;
+  font-size:12px;
 }
 section#multilinguistico p.mayusculas{
-  font-size: 35px;
+  font-size: 25px;
 }
-
+section#multilinguistico p.mayusculas{
+  font-size: 25px;
+}
+section#multilinguistico p.discrecionales{
+  font-variant-ligatures: discretionary-ligatures;
+}
+section#multilinguistico p.versalitas{
+  font-variant-caps: small-caps;
+}
+section#multilinguistico p.diacriticos{
+  font-variant-caps: normal;
+}
+section#multilinguistico p.numerosAntiguos{
+  font-variant-numeric: oldstyle-nums;
+}
+section#multilinguistico p{
+  margin-bottom: 0px;
+}
+section#multilinguistico hr.lineaVerticalDerecha{
+  width: 1px;
+  height: 50px;
+  color:#2D4FA1;
+}
+section#multilinguistico div.contenidoGlifos div.round-button {
+  display: block;
+  width: 150px;
+  height: 150px;
+  line-height: 50px;
+  border: 5px solid #2D4FA1;
+  border-radius: 50%;
+  color: #2D4FA1;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  box-shadow: 0 0 3px grey;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-top:30px;
+}
+section#multilinguistico div.contenidoGlifos div.round-button:hover {
+    background: #2D4FA1;
+    color: #FFF;
+    transition: 0.5s;
+}
+section#multilinguistico div.contenidoGlifos div.bordeDerecha{
+  border-right: 1.5px solid #2D4FA1;
+}
+section#multilinguistico div.contenidoGlifos paddingArriba {
+  border-top: 3px solid #2D4FA1;
+}
 /*Fin Contenido*/
 /*Footer*/
 footer{
@@ -1552,7 +1603,6 @@ footer .filaPremios{
     position: absolute;
     left: 0;
   }
-
   section#familiasyExtensiones {
     padding: 30px 15px;
   }
@@ -1570,7 +1620,6 @@ footer .filaPremios{
     display: inline-block;
     content: "";
   }
-
   div.descripcionIntro {
       padding: 30px 15px;
   }
@@ -1581,9 +1630,8 @@ footer .filaPremios{
     margin-bottom: 35px;
   }
   section#multilinguistico div.contenidoGlifos .bordeDerecha {
-    border-right: none;
+    border-right: none !important;
   }
-
   section#multilinguistico p.numeraria {
     font-size: 35px;
     line-height: 35px;
@@ -1597,7 +1645,6 @@ footer .filaPremios{
     font-size: 16px;
     line-height: 22px;
   }
-
   footer p.contacto {
     font-size: 27px;
   }
@@ -1625,11 +1672,9 @@ footer .filaPremios{
   .bordeAbajo{
     border-bottom: none;
   }
-
   .bordeAbajoM{
     border-bottom: 1px solid rgba(255, 255, 255, 0.50);
   }
-
   .bordeAbder{
     border-right: 1px solid rgba(255, 255, 255, 0.50);
     border-bottom: 1px solid rgba(255, 255, 255, 0.50);
@@ -1666,6 +1711,9 @@ footer .filaPremios{
   }
   footer p.cookies {
     margin-bottom: 20px;
+  }
+  section#multilinguistico div.contenidoGlifos .bordeDerecha {
+    border-right: none !important;
   }
 
 }
@@ -1714,6 +1762,10 @@ footer .filaPremios{
     left: 105px;
   }
   section#multilinguistico p.numeraria {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  section#multilinguistico {
     font-size: 32px;
     line-height: 32px;
   }

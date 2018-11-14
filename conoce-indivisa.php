@@ -333,74 +333,157 @@ include 'header.php';
 			<p class="numeraria lang" key="multilinguistico-variantes">28 variantes<br><span>16 variantes de Indivisa Text</span><br><span>12 variantes Indivisa Display</span></p>
 		</div>
 	</div>
-	<!--
-	<div class="row backGroundAzul justify-content-center contenidoGlifos">
+	<div class="row  justify-content-center contenidoGlifos ">
 
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bordeDerecha">
-			<img src="images/contenido/conoceIndivisa/3_SIGNOS-INDIVISA.png" alt="" class="img-fluid">
-			<!--
+			
 			<div class="round-button mx-auto">
-				<p class="head">a<br><span>Letras</span></p>
+				<p class="head">a<br><span class="lang" key="multilinguistico-letras">Letras</span></p>
 			</div>
-			<div class="row textoBlanco">
+			<div class="row">
 				<div class="col-6">
 					<p class="text-right serif-bold mayusculas">AG</p>
 				</div>
 				<div class="col-6">
-					<p class="descripcion">Mayúsculas</p>
+					<p class="descripcion lang" key="multilinguistico-mayusculas">Mayúsculas
+					</p>
 				</div>
 			</div>
-			<div class="row textoBlanco">
+			<div class="row">
 				<div class="col-6">
 					<p class="text-right serif-bold">ag</p>
 				</div>
 				<div class="col-6">
-					<p class="descripcion">Minúsculas</p>
+					<p class="descripcion lang" key="multilinguistico-minusculas">Minúsculas</p>
 				</div>
 			</div>
-			<div class="row textoBlanco">
+			<div class="row ">
 				<div class="col-6">
-					<p class="text-right serif-bold">ag</p>
+					<p class="text-right serif-bold versalitas">ag</p>
 				</div>
 				<div class="col-6">
-					<p class="descripcion">Versalitas</p>
-				</div>
-			</div>
-			<div class="row textoBlanco">
-				<div class="col-6">
-					<p class="text-right serif-bold">fi</p>
-				</div>
-				<div class="col-6">
-					<p class="descripcion">Ligaduras</p>
+					<p class="descripcion lang" key="multilinguistico-versalitas">Versalitas</p>
 				</div>
 			</div>
-			<div class="row textoBlanco">
+			<div class="row ">
 				<div class="col-6">
-					<p class="text-right serif-bold">éęẽ</p>
+					<p class="text-right serif-bold ligaduras">fi</p>
 				</div>
 				<div class="col-6">
-					<p class="descripcion">Diacríticos</p>
-				</div>
-			</div>
-			<div class="row textoBlanco">
-				<div class="col-6">
-					<p class="text-right serif-bold">ct</p>
-				</div>
-				<div class="col-6">
-					<p class="descripcion">Discrecionales</p>
+					<p class="descripcion lang" key="multilinguistico-ligaduras">Ligaduras</p>
 				</div>
 			</div>
-
-
+			<div class="row">
+				<div class="col-6">
+					<p class="text-right serif-bold diacriticos">éęẽ</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion lang" key="multilinguistico-diacriticos">Diacríticos</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<p class="text-right serif-bold discrecionales">ct</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion lang" key="multilinguistico-discrecionales">Discrecionales</p>
+				</div>
+			</div>
 		</div>
+
 		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bordeDerecha">
-			<img src="images/contenido/conoceIndivisa/2_SIGNOS-INDIVISA.png" alt="" class="img-fluid">
+			<div class="round-button mx-auto">
+				<p class="head">«¶»<br><span class="lang" key="multilinguistico-signosEditoriales">Signos<br>editoriales</span></p>
+			</div>
+			<div class="row">
+				<div class="col-6 ">
+					<p class="text-right serif-bold">Ay...</p>
+				</div>
+				<div class="col-6 ">
+					<p class="descripcion lang" key="multilinguistico-puntuacion">Puntuación</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<p class="text-right serif-bold">¡A! ¡a!</p>
+				</div>
+				<div class="col-6 ">
+					<p class="descripcion lang" key="multilinguistico-adaptativas">F. Adaptativas</p>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-6">
+					<p class="text-right serif-bold versalitas">π&sup2</p>
+				</div>
+				<div class="col-6 ">
+					<p class="descripcion lang" key="multilinguistico-superiores">Superiores</p>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-6">
+					<p class="text-right serif-bold ligaduras">H<SUB>2</SUB>O</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion lang" key="multilinguistico-inferiores">Inferiores</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<p class="text-right serif-bold diacriticos">1&ordf;</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion lang" key="multilinguistico-ordinales">Ordinales</p>
+				</div>
+			</div>
 		</div>
+
 		<div class="col-12 col-sm-126 col-md-4 col-lg-4 col-xl-4">
-			<img src="images/contenido/conoceIndivisa/1_SIGNOS-INDIVISA.png" alt="" class="img-fluid">
+		
+			<div class="round-button mx-auto">
+				<p class="head">≈2µ<br><span class="lang" key="multilinguistico-matematicosMonetarios">Matemáticos monetarias</span></p>
+			</div>
+			<div class="row ">
+				<div class="col-6 ">
+					<p class="text-right serif-bold">1⁄2</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion lang" key="multilinguistico-fracciones">Fracciones</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 ">
+					<p class="text-right serif-bold">£</p>
+				</div>
+				<div class="col-6">
+					<p class="descripcion lang" key="multilinguistico-monetarios">Monetarios</p>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-12">
+					<p class="text-center serif-bold numerosAntiguos">185% | 185%</p>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-6 ">
+				</div>
+				<div class="col-6">
+					<p class=" text-left descripcion lang" key="multilinguistico-numerosAntiguos">Números antiguos </br> tabulares / proporcionales </br> versalitos</p>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-12">
+					<p class="text-center serif-bold numerosModernos">185% | 185%</p>
+				</div>
+			</div>
+			<div class="row ">	
+				<div class="col-6 ">
+				</div>
+				<div class="col-6">
+					<p class=" text-left descripcion lang" key="multilinguistico-numerosModernos">Números modernos </br> tabulares / proporcionales </br> versalitos</p>
+				</div>
+			</div>
 		</div>
 	</div>
-	-->
 </section>
 
 <?php include 'footer.php';?>
