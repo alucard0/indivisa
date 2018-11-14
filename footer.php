@@ -10,7 +10,7 @@
 		<div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
 			<p class="titulo textoBlanco"><span>Indivisa</span>font</p>
 			<div class="row filaPremios">
-				<img src="images/footer/2_FOOTER_DISENAMEXICO_40.png" alt="" class="img-fluid">
+				<a href="http://premiodisenamexico.mx/" target="_blank"><img src="images/footer/2_FOOTER_DISENAMEXICO_40.png" alt="" class="img-fluid"></a>
 				<img src="images/footer/2_FOOTER_PREMIO1_40.png" alt="" class="img-fluid">
 				<img src="images/footer/2_FOOTER_PREMIO2_40.png" alt="" class="img-fluid">
 				<p class="textoBlanco premiosTexto">Premio al Ganador Absoluto en Diseño de Comunicaciones Visuales 2018</p>

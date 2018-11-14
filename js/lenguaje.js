@@ -86,6 +86,7 @@
                 'instagram-titilo-p1':'¡Indivisa<span>font</span>',
                 'instagram-titilo-p2':'in the world',
                 'instagram-subtitilo':'Your story with Indivisa Font',
+                'instagram-siguenos':'Follow us<br> on Instagram',
 
                 /*Footer*/
                 'footer-contacto':'Contact',
@@ -235,6 +236,7 @@
                 'instagram-titilo-p1':'¡Indivisa<span>font</span>',
                 'instagram-titilo-p2':'en el mundo!',
                 'instagram-subtitilo':'Tu historia con Indivisa Font',
+                'instagram-siguenos':'Síguenos<br> en Instagram',
 
                 /*Footer*/
                 'footer-contacto':'Contacto',
@@ -386,6 +388,7 @@
                 'instagram-titilo-p1':'¡Indivisa<span>font</span>',
                 'instagram-titilo-p2':'dans le monde',
                 'instagram-subtitilo':'Votre histoire avec Indivisa Font',
+                'instagram-siguenos':'Rejoignez-<br>nous',
 
                 /*Footer*/
                 'footer-contacto':'Contact',
