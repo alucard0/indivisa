@@ -121,22 +121,7 @@
 			};
 		});
 	</script>
-	<script>
-		$("#modalEULA").scroll(function() {
-			var faltante=$(window).height()+$("#modalEULA").scrollTop();
-			//console.log(faltante+" "+$("#modalEULA").scrollTop()+" "+$(window).height());
-			//console.log($('#modalEULA')[0].scrollHeight);
-		   if(faltante >= $('#modalEULA')[0].scrollHeight) {
-		    	
-		   	$('.botonDescarga').removeAttr('disabled');
-		   }
-		   else
-		   {
-		   		$('.botonDescarga').attr('disabled','disabled');
-		   }
-		});
 
-	</script>
 	<script type="text/javascript">
 		function cambiarID(tipoID){
 			$('.botonDescarga').attr("id",tipoID);

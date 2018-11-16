@@ -628,7 +628,7 @@ include 'header.php';
 	        </div>
 	      </div>
 	      <div class="modal-footer">
-	        <button id="set_General" class="btnDescarga textoAzul botonDescarga lang" disabled="disabled" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
+	        <button id="set_General" class="btnDescarga textoAzul botonDescarga lang" key="descargas-btnDescarga"><span>Descarga</span><i class="fas fa-download"></i></button>
 	      </div>
 	    </div>
 	  </div>
