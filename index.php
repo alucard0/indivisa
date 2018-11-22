@@ -248,7 +248,7 @@ include 'header.php';
 	<div class="row d-none d-sm-flex justify-content-center ">
 		<div class="col-6">
 			<div class="text-center">
-				<img src="images/contenido/0_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid">
+				<img data-src="images/contenido/0_PRINT-AND-WEB_APLICACIONES.png" alt="" class="img-fluid js-lazy-image">
 			</div>
 		</div>
 	</div>
@@ -652,8 +652,9 @@ include 'header.php';
 <div class="sticky-container">
     <ul class="sticky">
         <li>
+        	<a href="https://www.instagram.com/indivisafont/" target="_blank">
             <img src="images/contenido/8_INSTAGRAM-FLOTANTE_35.png">
-            <p class="lang" key="instagram-siguenos"><a href="https://www.instagram.com/indivisafont/" target="_blank">Síguenos<br> en Instagram</a></p>
+            <p class="lang" key="instagram-siguenos">Síguenos<br> en Instagram</p></a>
         </li>
     </ul>
 </div>

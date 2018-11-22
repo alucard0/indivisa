@@ -10,9 +10,9 @@
 		<div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
 			<p class="titulo textoBlanco"><span>Indivisa</span>font</p>
 			<div class="row filaPremios">
-				<a href="http://premiodisenamexico.mx/" target="_blank"><img src="images/footer/2_FOOTER_DISENAMEXICO_40.png" alt="" class="img-fluid"></a>
-				<img src="images/footer/2_FOOTER_PREMIO1_40.png" alt="" class="img-fluid">
-				<img src="images/footer/2_FOOTER_PREMIO2_40.png" alt="" class="img-fluid">
+				<a href="http://premiodisenamexico.mx/" target="_blank"><img data-src="images/footer/2_FOOTER_DISENAMEXICO_40.png" alt="" class="img-fluid js-lazy-image"></a>
+				<img data-src="images/footer/2_FOOTER_PREMIO1_40.png" alt="" class="img-fluid js-lazy-image">
+				<img data-src="images/footer/2_FOOTER_PREMIO2_40.png" alt="" class="img-fluid js-lazy-image">
 				<p class="textoBlanco premiosTexto">Premio al Ganador Absoluto en Diseño de Comunicaciones Visuales 2018</p>
 				<p class="textoBlanco premiosTexto">Premio al Mejor Proyecto - Publicaciones Editoriales 2018</p>
 			</div>
@@ -38,9 +38,9 @@
 			</div>
 		</div>
 		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-right align-self-end">
-			<img src="images/footer/1_FOOTER_SIGNUM-FIDEI_150.png" alt="" class="img-fluid">
+			<img data-src="images/footer/1_FOOTER_SIGNUM-FIDEI_150.png" alt="" class="img-fluid js-lazy-image">
 			<a href="http://www.lasalle.org/" target="_blank">
-				<img src="images/footer/1_FOOTER_LASALLEORG_150.png" alt="" class="img-fluid">
+				<img data-src="images/footer/1_FOOTER_LASALLEORG_150.png" alt="" class="img-fluid js-lazy-image">
 			</a>
 		</div>
 	</div>
@@ -59,21 +59,21 @@
 
 			<div class="row justify-content-end">
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-					<img src="images/footer/1_FOOTER_300LASALLE_150.png" alt="" class="img-fluid">
+					<img data-src="images/footer/1_FOOTER_300LASALLE_150.png" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
 					<a href="https://twitter.com/lasalleorg?lang=en" target="_blank">
-						<img src="images/footer/1_FOOTER_TWITTER_150.png" alt="" class="img-fluid">
+						<img data-src="images/footer/1_FOOTER_TWITTER_150.png" alt="" class="img-fluid js-lazy-image">
 					</a>
 				</div>
 				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
 					<a href="https://www.facebook.com/lasalleorg/" target="_blank">
-						<img src="images/footer/1_FOOTER_FACEBOOK_150.png" alt="" class="img-fluid">
+						<img data-src="images/footer/1_FOOTER_FACEBOOK_150.png" alt="" class="img-fluid js-lazy-image">
 					</a>
 				</div>
 				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
 					<a href="https://www.instagram.com/indivisafont/" target="_blank">
-						<img src="images/footer/1_FOOTER_INSTAGRAM_150.png" alt="" class="img-fluid">
+						<img data-src="images/footer/1_FOOTER_INSTAGRAM_150.png" alt="" class="img-fluid js-lazy-image">
 					</a>
 				</div>
 			</div>
@@ -83,11 +83,17 @@
 	
 </footer>
 	
+	<link rel="stylesheet" href="css/custom.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/solid.js" integrity="sha384-GJiigN/ef2B3HMj0haY+eMmG4EIIrhWgGJ2Rv0IaWnNdWdbWPr1sRLkGz7xfjOFw" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/regular.js" integrity="sha384-sqmLTIuB+bQgkyOcdJ/hAvXl51Z7qqdK/lcH/rt6sdvDKFincQWI+fVgcDZM6NMz" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/brands.js" integrity="sha384-2vdvXGQdnt+ze3ylY5ESeZ9TOxwxlOsldUzQBwtjvRpen1FwDT767SqyVbYrltjb" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/fontawesome.js" integrity="sha384-2OfHGv4zQZxcNK+oL8TR9pA+ADXtUODqGpIRy1zOgioC4X3+2vbOAp5Qv7uHM4Z8" crossorigin="anonymous"></script>
 	<!--js-->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	 <script src="js/lenguaje.js"> </script>
 	<script src="js/descargable.js"></script>
+
 	<script>
 		$(document).ready(function()
 		{	
@@ -168,6 +174,51 @@
 			    	}
 			    }
 			});
+	</script>
+	<script>
+		var isIE = /*@cc_on!@*/false || !!document.documentMode;
+		const images = document.querySelectorAll('.js-lazy-image');
+		if(isIE){
+			for (var i = 0; i < images.length; i++) {
+			    var url= $(images[i]).attr('data-src');
+			    $(images[i]).attr('src',url);
+			}
+		}
+		else{
+			// Get all of the images that are marked up to lazy load
+			
+			const config = {
+			  // If the image gets within 50px in the Y axis, start the download.
+			  rootMargin: '50px 0px',
+			  threshold: 0.01
+			};
+
+			// The observer for the images on the page
+			let observer = new IntersectionObserver(onIntersection, config);
+			 images.forEach(function (image) {
+				observer.observe(image);
+			});
+			
+			function preloadImage(elemento)
+			{
+				var url= $(elemento).attr('data-src');
+			    $(elemento).attr('src',url);		   
+			}
+
+			function onIntersection(entries) {
+			  // Loop through the entries
+				entries.forEach(function (entry) {
+					// Are we in viewport?
+					if (entry.intersectionRatio > 0) {
+						// Stop watching and load the image
+						observer.unobserve(entry.target);
+						preloadImage(entry.target);
+					}
+				});
+			}
+		}
+
+		
 	</script>
 </body>
 </html>

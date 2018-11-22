@@ -34,31 +34,31 @@ include 'header.php';
 			</div>
 			<div class="row no-gutters">
 				<div class="col">
-					<img src="images/contenido/conoceIndivisa/1_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/1_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col">
-					<img src="images/contenido/conoceIndivisa/2_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/2_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col">
-					<img src="images/contenido/conoceIndivisa/3_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/3_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col">
-					<img src="images/contenido/conoceIndivisa/4_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/4_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col d-none d-sm-block">
-					<img src="images/contenido/conoceIndivisa/5_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/5_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col d-none d-sm-block">
-					<img src="images/contenido/conoceIndivisa/6_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/6_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col d-none d-sm-block">
-					<img src="images/contenido/conoceIndivisa/7_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/7_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col d-none d-sm-block">
-					<img src="images/contenido/conoceIndivisa/8_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/8_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col d-none d-sm-block">
-					<img src="images/contenido/conoceIndivisa/9_ROSTRO_200.jpg" alt="" class="img-fluid">
+					<img data-src="images/contenido/conoceIndivisa/9_ROSTRO_200.jpg" alt="" class="img-fluid js-lazy-image">
 				</div>
 			</div>
 			<div class="row backGroundAzul justify-content-center">
@@ -92,7 +92,7 @@ include 'header.php';
 			</div>
 			<div class="row backgroundGrisClaro2 justify-content-center">
 				<div class="col-12 col-sm-12 col-md-11 col-lg-11 col-xl-11">
-					<img src="images/contenido/conoceIndivisa/G-ESP.png" alt="" class="img-fluid imagenIdioma" key="conoceIndivisa-g">
+					<img data-src="images/contenido/conoceIndivisa/G-ESP.png" alt="" class="img-fluid imagenIdioma js-lazy-image" key="conoceIndivisa-g">
 				</div>
 			</div>
 		</div>
@@ -103,12 +103,12 @@ include 'header.php';
 				</div>
 				<div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
 					<p class="text-center lang" key="sistemaConoce-descripcion">Las letras fueron diseñadas para transmitir tanto el espíritu humano y disciplinado, así como la fraternidad.</p>
-					<img src="images/contenido/conoceIndivisa/CUADERNO_CONOCE_INDIVISA_600.png" alt="" class="img-fluid cuaderno">
+					<img data-src="images/contenido/conoceIndivisa/CUADERNO_CONOCE_INDIVISA_600.png" alt="" class="img-fluid cuaderno js-lazy-image">
 				</div>
 			</div>
 			<div class="row justify-content-center backgroundGrisClaro contenidoLetras">
 				<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 text-center">
-					<img src="images/contenido/conoceIndivisa/4_AG_CONOCE_INDIVISA_600.png" alt="" class="img-fluid letras">
+					<img data-src="images/contenido/conoceIndivisa/4_AG_CONOCE_INDIVISA_600.png" alt="" class="img-fluid letras">
 				</div>
 				<div class="col-12">
 					<div class="row justify-content-center">
@@ -202,7 +202,7 @@ include 'header.php';
 	<div class="row">
 		<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
 			<div class="card text">
-				<img class="card-img-top" src="images/contenido/conoceIndivisa/TEXT-SANS.jpg" alt="Card image cap">
+				<img class="card-img-top js-lazy-image" data-src="images/contenido/conoceIndivisa/TEXT-SANS.jpg" alt="Card image cap">
 				<div class="card-body sans backgroundGrisClaro">
 					<p class="card-title backgroundAmarillo text-center nombreVarianteTipo regular-italic">Text Sans</p>
 					<div class="container-fluid ">
@@ -226,7 +226,7 @@ include 'header.php';
 		</div>
 		<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
 			<div class="card text">
-				<img class="card-img-top" src="images/contenido/conoceIndivisa/TEXT-SERIF.jpg" alt="Card image cap">
+				<img class="card-img-top js-lazy-image" data-src="images/contenido/conoceIndivisa/TEXT-SERIF.jpg" alt="Card image cap">
 				<div class="card-body serif backgroundGrisClaro">
 					<p class="card-title backgroundAmarillo text-center nombreVarianteTipo regular-italic">Text Serif</p>
 					<div class="container-fluid ">
@@ -250,7 +250,7 @@ include 'header.php';
 		</div>
 		<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
 			<div class="card display">
-				<img class="card-img-top" src="images/contenido/conoceIndivisa/DISPLAY-SANS.jpg" alt="Card image cap">
+				<img class="card-img-top js-lazy-image" data-src="images/contenido/conoceIndivisa/DISPLAY-SANS.jpg" alt="Card image cap">
 				<div class="card-body sans backgroundGrisClaro">
 					<p class="card-title backGroundAzul text-center nombreVarianteTipo regular-italic textoBlanco">Display Sans</p>
 					<div class="container-fluid ">
@@ -272,7 +272,7 @@ include 'header.php';
 		</div>
 		<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
 			<div class="card display">
-				<img class="card-img-top" src="images/contenido/conoceIndivisa/DISPLAY-SERIF.jpg" alt="Card image cap">
+				<img class="card-img-top js-lazy-image" data-src="images/contenido/conoceIndivisa/DISPLAY-SERIF.jpg" alt="Card image cap">
 				<div class="card-body serif backgroundGrisClaro">
 					<p class="card-title backGroundAzul text-center nombreVarianteTipo regular-italic textoBlanco">Display Serif</p>
 					<div class="container-fluid ">
@@ -303,10 +303,10 @@ include 'header.php';
 		</div>
 	</div>
 	<div class="row justify-content-center imagenesRasgos">
-		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img src="images/contenido/conoceIndivisa/1_RASGOS.png" alt="" class="img-fluid"></div>
-		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img src="images/contenido/conoceIndivisa/2_RASGOS.png" alt="" class="img-fluid"></div>
-		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img src="images/contenido/conoceIndivisa/3_RASGOS.png" alt="" class="img-fluid"></div>
-		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img src="images/contenido/conoceIndivisa/4_RASGOS.png" alt="" class="img-fluid"></div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img data-src="images/contenido/conoceIndivisa/1_RASGOS.png" alt="" class="img-fluid js-lazy-image"></div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img data-src="images/contenido/conoceIndivisa/2_RASGOS.png" alt="" class="img-fluid js-lazy-image"></div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img data-src="images/contenido/conoceIndivisa/3_RASGOS.png" alt="" class="img-fluid js-lazy-image"></div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"><img data-src="images/contenido/conoceIndivisa/4_RASGOS.png" alt="" class="img-fluid js-lazy-image"></div>
 	</div>
 </section>
 
@@ -488,8 +488,8 @@ include 'header.php';
 <div class="sticky-container">
     <ul class="sticky">
         <li>
-            <img src="images/contenido/8_INSTAGRAM-FLOTANTE_35.png">
-            <p><a href="https://www.instagram.com/indivisafont/" target="_blank">Síguenos<br> en Instagram</a></p>
+            <a href="https://www.instagram.com/indivisafont/" target="_blank"><img src="images/contenido/8_INSTAGRAM-FLOTANTE_35.png">
+            <p>Síguenos<br> en Instagram</p></a>
         </li>
     </ul>
 </div>
