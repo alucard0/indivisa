@@ -118,6 +118,7 @@
                 'sistemaConoce-proceso':'Process',
                 'sistemaConoce-descripcion':'The letters were designed to convey both the human and disciplined spirit, as well as the Lasallian fraternity.',
                 'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-EN.png',
+                'conoceIndivisa-g-w':'images/contenido/conoceIndivisa/G-EN.webp',
 
                 /*Familias y extensiones*/
                 'familiasyExtensiones-titulo':'Families and extensions',
@@ -268,6 +269,7 @@
                 'sistemaConoce-proceso':'Proceso',
                 'sistemaConoce-descripcion':'Las letras fueron diseñadas para transmitir tanto el espíritu humano y disciplinado, así como la fraternidad.',
                 'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-ESP.png',
+                'conoceIndivisa-g-w':'images/contenido/conoceIndivisa/G-ESP.webp',
 
                 /*Familias y extensiones*/
                 'familiasyExtensiones-titulo':'Familias y extensiones',
@@ -420,6 +422,7 @@
                 'sistemaConoce-proceso':'Processus',
                 'sistemaConoce-descripcion':'Les lettres ont été conçues pour transmettre aussi bien l’esprit humain et discipliné que la fraternité des lasalliens.',
                 'conoceIndivisa-g':'images/contenido/conoceIndivisa/G-FR.png',
+                'conoceIndivisa-g-w':'images/contenido/conoceIndivisa/G-FR.webp',
 
                 /*Familias y extensiones*/
                 'familiasyExtensiones-titulo':'Familles et extensions',
@@ -554,7 +557,8 @@
 
             /*Cambiar imagen*/
             $('.imagenIdioma').each(function(index, element){
-               $(this).attr("src",arrLang[lang][$(this).attr('key')]);
+               $(this).attr("data-src2",arrLang[lang][$(this).attr('key')]);
+               $(this).attr("data-src",arrLang[lang][$(this).attr('keyweb')]);
             });
 
             $(".translate").siblings().removeClass('active')
@@ -605,7 +609,8 @@
 
                 /*Cambiar imagen*/
                 $('.imagenIdioma').each(function(index, element){
-                    $(this).attr("src",arrLang[lang][$(this).attr('key')]);
+                    $(this).attr("data-src2",arrLang[lang][$(this).attr('key')]);
+                    $(this).attr("data-src",arrLang[lang][$(this).attr('keyweb')]);
                 });
                 
                 $(this).siblings().removeClass('active')

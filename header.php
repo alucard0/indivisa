@@ -509,6 +509,7 @@ include 'modelo/headerFunciones.php';
 
 		nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate{
 		  text-transform: uppercase;
+		  cursor: pointer;
 		}
 
 		nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate:hover,
@@ -568,7 +569,7 @@ include 'modelo/headerFunciones.php';
     <div class="backGroundAzul">
 		<header class="container">
 		    <nav id="menu" class="navbar navbar-expand-lg navbar-light  ">
-		    <a class="navbar-brand col-8 col-md-5 col-xl-3" href="http://indivisafont.org"><img src="images/header/imagotipo/lasalleorg.png" alt="La Salle World Wide" class="img-fluid"></a>
+		    <a class="navbar-brand col-8 col-md-5 col-xl-3" href="http://indivisafont.org"><img src="images/header/imagotipo/lasalleorg.png" alt="La Salle World Wide" class="js-lazy-image img-fluid"></a>
 		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>

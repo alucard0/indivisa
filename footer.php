@@ -4,15 +4,24 @@
 *	Documento: Footer para las páginas
 */
 ?>
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+        	<a href="https://www.instagram.com/indivisafont/" target="_blank">
+            <img src="images/contenido/8_INSTAGRAM-FLOTANTE_35.png">
+            <p class="lang" key="instagram-siguenos">Síguenos<br> en Instagram</p></a>
+        </li>
+    </ul>
+</div>
 
 <footer class="container-fluid backGroundAzul">
 	<div class="row fila-1">
 		<div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
 			<p class="titulo textoBlanco"><span>Indivisa</span>font</p>
 			<div class="row filaPremios">
-				<a href="http://premiodisenamexico.mx/" target="_blank"><img data-src="images/footer/2_FOOTER_DISENAMEXICO_40.png" alt="" class="img-fluid js-lazy-image"></a>
-				<img data-src="images/footer/2_FOOTER_PREMIO1_40.png" alt="" class="img-fluid js-lazy-image">
-				<img data-src="images/footer/2_FOOTER_PREMIO2_40.png" alt="" class="img-fluid js-lazy-image">
+				<a href="http://premiodisenamexico.mx/" target="_blank"><img data-src2="images/footer/2_FOOTER_DISENAMEXICO_40.png" data-src="images/footer/2_FOOTER_DISENAMEXICO_40.webp" alt="" class="img-fluid js-lazy-image"></a>
+				<img data-src2="images/footer/2_FOOTER_PREMIO1_40.png" data-src="images/footer/2_FOOTER_PREMIO1_40.webp" alt="" class="img-fluid js-lazy-image">
+				<img data-src2="images/footer/2_FOOTER_PREMIO2_40.png" data-src="images/footer/2_FOOTER_PREMIO2_40.webp" alt="" class="img-fluid js-lazy-image">
 				<p class="textoBlanco premiosTexto">Premio al Ganador Absoluto en Diseño de Comunicaciones Visuales 2018</p>
 				<p class="textoBlanco premiosTexto">Premio al Mejor Proyecto - Publicaciones Editoriales 2018</p>
 			</div>
@@ -38,9 +47,9 @@
 			</div>
 		</div>
 		<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-right align-self-end">
-			<img data-src="images/footer/1_FOOTER_SIGNUM-FIDEI_150.png" alt="" class="img-fluid js-lazy-image">
+			<img data-src2="images/footer/1_FOOTER_SIGNUM-FIDEI_150.png" data-src="images/footer/1_FOOTER_SIGNUM-FIDEI_150.webp" alt="" class="img-fluid js-lazy-image">
 			<a href="http://www.lasalle.org/" target="_blank">
-				<img data-src="images/footer/1_FOOTER_LASALLEORG_150.png" alt="" class="img-fluid js-lazy-image">
+				<img data-src2="images/footer/1_FOOTER_LASALLEORG_150.png" data-src="images/footer/1_FOOTER_LASALLEORG_150.webp" alt="" class="img-fluid js-lazy-image">
 			</a>
 		</div>
 	</div>
@@ -59,21 +68,21 @@
 
 			<div class="row justify-content-end">
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-					<img data-src="images/footer/1_FOOTER_300LASALLE_150.png" alt="" class="img-fluid js-lazy-image">
+					<img data-src2="images/footer/1_FOOTER_300LASALLE_150.png" data-src="images/footer/1_FOOTER_300LASALLE_150.webp" alt="" class="img-fluid js-lazy-image">
 				</div>
 				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
 					<a href="https://twitter.com/lasalleorg?lang=en" target="_blank">
-						<img data-src="images/footer/1_FOOTER_TWITTER_150.png" alt="" class="img-fluid js-lazy-image">
+						<img data-src2="images/footer/1_FOOTER_TWITTER_150.png" data-src="images/footer/1_FOOTER_TWITTER_150.webp" alt="" class="img-fluid js-lazy-image">
 					</a>
 				</div>
 				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
 					<a href="https://www.facebook.com/lasalleorg/" target="_blank">
-						<img data-src="images/footer/1_FOOTER_FACEBOOK_150.png" alt="" class="img-fluid js-lazy-image">
+						<img data-src2="images/footer/1_FOOTER_FACEBOOK_150.png" data-src="images/footer/1_FOOTER_FACEBOOK_150.webp" alt="" class="img-fluid js-lazy-image">
 					</a>
 				</div>
 				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
 					<a href="https://www.instagram.com/indivisafont/" target="_blank">
-						<img data-src="images/footer/1_FOOTER_INSTAGRAM_150.png" alt="" class="img-fluid js-lazy-image">
+						<img data-src2="images/footer/1_FOOTER_INSTAGRAM_150.png" data-src="images/footer/1_FOOTER_INSTAGRAM_150.webp" alt="" class="img-fluid js-lazy-image">
 					</a>
 				</div>
 			</div>
@@ -177,16 +186,21 @@
 	</script>
 	<script>
 		var isIE = /*@cc_on!@*/false || !!document.documentMode;
+		
+		// Get all of the images that are marked up to lazy load
 		const images = document.querySelectorAll('.js-lazy-image');
-		if(isIE){
-			for (var i = 0; i < images.length; i++) {
-			    var url= $(images[i]).attr('data-src');
+		
+		//¿Es Internet Explorer?
+		if(isIE)
+		{
+			for (var i = 0; i < images.length; i++)
+			{
+			    var url= $(images[i]).attr('data-src2');
 			    $(images[i]).attr('src',url);
 			}
 		}
-		else{
-			// Get all of the images that are marked up to lazy load
-			
+		else
+		{	
 			const config = {
 			  // If the image gets within 50px in the Y axis, start the download.
 			  rootMargin: '50px 0px',
@@ -217,8 +231,6 @@
 				});
 			}
 		}
-
-		
 	</script>
 </body>
 </html>
