@@ -1,5 +1,6 @@
 <?php
 include 'modelo/headerFunciones.php';
+ob_start("ob_gzhandler");
 /**
 * 	@author Amilkhael Chávez Delgado;
 *	Documento: Header para las páginas
@@ -36,8 +37,9 @@ include 'modelo/headerFunciones.php';
 	
 	<?php imprimeTitulo(); ?>
 	 <!--css-->
-	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	
 	<style>
       /* Critical CSS here. */
 		      /*General*/

@@ -23,7 +23,7 @@
        url("fonts/svg/IndivisaTextSans-BlackItalic.svg") format('svg');
   font-weight: 700;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 @font-face {
@@ -35,7 +35,7 @@
        url("fonts/ttf/IndivisaTextSans-Bold.ttf") format('truetype'),
        url("fonts/svg/IndivisaTextSans-Bold.svg") format('svg');
   font-weight: 600;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaTextSans";
@@ -60,7 +60,7 @@
        url("fonts/ttf/IndivisaTextSans-Light.ttf") format('truetype'),
        url("fonts/svg/IndivisaTextSans-Light.svg") format('svg');
   font-weight: 300;
-  font-display: auto;
+  font-display: swap;
 }
 
 @font-face {
@@ -73,7 +73,7 @@
        url("fonts/svg/IndivisaTextSans-LightItalic.svg") format('svg');
   font-weight: 300;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 @font-face {
@@ -99,7 +99,7 @@
        url("fonts/svg/IndivisaTextSans-RegularItalic.svg") format('svg');
   font-weight: 400;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 
@@ -137,7 +137,7 @@
        url("fonts/ttf/IndivisaTextSerif-Bold.ttf") format('truetype'),
        url("fonts/svg/IndivisaTextSerif-Bold.svg") format('svg');
   font-weight: 600;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaTextSerif";
@@ -149,7 +149,7 @@
        url("fonts/svg/IndivisaTextSerif-BoldItalic.svg") format('svg');
   font-weight: 600;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 @font-face {
@@ -161,7 +161,7 @@
        url("fonts/ttf/IndivisaTextSerif-Light.ttf") format('truetype'),
        url("fonts/svg/IndivisaTextSerif-Light.svg") format('svg');
   font-weight: 300;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaTextSerif";
@@ -173,7 +173,7 @@
        url("fonts/svg/IndivisaTextSerif-LightItalic.svg") format('svg');
   font-weight: 300;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 @font-face {
@@ -197,7 +197,7 @@
        url("fonts/svg/IndivisaTextSerif-RegularItalic.svg") format('svg');
   font-weight: 400;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 /*Display Sans*/
@@ -210,7 +210,7 @@
        url("fonts/ttf/IndivisaDisplaySans-Heavy.ttf") format('truetype'),
        url("fonts/svg/IndivisaDisplaySans-Heavy.svg") format('svg');
   font-weight: 900;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySans";
@@ -222,7 +222,7 @@
        url("fonts/svg/IndivisaDisplaySans-HeavyItalic.svg") format('svg');
   font-weight: 900;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySans";
@@ -233,7 +233,7 @@
        url("fonts/ttf/IndivisaDisplaySans-Regular.ttf") format('truetype'),
        url("fonts/svg/IndivisaDisplaySans-Regular.svg") format('svg');
   font-weight: 500;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySans";
@@ -245,7 +245,7 @@
        url("fonts/svg/IndivisaDisplaySans-RegularItalic.svg") format('svg');
   font-weight: 500;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySans";
@@ -256,7 +256,7 @@
        url("fonts/ttf/IndivisaDisplaySans-Thin.ttf") format('truetype'),
        url("fonts/svg/IndivisaDisplaySans-Thin.svg") format('svg');
   font-weight: 100;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySans";
@@ -268,7 +268,7 @@
        url("fonts/svg/IndivisaDisplaySans-ThinItalic.svg") format('svg');
   font-weight: 100;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 /*Display Serif*/
@@ -281,7 +281,7 @@
        url("fonts/ttf/IndivisaDisplaySerif-Heavy.ttf") format('truetype'),
        url("fonts/svg/IndivisaDisplaySerif-Heavy.svg") format('svg');
   font-weight: 900;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySerif";
@@ -293,7 +293,7 @@
        url("fonts/svg/IndivisaDisplaySerif-HeavyItalic.svg") format('svg');
   font-weight: 900;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySerif";
@@ -304,7 +304,7 @@
        url("fonts/ttf/IndivisaDisplaySerif-Regular.ttf") format('truetype'),
        url("fonts/svg/IndivisaDisplaySerif-Regular.svg") format('svg');
   font-weight: 500;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySerif";
@@ -316,7 +316,7 @@
        url("fonts/svg/IndivisaDisplaySerif-RegularItalic.svg") format('svg');
   font-weight: 500;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySerif";
@@ -327,7 +327,7 @@
        url("fonts/ttf/IndivisaDisplaySerif-Thin.ttf") format('truetype'),
        url("fonts/svg/IndivisaDisplaySerif-Thin.svg") format('svg');
   font-weight: 100;
-  font-display: auto;
+  font-display: swap;
 }
 @font-face {
   font-family: "IndivisaDisplaySerif";
@@ -339,7 +339,7 @@
        url("fonts/svg/IndivisaDisplaySerif-ThinItalic.svg") format('svg');
   font-weight: 100;
   font-style: italic;
-  font-display: auto;
+  font-display: swap;
 }
 
 /*Contenido*/

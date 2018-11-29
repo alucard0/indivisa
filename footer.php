@@ -92,7 +92,6 @@
 	
 </footer>
 	
-	<link rel="stylesheet" href="css/custom.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/solid.js" integrity="sha384-GJiigN/ef2B3HMj0haY+eMmG4EIIrhWgGJ2Rv0IaWnNdWdbWPr1sRLkGz7xfjOFw" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/regular.js" integrity="sha384-sqmLTIuB+bQgkyOcdJ/hAvXl51Z7qqdK/lcH/rt6sdvDKFincQWI+fVgcDZM6NMz" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/brands.js" integrity="sha384-2vdvXGQdnt+ze3ylY5ESeZ9TOxwxlOsldUzQBwtjvRpen1FwDT767SqyVbYrltjb" crossorigin="anonymous"></script>
@@ -193,7 +192,7 @@
 		const images = document.querySelectorAll('.js-lazy-image');
 		
 		//¿Es Internet Explorer?
-		if($( "html" ).hasClass( "no-webp" ) || userAgent.match(/iPad/i) || userAgent.match(/iPhone/i))
+		if(userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || isIE)
 		{
 			for (var i = 0; i < images.length; i++)
 			{
