@@ -100,8 +100,9 @@
 	<!--js-->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	 <script src="js/lenguaje.js"> </script>
+	<script src="js/lenguaje.js"> </script>
 	<script src="js/descargable.js"></script>
+	<script src="js/modernizr-custom.js"></script>
 
 	<script>
 		$(document).ready(function()
@@ -186,12 +187,13 @@
 	</script>
 	<script>
 		var isIE = /*@cc_on!@*/false || !!document.documentMode;
+		var userAgent = window.navigator.userAgent;
 		
 		// Get all of the images that are marked up to lazy load
 		const images = document.querySelectorAll('.js-lazy-image');
 		
 		//¿Es Internet Explorer?
-		if(isIE)
+		if($( "html" ).hasClass( "no-webp" ) || userAgent.match(/iPad/i) || userAgent.match(/iPhone/i))
 		{
 			for (var i = 0; i < images.length; i++)
 			{
